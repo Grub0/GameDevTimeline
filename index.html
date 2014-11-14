@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Data Visualization Final Game Developer Timeline</title>
+<!--        <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>-->
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+		<style type="text/css">
+		</style>
+        
+
+	</head>
+    
+	<body>
+<div id="map" class="map" style="height: 800px"></div><script>
+        
+	var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+		osmAttrib = '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+		osm = L.tileLayer(osmUrl, {maxZoom: 18, attribution: osmAttrib});
+
+	var map = L.map('map').setView([0, 0], 3).addLayer(osm);
+
+	L.marker([0, 0])
+		.addTo(map)
+		.bindPopup('Neat little popup thing')
+		.openPopup();
+</script>
+	</body>
+</html>
+
