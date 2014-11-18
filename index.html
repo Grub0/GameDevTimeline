@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Data Visualization Final Game Developer Timeline</title>
-<!--        <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>-->
+ <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
         <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
         <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 		<style type="text/css">
@@ -14,7 +14,11 @@
     
 	<body>
 <div id="map" class="map" style="height: 800px"></div><script>
-        
+        var dataset = []
+d3.csv("data/video_game_developers.csv", function(data) {
+   dataset = data.map(function(d) { return [ d["Company"], d["City"],  d["Country"],  d["Longitude"],  d["Latitude"],  d["Year EST"],  d["Year Closed"],  d["Category"],  d["Website"] ]; });
+   console.log(dataset)
+   
 	var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 		osmAttrib = '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 		osm = L.tileLayer(osmUrl, {maxZoom: 18, attribution: osmAttrib});
@@ -25,6 +29,8 @@
 		.addTo(map)
 		.bindPopup('Neat little popup thing')
 		.openPopup();
+		
+});
 </script>
 	</body>
 </html>
