@@ -21,10 +21,13 @@ d3.csv("data/video_game_developers.csv", function(data) {
    
 	var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 		osmAttrib = '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-		osm = L.tileLayer(osmUrl, {maxZoom: 18, attribution: osmAttrib});
+		osm = L.tileLayer(osmUrl, {maxZoom: 18,minZoom:3, attribution: osmAttrib});
 
 	var map = L.map('map').setView([0, 0], 3).addLayer(osm);
-    var yearBeingShown = 2014;
+    var yearBeingShown = 1990;
+    
+
+    
     for (i = 0; i < dataset.length; i++) 
     {
         var company = dataset[i][0];
@@ -54,6 +57,7 @@ d3.csv("data/video_game_developers.csv", function(data) {
         var devIcon = new MapIcon({iconUrl: 'images/controller.png'});
         var pubIcon = new MapIcon({iconUrl: 'images/dollar.png'});
         var mobIcon = new MapIcon({iconUrl: 'images/mobile.png'});
+        var defaultIcon = new MapIcon({iconUrl: 'images/def.png'});
 if(yearEST < yearBeingShown && yearClosed > yearBeingShown)
 {
 if(Category == "Developer")
@@ -103,10 +107,24 @@ if(Category == "Developer")
              )
 		.openPopup(); 
 }
+    
+        else
+{
+	    L.marker([latitude,longitude], {icon: defaultIcon})
+		.addTo(map)
+		.bindPopup(
+            "Company: " + company + "<br>"+
+            "Website: " +  Website  + "<br>"+
+             "City: " + city + "<br>"+ 
+             "Country: " + country + "<br>"+
+             "Category: " + Category + "<br>"+
+            "Year EST: " + yearEST + "<br>"+
+            "Year Closed: " + yearClosed + "<br>"
+             )
+		.openPopup(); 
+}
     }
     }
-
-		
 });
 </script>
 	</body>
