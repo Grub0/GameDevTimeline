@@ -1,4 +1,4 @@
-Company,City,Country,Longitude,Latitude,Year EST,Year Closed,Category,Website
+company,city,country,longitude,latitude,yearEST,yearClosed,category,website
 Centuri,Hialeah,USA,-80.28,25.86,1974,1985,Developer,
 Ultimate Play The Game,Ashby-de-la-Zouch,England,-1.47,52.75,1982,1988,Developer,
 Epyx,San Francisco,USA,-122.42,37.77,1978,1993,Developer,
