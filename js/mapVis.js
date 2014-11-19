@@ -33,11 +33,11 @@ d3.csv("data/video_game_developers.csv", function(data) {
         var MapIcon = L.Icon.extend({
 			options: {
 				shadowUrl: '',
-				iconSize:     [50, 50],
+				iconSize:     [40, 40],
 				shadowSize:   [50, 64],
-				iconAnchor:   [25, 25],
+				iconAnchor:   [20, 20],
 				shadowAnchor: [4, 62],
-				popupAnchor:  [-3, -76]
+				popupAnchor:  [0, -10]
 			}
 		});
 
@@ -58,8 +58,7 @@ d3.csv("data/video_game_developers.csv", function(data) {
                          "Category: " + Category + "<br>"+
                         "Year EST: " + yearEST + "<br>"+
                         "Year Closed: " + yearClosed + "<br>"
-                         )
-            		.openPopup(); 
+                         ); 
             }else if(Category == "Publisher") {
             	L.marker([latitude,longitude], {icon: pubIcon})
             	    .addTo(map)
@@ -71,8 +70,7 @@ d3.csv("data/video_game_developers.csv", function(data) {
                          "Category: " + Category + "<br>"+
                         "Year EST: " + yearEST + "<br>"+
                         "Year Closed: " + yearClosed + "<br>"
-                         )
-            		.openPopup(); 
+                         ); 
             }else if(Category == "Mobile/Handheld") {
         	    L.marker([latitude,longitude], {icon: mobIcon})
         		.addTo(map)
@@ -84,8 +82,7 @@ d3.csv("data/video_game_developers.csv", function(data) {
                      "Category: " + Category + "<br>"+
                     "Year EST: " + yearEST + "<br>"+
                     "Year Closed: " + yearClosed + "<br>"
-                     )
-        		.openPopup(); 
+                     ); 
             }else {
         	    L.marker([latitude,longitude], {icon: defaultIcon})
         		.addTo(map)
@@ -97,8 +94,7 @@ d3.csv("data/video_game_developers.csv", function(data) {
                      "Category: " + Category + "<br>"+
                     "Year EST: " + yearEST + "<br>"+
                     "Year Closed: " + yearClosed + "<br>"
-                     )
-        		.openPopup(); 
+                     ); 
             }
         }
     }
