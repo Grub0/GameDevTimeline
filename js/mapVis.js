@@ -1,61 +1,81 @@
 var map, 
-    dataset;
+    dataset,
+    year;
+
 
 d3.csv("data/video_game_developers.csv", function(error, data) {
+
     // Check if the file loaded correctly
     if(error) {
         console.log(error);
     }else {
-        console.log(data);
+       // console.log(data);
         dataset = data;
-        // Add Datamap key values 
         for(var i = 0; i < dataset.length; i++){
             //  radius
-            dataset[i].radius = 3;
-            // Assign a fillKey value based on what category it is
-            switch(dataset[i].category){
-                case "Developer":
-                    dataset[i].fillKey = "dev";
-                    break;
-                case "Publisher":
-                    dataset[i].fillKey = "pub";
-                    break;
-                case "Mobile/Handheld":
-                    dataset[i].fillKey = "mob";
-                    break;
-                case "Organization":
-                    dataset[i].fillKey = "org";
-                    break;
-                default:
-                    dataset[i].fillKey = "other";
-            }
+            dataset[i].radius = 2;
+            // fillKey
+            dataset[i].fillKey = "bubColor";
         }
+        // Add Datamap's key values 
         createMap();
+        // Default points
+        createPoints(dataset);
     }
 });
     
 
+// Add an event to the input element
+d3.select("#slider").select("input").on("change", function() {
+    // Get the year input
+    year = this.value;
+
+    console.log("year: " + year);
+
+    // Temporary array to hold specific points based on the year
+    var yearDataset = [];
+
+    for(var i = 0; i < dataset.length; i++){
+        // Filter out the years
+        if(parseInt(dataset[i].yearEST) <= year && (parseInt(dataset[i].yearClosed) > year || parseInt(dataset[i].yearClosed) == 0)) {
+            yearDataset.push(dataset[i]);
+        }
+    }
+    // Update the points
+    createPoints(yearDataset);
+});
+
+
 function createMap() {
+
     // Create a new world map 
     map = new Datamap({
         element: document.getElementById("map"),
         projection: "mercator",
         geographyConfig: {
-            popupOnHover: false,
-            highlightOnHover: false
+            //popupOnHover: false,
+            //highlightOnHover: tfalse,
+            //highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+            //highlightBorderWidth: 2,
+            highlightFillColor: "#00ADBC",
+            borderColor: "#00ADBC"
         },
         fills: {
-            defaultFill: "#abdda4",
-            dev: "purple",
-            pub: "green",
-            mob: "red",
-            org: "blue",
-            other: "grey"
+            defaultFill: "rgb(34,34,34)",    // Map color
+            bubColor: "#BEF600"
         }
     });
+}
 
-    // Create points 
-    map.bubbles(dataset, {
+
+// Draws the coordinate points
+function createPoints(data) {
+
+    console.log("length: "  + data.length);
+    // Create the points 
+    map.bubbles(data, {
+        borderWidth: 0,
+        fillOpacity: 1,
         popupTemplate: function(geo, data) {
             // Info box 
             var string = "<div class='hoverInfo'><span>" + data.company + "</span>";
@@ -71,6 +91,4 @@ function createMap() {
         }
     });
 
-    // Show legend for the map
-    map.legend();
 }

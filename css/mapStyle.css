@@ -1,7 +1,17 @@
+/*colors:
+#ffde12;
+#ff2f7c;
+#bef600;
+#00adbc;
+#9639ad;
+*/
+body {
+	background-color: rgb(34,34,34);
+}
+
 #map {
-	width: 95%;
-	height: 800px;
-	border: 1px solid;
+	width: 1500px;
+	height: 1000px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -14,5 +24,10 @@
 }
 
 .hoverInfo span {
-	color: purple;
+	color: #9639AD;
+}
+
+#slider p {
+	color: white !important;
+	font-size: 18px;
 }
