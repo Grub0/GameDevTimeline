@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var map, 
     dataset;
 
@@ -75,7 +74,6 @@ function createMap() {
     // Show legend for the map
     map.legend();
 }
-=======
 var dataset = [];
 
 d3.csv("data/video_game_developers.csv", function(data) {
@@ -177,4 +175,3 @@ d3.csv("data/video_game_developers.csv", function(data) {
         }
     }
 });
->>>>>>> FETCH_HEAD
