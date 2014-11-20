@@ -1,5 +1,4 @@
 #map {
-<<<<<<< HEAD
 	width: 95%;
 	height: 800px;
 	border: 1px solid;
@@ -16,7 +15,5 @@
 
 .hoverInfo span {
 	color: purple;
-=======
 	height: 800px;
->>>>>>> FETCH_HEAD
 }
