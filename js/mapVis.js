@@ -118,6 +118,8 @@ function update(year)
             yearDataset.push(dataset[i]);
         }
     }
+    // Update the #count
+    d3.select("#count").text(yearDataset.length);
     // Update the points
     createPoints(yearDataset);
 }
