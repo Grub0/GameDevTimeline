@@ -14,12 +14,14 @@ d3.csv("data/video_game_developers.csv", function(error, data) {
         for(var i = 0; i < dataset.length; i++){
             //  radius
             dataset[i].radius = 3;
-            // fillKey
-            dataset[i].fillKey = "bubColor";
+  
             // Assign a fillKey value based on what category it is
             switch(dataset[i].category){
                 case "Developer":
                     dataset[i].fillKey = "dev";
+                    break;
+                case "Online Developer":
+                    dataset[i].fillKey = "onlineDev";
                     break;
                 case "Publisher":
                     dataset[i].fillKey = "pub";
@@ -57,12 +59,12 @@ function createMap() {
         },
         fills: {
             defaultFill: "rgb(34,34,34)",    // Map color
-            bubColor: "#BEF600",
             pub: "#FFDE12",
-            dev: "#FF2F7C",
-            mob: "#BEF600",
+            dev: "#BEF600", 
+            onlineDev: "#9639AD",
+            mob: "#FF2F7C",
             org: "#00ADBC",
-            other: "#9639AD"
+            other: "#FFF"
         }
     });
 }

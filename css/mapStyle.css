@@ -7,6 +7,17 @@
 */
 body {
 	background-color: rgb(34,34,34);
+	font-family: sans-serif;
+}
+
+h1 {
+	color: #bef600;
+	font-size: 3em;
+	margin: auto;
+	background-color: rgb(34,34,34);
+	height: 100px;
+	position: absolute;
+	top: 50px;
 }
 
 #map {
@@ -27,8 +38,62 @@ body {
 	color: #9639AD;
 }
 
-#yearChanger
-{
+#yearChanger {
     color: white !important;
 	font-size: 18px;
+}
+
+#yearChanger label {
+	display: inline-block; 
+	width: 240px; 
+	text-align: right;
+}
+
+#legend {
+	position: absolute;
+	top: 100px;
+	z-index: 5;
+}
+
+#legend ul {
+	 list-style-type: none;
+}
+
+#legend li {
+	color: #fff;
+	padding-top: 10px;
+}
+
+#legend .color {
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+}
+
+#legend div {
+	display: inline-block;
+}
+
+#legend #dev div{
+	background-color: #BEF600;
+}
+
+#legend #online div{
+	background-color: #9639AD;
+}
+
+#legend #mob div{
+	background-color: #FF2F7C;
+}
+
+#legend #pub div{
+	background-color: #FFDE12;
+}
+
+#legend #org div{
+	background-color: #00ADBC;
+}
+
+#legend #other div{
+	background-color: #fff;
 }

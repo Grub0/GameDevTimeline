@@ -8,14 +8,24 @@
 </head>
     
 <body>
+    <h1>Game Companies</h1>
+    <div id="legend">
+      <ul>
+        <li id="dev"><div class="color"></div><span>Developer</span></li>
+        <li id="online"><div class="color"></div><span>Online Developer</span></li>
+        <li id="pub"><div class="color"></div><span>Publisher</span></li>
+        <li id="mob"><div class="color"></div><span>Mobile/Handheld</span></li>
+        <li id="org"><div class="color"></div><span>Organization</span></li>
+        <li id="other"><div class="color"></div><span>Other</span></li>
+      </ul>
+    </div>
     <div id="map" class="map"></div>
-<p id = "yearChanger">
-  <label for="year" 
-         style="display: inline-block; width: 240px; text-align: right">
-         Year = <span id="year-value">…</span>
-  </label>
-  <input type="range" min="1960" max="2014" id="year">
-</p>
+    <p id = "yearChanger">
+      <label for="year">
+        Year = <span id="year-value">…</span>
+      </label>
+      <input type="range" min="1960" max="2014" id="year">
+    </p>
     <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://d3js.org/topojson.v1.min.js"></script>
     <script src="js/datamaps.world.min.js"></script>
