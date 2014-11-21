@@ -13,38 +13,33 @@ d3.csv("data/video_game_developers.csv", function(error, data) {
         dataset = data;
         for(var i = 0; i < dataset.length; i++){
             //  radius
-            dataset[i].radius = 2;
+            dataset[i].radius = 3;
             // fillKey
             dataset[i].fillKey = "bubColor";
+            // Assign a fillKey value based on what category it is
+            switch(dataset[i].category){
+                case "Developer":
+                    dataset[i].fillKey = "dev";
+                    break;
+                case "Publisher":
+                    dataset[i].fillKey = "pub";
+                    break;
+                case "Mobile/Handheld":
+                    dataset[i].fillKey = "mob";
+                    break;
+                case "Organization":
+                    dataset[i].fillKey = "org";
+                    break;
+                default:
+                    dataset[i].fillKey = "other";
+            }
         }
         // Add Datamap's key values 
         createMap();
         // Default points
-        createPoints(dataset);
+        update(1960);
     }
 });
-    
-
-// Add an event to the input element
-d3.select("#slider").select("input").on("change", function() {
-    // Get the year input
-    year = this.value;
-
-    console.log("year: " + year);
-
-    // Temporary array to hold specific points based on the year
-    var yearDataset = [];
-
-    for(var i = 0; i < dataset.length; i++){
-        // Filter out the years
-        if(parseInt(dataset[i].yearEST) <= year && (parseInt(dataset[i].yearClosed) > year || parseInt(dataset[i].yearClosed) == 0)) {
-            yearDataset.push(dataset[i]);
-        }
-    }
-    // Update the points
-    createPoints(yearDataset);
-});
-
 
 function createMap() {
 
@@ -62,7 +57,12 @@ function createMap() {
         },
         fills: {
             defaultFill: "rgb(34,34,34)",    // Map color
-            bubColor: "#BEF600"
+            bubColor: "#BEF600",
+            pub: "#FFDE12",
+            dev: "#FF2F7C",
+            mob: "#BEF600",
+            org: "#00ADBC",
+            other: "#9639AD"
         }
     });
 }
@@ -71,7 +71,7 @@ function createMap() {
 // Draws the coordinate points
 function createPoints(data) {
 
-    console.log("length: "  + data.length);
+    //console.log("length: "  + data.length);
     // Create the points 
     map.bubbles(data, {
         borderWidth: 0,
@@ -90,5 +90,32 @@ function createPoints(data) {
             return string;
         }
     });
+}
+    
+    // when the input range changes update the circle 
+d3.select("#year").on("input", function() {
+  update(+this.value);
+});
 
+
+// update the elements
+function update(year) 
+{
+
+  // adjust the text on the range slider
+  d3.select("#year-value").text(year);
+  d3.select("#year").property("value", year);
+    console.log("year: " + year);
+
+    // Temporary array to hold specific points based on the year
+    var yearDataset = [];
+    for(var i = 0; i < dataset.length; i++){
+        // Filter out the years
+        if(parseInt(dataset[i].yearEST) <= year && (parseInt(dataset[i].yearClosed) > year || parseInt(dataset[i].yearClosed) == 0)) 
+        {
+            yearDataset.push(dataset[i]);
+        }
+    }
+    // Update the points
+    createPoints(yearDataset);
 }

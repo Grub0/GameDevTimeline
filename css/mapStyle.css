@@ -27,7 +27,8 @@ body {
 	color: #9639AD;
 }
 
-#slider p {
-	color: white !important;
+#yearChanger
+{
+    color: white !important;
 	font-size: 18px;
 }

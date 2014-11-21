@@ -9,10 +9,13 @@
     
 <body>
     <div id="map" class="map"></div>
-    <div id="slider">
-        <!--<input type="range" name="year" min="1950" max="2014">-->
-        <p>Year: <input type"text" name="year"></p>
-    </div>
+<p id = "yearChanger">
+  <label for="year" 
+         style="display: inline-block; width: 240px; text-align: right">
+         Year = <span id="year-value">…</span>
+  </label>
+  <input type="range" min="1960" max="2014" id="year">
+</p>
     <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://d3js.org/topojson.v1.min.js"></script>
     <script src="js/datamaps.world.min.js"></script>
