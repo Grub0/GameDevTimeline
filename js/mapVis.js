@@ -1,6 +1,7 @@
 var map, 
     dataset,
-    year;
+    yearShown,
+    animating;
 
 
 d3.csv("data/video_game_developers.csv", function(error, data) {
@@ -67,6 +68,8 @@ function createMap() {
             other: "#FFF"
         }
     });
+    animating = true;
+    startAnimation();
 }
 
 
@@ -99,15 +102,33 @@ d3.select("#year").on("input", function() {
   update(+this.value);
 });
 
+function startAnimation() {
+    if(animating == true)
+    {
+    yearShown = yearShown + 1;
+    d3.select("#titleHeader").text("Game Companies in " + yearShown);
+        if(yearShown > 2013)
+        {
+            animating = false;
+        }
+        update(yearShown);
+        //console.log(year);
+    var t = setTimeout(function()
+    {
+        startAnimation()
+    },100);
+    }
+}
 
 // update the elements
 function update(year) 
 {
-
   // adjust the text on the range slider
   d3.select("#year-value").text(year);
   d3.select("#year").property("value", year);
     console.log("year: " + year);
+    yearShown = year;
+        d3.select("#titleHeader").text("Game Companies in " + yearShown);
 
     // Temporary array to hold specific points based on the year
     var yearDataset = [];
