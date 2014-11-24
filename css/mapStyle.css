@@ -15,7 +15,7 @@ h1 {
 	font-size: 3em;
 	margin: auto;
 	background-color: rgb(34,34,34);
-	height: 100px;
+	height: 1em;
 	position: absolute;
 	top: 50px;
 }
@@ -41,12 +41,28 @@ h1 {
 #yearChanger {
     color: white !important;
 	font-size: 18px;
+    text-align: center;
 }
+#yearLabels
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    	font-size: 2em;
+    font-weight: bold;
 
-#yearChanger label {
-	display: inline-block; 
-	width: 240px; 
-	text-align: right;
+}
+input[type='range'] 
+{
+    width: 1000px;
+}
+#inputLabel
+{
+    color: white;
+    text-align: center;
+    margin-bottom: -45px;
+        	font-size: 1em;
+    font-weight: bold;
 }
 
 #legend {
@@ -54,7 +70,6 @@ h1 {
 	top: 100px;
 	z-index: 5;
 }
-
 #legend ul {
 	 list-style-type: none;
 }

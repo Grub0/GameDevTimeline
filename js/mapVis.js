@@ -45,6 +45,7 @@ d3.csv("data/video_game_developers.csv", function(error, data) {
             }
         }
         createMap();
+
         // Default points
         update(1960);
     }
@@ -78,6 +79,45 @@ function createMap() {
     startAnimation();
 }
 
+function createZoomedMap() {
+
+    // Create a new world map 
+    map = new Datamap({
+  element: document.getElementById("map"),
+  scope: 'world',
+  // Zoom in on Africa
+  setProjection: function(element) {
+    var projection = d3.geo.equirectangular()
+      .center([-100, 40])
+      .rotate([0, 0])
+      .scale(1000)
+      .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
+      
+    var path = d3.geo.path()
+      .projection(projection);
+    
+    return {path: path, projection: projection};
+  },geographyConfig: {
+            //popupOnHover: false,
+            //highlightOnHover: tfalse,
+            //highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
+            //highlightBorderWidth: 2,
+            highlightFillColor: "#00ADBC",
+            borderColor: "#00ADBC"
+        },
+        fills: {
+            defaultFill: "rgb(34,34,34)",    // Map color
+            pub: "#FFDE12",
+            dev: "#BEF600", 
+            onlineDev: "#9639AD",
+            mob: "#FF2F7C",
+            org: "#00ADBC",
+            other: "#FFF"
+        }
+    });
+    animating = true;
+    startAnimation();
+}
 
 // Draws the coordinate points
 function createPoints(data) {
@@ -92,7 +132,8 @@ function createPoints(data) {
             var string = "<div class='hoverInfo'><span>" + data.company + "</span>";
             string += "<br/>" + data.city + ", " + data.country;
             string += "<br/>Founded: " + data.yearEST;
-            if(data.yearClosed != '0'){
+            if(data.yearClosed != '0')
+            {
                 string += "<br/>Closed: " + data.yearClosed; 
             }
             string += "<br/>Category: " + data.category;
@@ -131,9 +172,8 @@ function update(year)
   // adjust the text on the range slider
   d3.select("#year-value").text(year);
   d3.select("#year").property("value", year);
-    console.log("year: " + year);
     yearShown = year;
-        d3.select("#titleHeader").text("Game Companies in " + yearShown);
+    d3.select("#titleHeader").text("Game Companies in " + yearShown);
 
     // Temporary array to hold specific points based on the year
     var yearDataset = [];
