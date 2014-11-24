@@ -15,9 +15,16 @@ d3.csv("data/video_game_developers.csv", function(error, data) {
         for(var i = 0; i < dataset.length; i++){
             //  radius
             dataset[i].radius = 3;
-  
+
+            // Seperate the categor string into an array
+            if( dataset[i].category.search(/,/) != -1 ) {
+                dataset[i].category = dataset[i].category.split(",");                
+            }else {
+                dataset[i].category = [dataset[i].category];
+            } 
+            
             // Assign a fillKey value based on what category it is
-            switch(dataset[i].category){
+            switch(dataset[i].category[0]){
                 case "Developer":
                     dataset[i].fillKey = "dev";
                     break;
@@ -37,7 +44,6 @@ d3.csv("data/video_game_developers.csv", function(error, data) {
                     dataset[i].fillKey = "other";
             }
         }
-        // Add Datamap's key values 
         createMap();
         // Default points
         update(1960);
@@ -91,7 +97,6 @@ function createPoints(data) {
             }
             string += "<br/>Category: " + data.category;
             string += "</div>";   
-            
             return string;
         }
     });
