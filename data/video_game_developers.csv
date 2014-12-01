@@ -1,6 +1,6 @@
 company,city,country,longitude,latitude,yearEST,yearClosed,category,website
 2015,Tulsa,United States,-95.992775,36.1539816,1997,0,Developer,www.2015.com
-[x]cube GAMES,Dallas,United States,-96.8004511,32.7801399,2008,0,Mobile/Handheld,www.xcubegames.com
+[x]cube GAMES,Dallas,United States,-96.8009781,32.7802618,2008,0,Mobile/Handheld,www.xcubegames.com
 11bit studios,Warsaw,Poland,21.0122287,52.2296756,2010,0,Developer,www.11bitstudios.pl
 12 Hit Combo,BogotÃ¡,Colombia,-74.075833,4.598056,2012,0,Developer,www.12hitcombo.com
 1C Company,Moscow,Russia,37.6173,55.755826,1991,0,Publisher,www.1c.ru
@@ -15,8 +15,9 @@ company,city,country,longitude,latitude,yearEST,yearClosed,category,website
 343 Industries (Microsoft Game Studios),Redmond,United States,-122.121512,47.6739881,2009,0,Developer,www.halowaypoint.com
 360ed,Orlando,United States,-81.3792365,28.5383355,2006,0,Developer,www.360ed.com
 3D Realms,Garland,United States,-96.6388833,32.912624,1987,0,Developer,www.3drealms.com
+3DO,Redwood City,United States,-122.2363548,37.4852152,1991,2003,Developer,
 3G Studios,Reno,United States,-119.8138027,39.5296329,2002,0,Developer,www.3gstudiosinc.com
-3Mind Games,Montreal,Canada,-73.5539925,45.5086699,2011,0,Developer,www.3mindgames.com
+3Mind Games,Montreal,Canada,-73.567256,45.5016889,2011,0,Developer,www.3mindgames.com
 3rd Dimension Creations,Middlesbrough,England,-1.234956,54.574227,2004,0,Developer,www.3rddc.co.uk
 42 Entertainment,Emeryville,United States,-122.2852473,37.831316,1993,0,Developer,www.4orty2wo.com
 4A Games,Kiev,Ukraine,30.5234,50.4501,2006,0,Developer,www.4a-games.com
@@ -29,15 +30,20 @@ company,city,country,longitude,latitude,yearEST,yearClosed,category,website
 7 Raven Studios,Phuket,Thailand,98.3380884,7.9519331,2006,0,Developer,www.7ravenstudios.com
 7-128 Software,Salem,United States,-70.8967155,42.51954,2006,0,Developer,www.7128.com
 8D Games,Leeuwarden,Netherlands,5.7999133,53.2012334,2012,0,Developer,www.8d-games.nl
+989 Studios,Foster City,United States,-122.2710788,37.5585465,1995,2005,Developer,
 A Bit Lucky ,San Mateo,United States,-122.3255254,37.5629917,2009,0,Online Developer,www.abitlucky.com
 A Crowd of Monsters,Barcelona,Spain,2.1734035,41.3850639,2011,0,Mobile/Handheld,www.acrowdofmonsters.com
-A Thinking Ape,Vancouver,Canada,-123.1139268,49.261226,2008,0,Mobile/Handheld,www.athinkingape.com
-A.C.R.O.N.Y.M. Games,Vancouver,Canada,-123.1139268,49.261226,2004,0,Developer,www.acronymonline.com
+A Thinking Ape,Vancouver,Canada,-123.1207375,49.2827291,2008,0,Mobile/Handheld,www.athinkingape.com
+A.C.R.O.N.Y.M. Games,Vancouver,Canada,-123.1207375,49.2827291,2004,0,Developer,www.acronymonline.com
 ablemagic,Trondheim,Norway,10.3950528,63.4305149,2007,0,Mobile/Handheld,www.ablemagic.no
-ABRAGAMES,Recife,Brazil,-34.8769621,-8.0475458,2004,0,Organization,www.abragames.org
+ABRAGAMES,Recife,Brazil,-34.8828969,-8.0578381,2004,0,Organization,www.abragames.org
+Absolute Entertainment,Glen Rock,United States,-74.1329207,40.9628758,1986,1995,Publisher,
 Absolutist,Dnipropetrovsk,Ukraine,35.046183,48.464717,2000,0,Online Developer,www.absolutist.com
 Abylight,Barcelona,Spain,2.1734035,41.3850639,2004,0,Developer,www.abylight.com
 Access Games,Osaka,Japan,135.5021651,34.6937378,2002,0,Developer,www.accessgames.co.jp/
+Access Software,Salt Lake City,United States,-111.8910474,40.7607793,1982,2006,Developer,
+Acclaim Entertainment,Glen Cove,United States,-73.6337389,40.8623217,1987,2004,Publisher,
+Accolade,San Jose,United States,-121.8949555,37.3393857,1984,1999,Developer,
 ACE Team,Santiago,Chile,-70.641997,-33.4691199,2007,0,Developer,www.aceteam.cl
 Aceviral,Sunderland,England,-1.383801,54.906869,2004,0,Developer,www.aceviral.com
 Acheron Design,Melbourne ,Australia,144.96328,-37.814107,2004,0,Developer,
@@ -47,7 +53,7 @@ Action Forms,Kiev,Ukraine,30.5234,50.4501,1995,0,Developer,
 Activate Interactive,Singapore,Singapore,103.8509491,1.2800945,1997,0,Online Developer,www.activateplay.com
 Active Gaming Media,Osaka ,Japan,135.5021651,34.6937378,2006,0,Publisher,www.activegamingmedia.com/en/
 Activeworlds,Newburyport,United States,-70.8772751,42.8125913,1995,0,Developer,www.activeworlds.com
-Activeworlds Europe,Utrecht,Netherlands,5.117778,52.091667,2003,0,Online Developer,www.aw-europe.com
+Activeworlds Europe,Utrecht,Netherlands,5.1214201,52.0907374,2003,0,Online Developer,www.aw-europe.com
 Activision,Santa Monica,United States,-118.4911912,34.0194543,1979,0,"Developer, Mobile/Handheld, Publisher",www.activision.com
 Actoz Soft,Seoul,South Korea,126.9779692,37.566535,1996,0,Online Developer,www.actoz.com
 Actual Entertainment,Sunnyvale,United States,-122.0363496,37.36883,1996,0,Developer,www.actualentertainment.com
@@ -65,8 +71,8 @@ Agetec,Sunnyvale,United States,-122.0363496,37.36883,1998,0,Publisher,www.agetec
 AggroStudios,Saint Petersburg,Russia,30.3350986,59.9342802,2009,0,Developer,www.aggrostudios.ru
 Aidem Media,Gdansk,Poland,18.6466384,54.3520252,1997,0,Developer,www.aidemmedia.com
 Aiming,Tokyo,Japan,139.6917064,35.6894875,2011,0,Developer,www.aiming-inc.com
-Air Games,Vancouver,Canada,-123.1139268,49.261226,2000,0,Mobile/Handheld,www.airg.com
-Airborne Entertainment,Montreal,Canada,-73.5539925,45.5086699,2001,0,Mobile/Handheld,www.airborne-e.com
+Air Games,Vancouver,Canada,-123.1207375,49.2827291,2000,0,Mobile/Handheld,www.airg.com
+Airborne Entertainment,Montreal,Canada,-73.567256,45.5016889,2001,0,Mobile/Handheld,www.airborne-e.com
 Akal Interaktif,Bandung,Indonesia,107.6082421,-6.9148644,1999,0,Developer,www.akalinteraktif.com
 Akaoni Studios,Valencia,Spain,-0.3762881,39.4699075,2009,0,Developer,www.akaonistudio.com
 Akella,Moscow,Russia,37.6173,55.755826,1993,0,Developer,www.akella.com
@@ -94,7 +100,7 @@ Amanita Design,Brno,Czech Republic,16.6068371,49.1950602,2003,0,Developer,
 Amazon Game Studios,San Francisco,United States,-122.4194155,37.7749295,2012,0,Mobile/Handheld,games.amazon.com
 Ambergames,Riga,Latvia,24.1051864,56.9496487,2006,0,Online Developer,www.ambergames.com
 Ambrosia Software,Rochester,United States,-77.6109219,43.16103,1993,0,Publisher,www.ambrosiasw.com
-amc studio,Bucharest,Romania,26.103889,44.4325,2000,0,"Developer, Publisher",www.amc.ro
+amc studio,Bucharest,Romania,26.1025384,44.4267674,2000,0,"Developer, Publisher",www.amc.ro
 AmnesiaGames,Santiago,Chile,-70.641997,-33.4691199,2006,0,Mobile/Handheld,www.amnesiagames.cl
 Amplitude Studios,Paris,France,2.3522219,48.856614,2012,0,Developer,www.amplitude-studios.com
 Amuzo,Bournemouth,England,-1.880769,50.719164,1998,0,Developer,www.amuzo.com
@@ -114,13 +120,14 @@ Aplefly,Tallinn,Estonia,24.7535746,59.4369608,2012,0,Mobile/Handheld,www.aplefly
 Apogee Software,Garland,United States,-96.6388833,32.912624,1987,0,Developer,www.apogeesoftware.com
 Appy Entertainment,San Diego,United States,-117.1610838,32.715738,2008,0,Mobile/Handheld,www.appyentertainment.com
 AppyNation,London,England,-0.1277583,51.5073509,2011,0,Mobile/Handheld,www.appynation.com
+AQ Interactive,Tokyo,Japan,139.6917064,35.6894875,2005,2011,Publisher,www.aqi.co.jp
 Aquiris Game Studio,Porto Alegre,Brazil,-51.2176584,-30.0346471,2007,0,Developer,www.aquiris.com.br
 Aral Ithalat,Istanbul,Turkey,28.97696,41.00527,1983,0,Publisher,www.aral.com.tr
 Aratog Games,Odessa,Ukraine,30.7233095,46.482526,2012,0,Developer,www.aratog.com
 ARC System Works,Yokohama,Japan,139.6380256,35.4437078,1988,0,Developer,www.arcsystemworks.jp
 Arcadelia,Stockholm,Sweden,18.0685808,59.3293235,2010,0,Developer,www.arcadelia.com
 ArcadeMonk,Istanbul,Turkey,28.97696,41.00527,2010,0,Developer,www.arcademonk.com
-Archimage,Houston,United States,-95.3693896,29.7601927,1983,0,Developer,www.archimage.com
+Archimage,Houston,United States,-95.3698028,29.7604267,1983,0,Developer,www.archimage.com
 Archon Games,Minneapolis,United States,-93.26667,44.983334,2008,0,Developer,www.archongames.com
 Arctic Empire,Ottawa,Canada,-75.6971931,45.4215296,2010,0,Developer,www.arcticempire.ca
 Area 52 Games,Issaquah,United States,-122.0326191,47.5301011,2013,0,Online Developer,www.area52games.com
@@ -146,7 +153,9 @@ Artifex Mundi,Krakow,Poland,19.9449799,50.0646501,2006,0,Developer,www.artifexmu
 Artificial Studios,Gainesville,United States,-82.3248262,29.6516344,2001,0,Development,http://artificialstudios.com/index.php
 Artillery,Palo Alto,United States,-122.1430195,37.4418834,2011,0,Online Developer,www.artillery.com
 Artix Entertainment,Tampa,United States,-82.4571776,27.950575,2002,0,Developer,www.artix.com
+Artoon,Yokohama,Japan,139.6380256,35.4437078,1999,2010,Developer,
 Aruba Studios,Mulheim,Germany,6.8845226,51.4185682,2003,0,Developer,www.aruba-studios.de
+Ascaron,Gutersloh,Germany,8.3857535,51.9032375,1989,2009,Publisher,
 Asiasoft,Bangkok,Thailand,100.5241235,13.7278956,2010,0,Publisher,www.asiasoft.co.th
 Asobo Studio,Bordeaux,France,-0.57918,44.837789,2002,0,Developer,www.asobostudio.com
 Aspyr Media,Austin,United States,-97.7430608,30.267153,1989,0,"Developer, Publisher",www.aspyr.com
@@ -160,7 +169,9 @@ Atlanteq,Avezzano,Italy,13.4255637,42.0281396,1998,0,Developer,www.atlanteq.it
 Atlantis Studios,Sao Paulo,Brazil,-46.6333094,-23.5505199,2012,0,Developer,www.atlantis-studios.com
 Atlus ,Irvine,United States,-117.7946942,33.6839473,1986,0,Publisher,www.atlus.com
 Atomic Games,Minneapolis,United States,-93.26667,44.983334,1989,0,Developer,www.atomicgames.com
+Atomic Planet Entertainment,Middlesbrough,England,-1.234956,54.574227,2000,2009,Developer,
 AtomJack,Seattle,United States,-122.3320708,47.6062095,2013,0,Developer,www.atomjack.net
+Attic Entertainment Software,Albstadt,Germany,9.0234259,48.2137038,1990,2001,Publisher,
 Attract Mode Games,Brisbane,Australia,153.0234489,-27.4710107,2012,0,Developer,www.attractmodegames.com
 Auroch Digital,Bristol,England,-2.58791,51.454513,2010,0,Developer,www.aurochdigital.com
 Autumn Games,New York City,United States,-74.0059413,40.7127837,2007,0,Publisher,www.autumngames.com
@@ -205,8 +216,8 @@ Bee Cave Games,Austin,United States,-97.7430608,30.267153,2012,0,Developer,www.b
 Bee Square Games,Barcelona,Spain,2.1734035,41.3850639,2012,0,Mobile/Handheld,www.beesquare.net
 Beenox Studios (Activision),Quebec City,Canada,-71.242796,46.8032826,2000,0,Developer,www.beenox.com
 Beep Industries,Bothell,United States,-122.2054035,47.7623204,2000,0,Developer,www.beepindustries.com
-Behavior Interactive,Montreal,Canada,-73.5539925,45.5086699,1992,0,Developer,www.bhvr.com
-Behold Studios,Brasilia,Brazil,-47.8825479,-15.7941454,2009,0,Developer,www.beholdstudios.com.br
+Behavior Interactive,Montreal,Canada,-73.567256,45.5016889,1992,0,Developer,www.bhvr.com
+Behold Studios,Brasilia,Brazil,-47.8821658,-15.7942287,2009,0,Developer,www.beholdstudios.com.br
 Benxing Entertainment,Finksburg,United States,-76.8894232,39.4928811,2007,0,Developer,www.benxing.com
 Bethesda Softworks (ZeniMax Media),Rockville,United States,-77.1527578,39.0839973,1985,0,"Developer, Publisher",www.bethsoft.com
 Bica Studios,Lisbon,Portugal,-9.1393366,38.7222524,2013,0,Mobile/Handheld,www.bicastudios.com
@@ -216,11 +227,11 @@ Big Daddy's Creations,Warsaw,Poland,21.0122287,52.2296756,2010,0,Mobile/Handheld
 Big Finish Games,Salt Lake City,United States,-111.8910474,40.7607793,2007,0,Developer,www.bigfinishgames.com
 Big Fish Games,Seattle,United States,-122.3320708,47.6062095,2007,0,"Developer, Publisher",www.bigfishgames.com
 Big Robot,Bath,England,-2.3599039,51.375801,2010,0,Developer,www.big-robot.com
-Big Sandwich Games (Z2Live),Vancouver,Canada,-123.1139268,49.261226,2012,0,Developer,www.bigsandwichgames.com
+Big Sandwich Games (Z2Live),Vancouver,Canada,-123.1207375,49.2827291,2012,0,Developer,www.bigsandwichgames.com
 Big Top Ballet,Whistler,Canada,-122.9573563,50.1163196,2012,0,Developer,www.bigtopballet.com
 Big Viking Games,London,Canada,-81.243177,42.9869502,2011,0,Developer,
 Bigben Interactive,Bergheim,Germany,6.6555022,50.9451945,1981,0,Publisher,www.bigben-interactive.de
-BigPark (Microsoft Game Studios),Vancouver,Canada,-123.1139268,49.261226,2007,0,Developer,www.bigpark.com
+BigPark (Microsoft Game Studios),Vancouver,Canada,-123.1207375,49.2827291,2007,0,Developer,www.bigpark.com
 Bigpoint,Hamburg,Germany,9.9936818,53.5510846,2002,0,Online Developer,www.bigpoint.net
 Binary Hammer,Avon,USA,-86.3997167,39.7628227,2008,0,Developer,www.binaryhammer.com/
 Biodroid,Lisbon,Portugal,-9.1393366,38.7222524,2007,0,"Developer, Publisher",www.biodroid-entertainment.com
@@ -230,109 +241,31 @@ Bit Managers,Barcelona,Spain,2.1734035,41.3850639,1988,0,Developer,www.bitmanage
 bitforge,Berne,Switzerland,7.4446085,46.9479222,2004,0,Mobile/Handheld,www.bitforge.ch
 BitMonster,Cary,United States,-78.7811169,35.79154,2012,0,Mobile/Handheld,www.bitmonstergames.com
 BitRabbit,Dublin,Ireland,-6.2603097,53.3498053,2004,0,Mobile/Handheld,www.bitrabbit.net
-Centuri,Hialeah,USA,-80.2781057,25.8575963,1974,1985,Developer,
-Ultimate Play The Game,Ashby-de-la-Zouch,England,-1.468618,52.749212,1982,1988,Developer,
-Epyx,San Francisco,USA,-122.4194155,37.7749295,1978,1993,Developer,
-Absolute Entertainment,Glen Rock,United States,-74.1329207,40.9628758,1986,1995,Publisher,
-Cyberdreams,Calabasas,United States,-118.660833,34.138333,1990,1997,Developer,
-Parallax Software,Ann Arbor,USA,-83.7430378,42.2808256,1993,1997,Developer,
-Brøderbund,Eugene,United States,-123.0867536,44.0520691,1980,1998,Developer,
-Spectrum HoloByte,Alameda,USA,-122.2416355,37.7652065,1983,1998,"Developer, Publisher",
-Accolade,San Jose,United States,-121.8949555,37.3393857,1984,1999,Developer,
-Gremlin Interactive,Sheffield,England,-1.470085,53.381129,1984,1999,Developer,
-Looking Glass Studios,Cambridge,USA,-71.1097335,42.3736158,1990,2000,Developer,
-Attic Entertainment Software,Albstadt,Germany,9.0234259,48.2137038,1990,2001,Publisher,
-Bullfrog Productions,Guildford,England,-0.570409,51.23622,1987,2001,Developer,
-Hasbro Interactive,Alameda,United States,-122.2416355,37.7652065,1995,2001,Publisher,
-ZapSpot,Seattle,USA,-122.3320708,47.6062095,1999,2001,Developer,
-Cryo Interactive,Paris,France,2.3522219,48.856614,1992,2002,"Developer, Publisher",
-Software 2000,Eutin,Germany,10.6095048,54.1330282,1987,2002,"Developer, Publisher",
-3DO,Redwood City,United States,-122.2363548,37.4852152,1991,2003,Developer,
-Innerloop Studios,Oslo,Norway,10.7522454,59.9138688,1996,2003,Developer,
-Rage Software,Liverpool,England,-2.9915726,53.4083714,1992,2003,Developer,
-Acclaim Entertainment,Glen Cove,United States,-73.6337389,40.8623217,1987,2004,Publisher,
-Outrage Entertainment,Ann Arbor,USA,-83.7430378,42.2808256,1996,2004,Developer,
-Unique Development Studios,Norrkoping ,Sweden,16.192421,58.587745,1993,2004,Developer,
-989 Studios,Foster City,United States,-122.2710788,37.5585465,1995,2005,Developer,
-Ion Storm,Dallas,USA,-96.8004511,32.7801399,1996,2005,Developer,
-Kush Games,Camarillo,USA,-119.0376023,34.2163937,2002,2005,Developer,
-Access Software,Salt Lake City,United States,-111.8910474,40.7607793,1982,2006,Developer,
-Core Design,Derby,England,-1.4746186,52.9225301,1988,2006,Developer,
-Fox Interactive,Los Angeles,United States,-118.2436849,34.0522342,1994,2006,Publisher,
-Sunflowers Interactive Entertainment Software,Heusenstamm,Germany,8.7999301,50.0554864,1993,2007,"Developer, Publisher",
 Bits Studios,London,England,-0.1277583,51.5073509,1991,2008,Developer,
-Coded Illusions,Rotterdam,Netherlands,4.4777325,51.9244201,2005,2008,Developer,
-Flagship Studios,San Francisco,USA,-122.4194155,37.7749295,2003,2008,Developer,
-Pivotal Games,Bath,England,-2.3599039,51.375801,2000,2008,Developer,
-Ascaron,Gutersloh,Germany,8.3857535,51.9032375,1989,2009,Publisher,
-Atomic Planet Entertainment,Middlesbrough,England,-1.234956,54.574227,2000,2009,Developer,
-Deadline Games,Copenhagen,Denmark,12.5683371,55.6760968,1996,2009,Developer,
-Eidos Interactive,London,England,-0.1277583,51.5073509,1990,2009,Publisher,
-Ensemble Studios,Dallas,United States,-96.8004511,32.7801399,1995,2009,Developer,http://www.ensemblestudios.com/
-Midway Games,Chicago,USA,-87.6297982,41.8781136,1988,2009,"Developer, Publisher",
-Pandemic Studios,Los Angeles,USA,-118.2436849,34.0522342,1998,2009,Developer,
-Straylight Studios,Dunedin,New Zealand,170.5027976,-45.8787605,2004,2009,Developer,
-Transmission Games,Melbourne,Australia,144.96328,-37.814107,1996,2009,Developer,
-Artoon,Yokohama,Japan,139.6380256,35.4437078,1999,2010,Developer,
-Cavia,Tokyo,Japan,139.6917064,35.6894875,2000,2010,Developer,
-Cing,Fukuoka,Japan,130.4017155,33.5903547,1999,2010,Developer,
-FeelPlus,Tokyo,Japan,139.6917064,35.6894875,1992,2010,Developer,www.feelplus.jp
-Luxoflux,Santa Monica,USA,-118.4911912,34.0194543,1998,2010,Developer,
-Realtime Worlds,Dundee,Scotland,-2.970721,56.462018,2002,2010,Developer,
-Universomo,Tampere,Finland,23.7610254,61.4981508,2002,2010,Developer,
-AQ Interactive,Tokyo,Japan,139.6917064,35.6894875,2005,2011,Publisher,www.aqi.co.jp
 Bizarre Creations,Liverpool,England,-2.9915726,53.4083714,1994,2011,Developer,
-Black Rock Studio,Brighton,England,-0.137163,50.82253,1998,2011,Developer,
-Blue Fang Games,Waltham,USA,-71.2356113,42.3764852,1998,2011,Developer,
-DreamCatcher Interactive,Toronto,Canada,-79.3831843,43.653226,1996,2011,"Developer, Publisher",
-GSC Game World,Kiev,Ukraine,30.5234,50.4501,1995,2011,Developer,www.gsc-game.com
-JoWooD Entertainment AG,Rottenmann,Austria,14.3584779,47.5223703,1995,2011,Publisher,
-Kaos Studios,New York City,USA,-74.0059413,40.7127837,2006,2011,Developer,
-Mindware Studios,Prague,Czech Republic,14.4378005,50.0755381,2002,2011,Developer,www.mindwarestudios.com
-Pi Studios,Houston,USA,-95.3693896,29.7601927,2002,2011,Developer,
-Team Bondi,Sydney,Australia,151.2069902,-33.8674869,2003,2011,Developer,
-Chunsoft,Shinjuku,Japan,139.7035494,35.6938401,1984,2012,Developer,
-Etranges Libellules,Lyon,France,4.835659,45.764043,1994,2012,Developer,
-Eurocom,Derby,England,-1.4746186,52.9225301,1988,2012,Developer,
-Hudson Soft,Tokyo,Japan,139.6917064,35.6894875,1973,2012,Developer,
-Launching Pad Games,Wellington,New Zealand,174.776236,-41.2864603,2008,2012,Mobile/Handheld,www.launchingpadgames.com
-SCE Studio Liverpool,Liverpool,England,-2.9915726,53.4083714,1984,2012,Developer,
-Snowblind Studios,Seattle,USA,-122.3320708,47.6062095,1997,2012,Developer,
-Spellbound Entertainment,Offenburg,Germany,7.9498017,48.473451,1994,2012,Developer,
-Zipper Interactive,Redmond,USA,-122.121512,47.6739881,1995,2012,Developer,
-Blitz Games Studios,Leamington Spa,England,-1.5200789,52.2851905,1990,2013,Developer,
-Bonfire Studios,Dallas,United States,-96.8004511,32.7801399,2009,2013,Developer,
-LucasArts Entertainment Company (Disney),San Francisco,United States,-122.4194155,37.7749295,1982,2013,"Developer, Publisher",www.lucasarts.com
-Phenomic Game Development,Ingelheim am Rhein,Germany,8.0560682,49.9764195,1997,2013,Developer,
-Rainbow Studios,Phoenix,USA,-112.0740373,33.4483771,1996,2013,"Developer, Publisher",
-THQ,Agoura Hills,United States,-118.7616764,34.1533395,1989,2013,Developer,
-TimeGate Studios,Sugar Land,United States,-95.6349463,29.6196787,1998,2013,Developer,
-Vigil Games,Austin,USA,-97.7430608,30.267153,2005,2013,Developer,
-Brain in a Jar,Taporley,England,-2.669436,53.160142,1998,2014,Developer,
-Ceidot Game Studios,Ankara,Turkey,32.85411,39.92077,2005,2014,Developer,
-Irrational Games,Quincy,USA,-71.0022705,42.2528772,1996,2014,Developer,
-Neversoft Entertainment (Activision),Woodland Hills,United States,-118.6089752,34.165357,1994,2014,Developer,www.neversoft.com
-Wideload Games,Chicago,USA,-87.6297982,41.8781136,2003,2014,Developer,
 Black Bean,Gazzada,Italy,8.824131,45.7802269,2005,0,Publisher,www.blackbeangames.com
 Black Company Studios,Edinburgh,Scotland,-3.188267,55.953252,2005,0,Developer,www.blackcompanystudios.co.uk
 Black Element Software,Prague,Czech Republic,14.4378005,50.0755381,2000,0,Developer,www.blackelement.net
 Black Forest Games,Offenburg,Germany,7.9498017,48.473451,2012,0,Developer,www.black-forest-games.com
 Black Hole Entertainment,Budapest,Hungary,19.040235,47.497912,2001,0,Developer,www.blackholegames.com
-Black Jacket Games,Portland,United States,-122.6762071,45.5234515,2007,0,Developer,www.blackjacketgames.com
+Black Jacket Games,Portland,United States,-122.6764816,45.5230622,2007,0,Developer,www.blackjacketgames.com
 Black Lantern Studios,Springfield,United States,-72.589811,42.1014831,2003,0,Developer,www.blacklanternstudios.com
 Black Ops Entertainment,Santa Monica,United States,-118.4911912,34.0194543,1994,0,Developer,www.codemasters.com
-Black Tusk (Microsoft Studios),Vancouver,Canada,-123.1139268,49.261226,2012,0,Mobile/Handheld,www.mgsvancouver.com
+Black Rock Studio,Brighton,England,-0.137163,50.82253,1998,2011,Developer,
+Black Tusk (Microsoft Studios),Vancouver,Canada,-123.1207375,49.2827291,2012,0,Mobile/Handheld,www.mgsvancouver.com
 Black Wing Foundation,Dnepropetrovsk,Ukraine,35.046183,48.464717,2006,0,Developer,www.bwf-game.com
 Blammo Games (Glu Mobile),Toronto,Canada,-79.3831843,43.653226,2011,0,Mobile/Handheld,www.blammogames.com
 Blendo Games,Los Angeles,United States,-118.2436849,34.0522342,1999,0,Developer,www.blendogames.com
 Blind Squirrel Games,Costa Mesa,United States,-117.9186689,33.6411316,2010,0,Developer,www.blindsquirrelgames.com
 Blind Wink Games (Universal Pictures),Universal City,United States,-98.2911235,29.5480071,2008,0,Developer,www.blindwink.com
 Blindflug Studios,Zurich,Switzerland,8.5391825,47.3686498,2014,0,Developer,www.blindflugstudios.com
+Blitz Games Studios,Leamington Spa,England,-1.5200789,52.2851905,1990,2013,Developer,
 Blizzard Entertainment,Irvine,United States,-117.7946942,33.6839473,1991,0,"Developer, Publisher",www.blizzard.com
-blockdot,Dallas,United States,-96.8004511,32.7801399,2001,0,Developer,www.blockdot.com
+blockdot,Dallas,United States,-96.8009781,32.7802618,2001,0,Developer,www.blockdot.com
 Bloober Team,Krakow,Poland,19.9449799,50.0646501,2008,0,Developer,www.blooberteam.com
 Blue Beck,Macclesfield,England,-2.119287,53.258663,2009,0,Mobile/Handheld,www.bluebeck.co.uk
 Blue Byte (Ubisoft),Dusseldorf,Germany,6.7734556,51.2277411,1988,0,"Developer, Publisher",www.ubisoftgroup.com
+Blue Fang Games,Waltham,USA,-71.2356113,42.3764852,1998,2011,Developer,
 Blue Goji,Austin,United States,-97.7430608,30.267153,2011,0,Mobile/Handheld,www.bluegoji.com
 Blue Mammoth Games,Atlanta,United States,-84.3879824,33.7489954,2009,0,Online Developer,www.bluemammoth.com
 Blue Marble Game Company,Los Angeles,United States,-118.2436849,34.0522342,2010,0,Developer,www.bluemarblegameco.com
@@ -343,6 +276,7 @@ BlueGiant Interactive,Hyderabad,India,78.486671,17.385044,2007,0,Developer,www.b
 Bluepoint Games,Austin,United States,-97.7430608,30.267153,2006,0,Developer,www.bluepointgames.com
 BLUESIDE,Seoul,South Korea,126.9779692,37.566535,2003,0,Online Developer,www.blueside.co.kr/eng/
 Bohemia Interactive,Prague,Czech Republic,14.4378005,50.0755381,1999,0,Developer,www.bistudio.com
+Bonfire Studios,Dallas,United States,-96.8009781,32.7802618,2009,2013,Developer,
 Bongfish,Graz,Austria,15.439504,47.070714,1999,0,Publisher,www.bongfish.com
 BonusXP,Allen,United States,-96.6705503,33.1031744,2012,0,Mobile/Handheld,www.bonusxp.com
 Boolat Games,Donetsk,Ukraine,37.80285,48.015883,2001,0,Developer,www.boolatgames.com
@@ -357,7 +291,8 @@ Born Ready Games,Guildford,England,-0.570409,51.23622,2012,0,Developer,www.bornr
 Boss Alien (NaturalMotion),Brighton,England,-0.137163,50.82253,2011,0,Mobile/Handheld,www.bossalien.com
 Boss Fight Entertainment,McKinney,United States,-96.6397822,33.1972465,2013,0,Mobile/Handheld,www.bossfightentertainment.com
 Bossa Studios (News Corp/Shine),London,England,-0.1277583,51.5073509,2010,0,Online Developer,www.bossastudios.com
-Bouncing Pixel,Houston,United States,-95.3693896,29.7601927,2009,0,Developer,www.bouncingpixel.com
+Bouncing Pixel,Houston,United States,-95.3698028,29.7604267,2009,0,Developer,www.bouncingpixel.com
+Brain in a Jar,Taporley,England,-2.669436,53.160142,1998,2014,Developer,
 BrainPOP,New York City,United States,-74.0059413,40.7127837,1999,0,Online Developer,www.brainpop.com
 Brainz (ZIO Studios),BogotÃ¡,Colombia,-74.075833,4.598056,2000,0,Developer,www.brainz.co
 BravoGames,Sevilla,Spain,-5.9844589,37.3890924,2010,0,Mobile/Handheld,www.bravogames.com
@@ -368,6 +303,7 @@ Bright Future,Koln,Germany,6.9602786,50.937531,2006,0,Developer,www.brightfuture
 BRIGHTdriver,Cambridge,United States,-71.1097335,42.3736158,2011,0,Mobile/Handheld,www.brightdriver.com
 Brightside Games,Berlin,Germany,13.404954,52.5200066,2010,0,Developer,www.brightside-games.com
 Broccoli,Tokyo,Japan,139.6917064,35.6894875,1994,0,Publisher,www.broccoli.co.jp
+Brøderbund,Eugene,United States,-123.0867536,44.0520691,1980,1998,Developer,
 Broken Bulb Studios,Scottsdale,United States,-111.9260519,33.4941704,2009,0,Developer,www.brokenbulbstudios.com
 Broken Circle Studios,Riverside,United States,-117.3961564,33.9533487,2007,0,Developer,www.brokencirclestudios.com
 Broken Crown Games,Harrisburg,United States,-76.8867008,40.2731911,2012,0,Developer,www.brokencrowngames.com
@@ -381,6 +317,7 @@ Bugbear Entertainment,Helsinki,Finland,24.9410248,60.1733244,2000,0,Developer,ww
 Buka Entertainment,Moscow,Russia,37.6173,55.755826,1994,0,Publisher,www.buka.com
 Bulkypix,Velizy-Villacoublay,France,2.190408,48.787899,2009,0,Developer,www.bulkypix.com
 Bulldog Interactive,Leicester,England,-1.1397592,52.6368778,1999,0,Developer,www.bulldoginteractive.com
+Bullfrog Productions,Guildford,England,-0.570409,51.23622,1987,2001,Developer,
 Bully! Entertainment,Baltimore,United States,-76.6121893,39.2903848,2006,0,Developer,www.bullyentertainment.com
 Bungie Studios,Kirkland,United States,-122.2087353,47.6814875,1991,0,Developer,www.bungie.net
 Burning Dog Media,Edmonton,Canada,-113.4909267,53.544389,2004,0,Online Developer,www.burningdog.com
@@ -405,18 +342,21 @@ Capital Games (Electronic Arts),Sacramento,United States,-121.4943996,38.5815719
 Capybara Games,Toronto,Canada,-79.3831843,43.653226,2003,0,Developer,www.capybaragames.com
 Carbine Studios (NCsoft),Aliso Viejo,United States,-117.725556,33.575,2008,0,Online Developer,www.carbinestudios.com
 Carbon Games,Bellevue,United States,-122.2006786,47.610377,2012,0,Developer,www.carbongames.com
-Carpe Fulgur,Portland,United States,-122.6762071,45.5234515,2010,0,Publisher,www.carpefulgur.com
+Carpe Fulgur,Portland,United States,-122.6764816,45.5230622,2010,0,Publisher,www.carpefulgur.com
 Cascade Game Foundry,Seattle,United States,-122.3320708,47.6062095,2009,0,Developer,www.cascadegamefoundry.com
 Casual Arts,Newcastle,England,-1.61778,54.978252,1990,0,Developer,www.casual-arts.com
 Casual Games Association,Layton,United States,-111.9710529,41.0602216,2005,0,Organization,www.casualgamesassociation.org
-Casual Immersions Entertainment,Vancouver,Canada,-123.1139268,49.261226,2014,0,Mobile/Handheld,www.casimm.com
-Cat Nigiri,Florianopolis,Brazil,-48.5481743,-27.5949884,2012,0,"Developer, Mobile ",www.catnigiri.com
+Casual Immersions Entertainment,Vancouver,Canada,-123.1207375,49.2827291,2014,0,Mobile/Handheld,www.casimm.com
+Cat Nigiri,Florianopolis,Brazil,-48.5480499,-27.5953778,2012,0,"Developer, Mobile ",www.catnigiri.com
 Cauldron,Bratislava,Slovakia,17.1071373,48.1458923,1996,0,Developer,www.cauldron.sk
+Cavia,Tokyo,Japan,139.6917064,35.6894875,2000,2010,Developer,
 CCP Games,Reykjavik,Iceland,-21.933333,64.133333,1997,0,"Developer, Online Developer, Publisher",www.ccpgames.com
 CCR,Seoul,South Korea,126.9779692,37.566535,1997,0,Online Developer,www.ccr.co.kr
 CD Projekt,Warsaw,Poland,21.0122287,52.2296756,2002,0,"Publisher, Developer",www.cdprojekt.com
+Ceidot Game Studios,Ankara,Turkey,32.85411,39.92077,2005,2014,Developer,
 Centauri Production,Prague,Czech Republic,14.4378005,50.0755381,2000,0,Developer,www.centauriproduction.cz
 Centerscore (Vivendi),San Mateo,United States,-122.3255254,37.5629917,2000,0,Mobile/Handheld,www.centerscore.com
+Centuri,Hialeah,USA,-80.2781057,25.8575963,1974,1985,Developer,
 CerebralFix,Christchurch,New Zealand,172.6362254,-43.5320544,2006,0,Developer,www.cerebralfix.com
 Certain Affinity,Austin,United States,-97.7430608,30.267153,2006,0,Developer,www.certainaffinity.com
 Chair Entertainment Group (Epic Games),West Jordan,United States,-111.9391031,40.6096698,2005,0,Developer,www.chairentertainmentgroup.com
@@ -430,16 +370,18 @@ Chillingo,Macclesfield,England,-2.119287,53.258663,2005,0,Mobile/Handheld,www.ch
 Chimera Entertainment,Munich,Germany,11.5819806,48.1351253,2006,0,Developer,www.chimera-entertainment.de
 Chronic Logic,Santa Cruz,United States,-122.0307963,36.9741171,2001,0,Developer,www.chroniclogic.com
 Chucklefish,London,England,-0.1277583,51.5073509,2011,0,Developer,www.chucklefish.org
+Chunsoft,Shinjuku,Japan,139.7035494,35.6938401,1984,2012,Developer,
 CI Games,Warsaw,Poland,21.0122287,52.2296756,2002,0,"Developer, Publisher",www.cigames.com/en/
 Cie Studios,Long Beach,United States,-118.1937395,33.7700504,1998,0,Developer,www.ciestudios.com
 Cinemax,Prague,Czech Republic,14.4378005,50.0755381,1998,0,Developer,www.cinemax.cz
-Cipher Prime Studios,Philadelphia,United States,-75.163789,39.952335,2008,0,Developer,www.cipherprime.com
+Cing,Fukuoka,Japan,130.4017155,33.5903547,1999,2010,Developer,
+Cipher Prime Studios,Philadelphia,United States,-75.1652215,39.9525839,2008,0,Developer,www.cipherprime.com
 CipSoft,Regensburg,Germany,12.1016236,49.0134297,2001,0,Online Developer,www.cipsoft.com
 Citeremis,Sherbrooke,Canada,-71.8824288,45.4009928,2005,0,Developer,www.citeremis.com
 City State Entertainment,Fairfax,United States,-77.3063733,38.8462236,2011,0,Developer,www.citystateentertainment.com
 CJ Internet,Seoul,South Korea,126.9779692,37.566535,2000,0,"Developer, Publisher",www.cjinternet.com
 Clap Hanz,Yokohama,Japan,139.6380256,35.4437078,1998,0,Developer,www.claphanz.co.jp/
-CleverMedia,Denver,United States,-104.9847179,39.737567,1995,0,Developer,www.clevermedia.com
+CleverMedia,Denver,United States,-104.9848593,39.7384357,1995,0,Developer,www.clevermedia.com
 ClickShake Games,Columbus,United States,-82.9987942,39.9611755,2010,0,Online Developer,www.clickshakegames.com
 Clicktoy Interactive,Coquitlam,Canada,-122.7932065,49.2837626,2006,0,Developer,www.clicktoy.com
 Cliffhanger Productions,Vienna,Austria,16.3738189,48.2081743,2010,0,Online Developer,www.cliffhanger-productions.com
@@ -452,7 +394,8 @@ CloudKid,Brighton,United States,-104.8205283,39.9852617,2009,0,Developer,www.clo
 CobraMobile,Dundee,Scotland,-2.970721,56.462018,2005,0,Developer,www.cobramobile.com
 CocoaChina,Beijing,China,116.407395,39.904211,2008,0,Mobile/Handheld,www.cocoachina.com
 Cocoasoft,Ljubljana,Slovenia,14.5057515,46.0569465,1999,0,Mobile/Handheld,www.cocoasoft.com
-Codebell,Miami,United States,-80.2040435,25.7890972,2008,0,Online Developer,www.codebell.com
+Codebell,Miami,United States,-80.1917902,25.7616798,2008,0,Online Developer,www.codebell.com
+Coded Illusions,Rotterdam,Netherlands,4.4777325,51.9244201,2005,2008,Developer,
 Codeglue,Rotterdam,Netherlands,4.4777325,51.9244201,2000,0,Developer,www.codeglue.com
 Codemasters,Southam,England,-1.389719,52.2505049,1986,0,"Developer, Publisher",www.codemasters.com
 Coffee Stain Studios,Skovde,Sweden,13.8461208,58.3902782,2010,0,Developer,www.coffeestainstudios.com
@@ -468,14 +411,15 @@ Comfy,Saddle Brook,United States,-74.1007318,40.9040085,2003,0,Developer,www.com
 Compile Heart,Tokyo,Japan,139.6917064,35.6894875,2006,0,Developer,www.compileheart.com/
 Complex Games,Winnipeg,Canada,-97.1374937,49.8997541,2002,0,Developer,www.complexgames.com
 Comport Interactive,Wiesbaden,Germany,8.2397608,50.0782184,2003,0,Publisher,www.comport-interactive.com
-Compulsion Games,Montreal,Canada,-73.5539925,45.5086699,2009,0,Developer,www.compulsiongames.com
+Compulsion Games,Montreal,Canada,-73.567256,45.5016889,2009,0,Developer,www.compulsiongames.com
 Concrete Software,Eden Prairie,United States,-93.470786,44.8546856,2003,0,Mobile/Handheld,www.concretesoftware.com
 Confetti Games,Encinitas,United States,-117.2919818,33.0369867,2012,0,Developer,www.confettigames.com
 Connect2Media,Manchester,England,-2.2426305,53.4807593,2008,0,Mobile/Handheld,www.connect2media.com
 Consala Games,Kadikoy,Turkey,29.08227,40.980141,2008,0,Online Developer,www.consala.com
-Controlled Chaos Media,Dallas,United States,-96.8004511,32.7801399,2009,0,Developer,www.cchaosmedia.com
+Controlled Chaos Media,Dallas,United States,-96.8009781,32.7802618,2009,0,Developer,www.cchaosmedia.com
 Copenhagen Game Collective,Copenhagen,Denmark,12.5683371,55.6760968,2009,0,Organization,www.copenhagengamecollective.org
 Corbomite Games,Tel Aviv,Israel,34.7817676,32.0852999,2007,0,Developer,www.corporate.corbomitegames.com/
+Core Design,Derby,England,-1.4746186,52.9225301,1988,2006,Developer,
 Corecell Technology,Bangkok,Thailand,100.5241235,13.7278956,2002,0,Mobile/Handheld,www.corecell.co.th
 Coreplay,Munich,Germany,11.5819806,48.1351253,2007,0,Developer,www.coreplay.de
 Coresoft,Lake Forest,United States,-117.689218,33.6469661,1998,0,Developer,www.coresoft.com
@@ -504,6 +448,7 @@ Crowdpark,Berlin,Germany,13.404954,52.5200066,2009,0,Online Developer,www.crowdp
 Crowdstar International,Burlingame,United States,-122.34809,37.5778696,2009,0,Online Developer,www.crowdstar.com
 Crown Adam,Schmerikon,Switzerland,8.94949,47.22613,2009,0,Developer,www.crownadam.com
 Crunching Koalas,Warsaw,Poland,21.0122287,52.2296756,2012,0,Developer,www.crunchingkoalas.com
+Cryo Interactive,Paris,France,2.3522219,48.856614,1992,2002,"Developer, Publisher",
 Cryptic Studios (Perfect World),San Jose,United States,-121.8949555,37.3393857,2000,0,Online Developer,www.crypticstudios.com
 Crystal Dynamics,San Francisco,United States,-122.4194155,37.7749295,1992,0,Developer,www.crystald.com
 Crytek,Frankfurt am Main,Germany,8.6821267,50.1109221,1999,0,Developer,www.crytek.com
@@ -514,6 +459,7 @@ Custard Square,Auckland,New Zealand,174.7633315,-36.8484597,2008,0,Online Develo
 Cyan Worlds,Spokane,United States,-117.4260466,47.6587802,1987,0,Developer,www.cyan.com
 Cyanide Studio,Nanterre,France,2.215331,48.892423,2000,0,Developer,www.cyanide-studio.com
 CyberConnect2,Fukuoka,Japan,130.4017155,33.5903547,1996,0,Developer,www.cyberconnect2.jp
+Cyberdreams,Calabasas,United States,-118.660833,34.138333,1990,1997,Developer,
 Cyberlore Studios,Northhampton,United States,-72.6412013,42.3250896,1992,0,Developer,
 Cypronia,Michalovce,Slovakia,21.9183859,48.7556769,1999,0,"Developer, Handheld",www.cypronia.com
 D-Dub Software,Albuquerque,United States,-106.609991,35.110703,2005,0,Developer,www.d-dub.com/
@@ -532,6 +478,7 @@ Databox Games,Visby,Sweden,18.29484,57.6348,2008,0,Developer,www.databoxgames.co
 David A Palmer Productions,Peterborough,England,-0.2405299,52.5694985,1988,0,Developer,
 Dawn of Play,Ljubljana,Slovenia,14.5057515,46.0569465,2010,0,Mobile/Handheld,www.dawnofplay.com
 Day 1 Studios,Chicago,United States,-87.6297982,41.8781136,2001,0,Developer,www.day1studios.com
+Deadline Games,Copenhagen,Denmark,12.5683371,55.6760968,1996,2009,Developer,
 Deck 13 Interactive,Frankfurt am Main,Germany,8.6821267,50.1109221,2001,0,Developer,www.deck13.com
 Deep Shadows,Kiev,Ukraine,30.5234,50.4501,2001,0,Developer,www.deep-shadows.com
 Deep Silver,Munich,Germany,11.5819806,48.1351253,2002,0,"Developer, Publisher",www.deepsilver.com
@@ -558,7 +505,7 @@ Digit Game Studios,Dublin,Ireland,-6.2603097,53.3498053,2012,0,Online Developer,
 Digital Arrow,Temerin,Serbia,19.883333,45.416667,2010,0,Developer,www.digital-arrow.com
 Digital Chocolate,San Mateo,United States,-122.3255254,37.5629917,2003,0,"Developer, Publisher",www.digitalchocolate.com
 Digital Confectioners,Christchurch,New Zealand,172.6362254,-43.5320544,2007,0,Developer,www.digitalconfectioners.com
-Digital Dreams,Utrecht,Netherlands,5.117778,52.091667,2010,0,Mobile/Handheld,www.digitaldreamsgames.com
+Digital Dreams,Utrecht,Netherlands,5.1214201,52.0907374,2010,0,Mobile/Handheld,www.digitaldreamsgames.com
 Digital Eel,Kirkland,United States,-122.2087353,47.6814875,2001,0,Developer,www.digital-eel.com
 Digital Extremes,London,Canada,-81.243177,42.9869502,1993,0,Developer,www.digitalextremes.com
 Digital Legends,Barcelona,Spain,2.1734035,41.3850639,2001,0,Developer,www.digital-legends.com
@@ -568,8 +515,8 @@ Digital Tainment Pool (DTP),Hamburg,Germany,9.9936818,53.5510846,1995,0,Publishe
 DigitalFun,Malnate,Italy,8.8827431,45.7971315,2006,0,Developer,www.digitalfun.it
 Digitoy Games,Izmir,Turkey,27.12872,38.41885,2011,0,Online Developer,www.digitoygames.com
 Dimps,Osaka,Japan,135.5021651,34.6937378,2000,0,Developer,www.dimps.co.jp
-Dinosaur Entertainment,Dallas,United States,-96.8004511,32.7801399,2011,0,Developer,www.dinosaurentertainment.com
-Dire Wolf Digital,Denver,United States,-104.9847179,39.737567,2010,0,Developer,www.direwolfdigital.com
+Dinosaur Entertainment,Dallas,United States,-96.8009781,32.7802618,2011,0,Developer,www.dinosaurentertainment.com
+Dire Wolf Digital,Denver,United States,-104.9848593,39.7384357,2010,0,Developer,www.direwolfdigital.com
 Discus Games,Moscow,Russia,37.6173,55.755826,2000,0,Developer,www.dgames.ru
 Disney Interactive Studio,Glendale,United States,-118.255075,34.1425078,1988,0,Developer,www.disney.go.com/disneyinteractivestudios
 Disruptor Beam,Newton,United States,-71.2092214,42.3370413,2010,0,Online Developer,www.disruptorbeam.com
@@ -593,16 +540,17 @@ Dragon's Den Unlimited,Trevose,United States,-74.9810019,40.1392766,2001,0,Mobil
 Dragonfly,Seoul,South Korea,126.9779692,37.566535,1995,0,Online Developer,www.dragonflygame.com
 Dreadlocks,Prague,Czech Republic,14.4378005,50.0755381,2011,0,Developer,www.dreadlocks.cz
 DreamBox Learning,Bellevue,United States,-122.2006786,47.610377,2006,0,Online Developer,www.dreambox.com
+DreamCatcher Interactive,Toronto,Canada,-79.3831843,43.653226,1996,2011,"Developer, Publisher",
 Dreamlords Digital,Antipolo City,Philippines,121.1244847,14.6254827,2011,0,Developer,www.dreamlordsdigital.com
 DreamQuest Software,Louisville,United States,-85.7584557,38.2526647,2000,0,Developer,www.dqsoft.com
 DreamsLair Entertainment,Bari,Italy,16.8718715,41.1171432,2010,0,Online Developer,www.dreamslair.com
 Dressed Monkeys,Cologne,Germany,6.9602786,50.937531,2012,0,Online Developer,www.dressedmonkeys.com
 DrinkBox Studios,Toronto,Canada,-79.3831843,43.653226,2008,0,Developer,www.drinkboxstudios.com
 Driver-Inter,Saint Petersburg,Russia,30.3350986,59.9342802,1991,0,Developer,www.d-inter.ru
-DTI Software,Montreal,Canada,-73.5539925,45.5086699,1995,0,Developer,www.dtisoft.com
+DTI Software,Montreal,Canada,-73.567256,45.5016889,1995,0,Developer,www.dtisoft.com
 dtp entertainment,Hamburg,Germany,9.9936818,53.5510846,1995,0,Publisher,www.dtp-ag.com
 Dubit,Leeds,England,-1.5490774,53.8007554,1999,0,Developer,www.dubitlimited.com
-Dutch Games Association,Utrecht,Netherlands,5.117778,52.091667,2008,0,Organization,www.dutchgamesassociation.nl
+Dutch Games Association,Utrecht,Netherlands,5.1214201,52.0907374,2008,0,Organization,www.dutchgamesassociation.nl
 Dynamic Animation Systems,Fairfax,United States,-77.3063733,38.8462236,1995,0,Developer,www.d-a-s.com
 Dynamic Games Entertainment,Mambore,Brazil,-52.5276156,-24.317428,2004,0,Developer,www.dynamicgames.com.br
 Dynamic Pixels,Moscow,Russia,37.6173,55.755826,2004,0,Developer,www.softdp.com
@@ -611,7 +559,7 @@ E-Line Media,New York City,United States,-74.0059413,40.7127837,2007,0,Developer
 E1 Studio,Kuala Lumpur,Malaysia,101.686855,3.139003,2006,0,Developer,www.e-onestudio.com
 EA Mobile,Playa Vista,United States,-118.4275776,33.9727898,2004,0,Mobile/Handheld,www.eamobile.com
 Eagle Dynamics,Moscow,Russia,37.6173,55.755826,1991,0,Developer,www.eagle.ru
-East Side Games,Vancouver,Canada,-123.1139268,49.261226,2011,0,Developer,www.eastsidegamestudio.com
+East Side Games,Vancouver,Canada,-123.1207375,49.2827291,2011,0,Developer,www.eastsidegamestudio.com
 Easy Studio (Electronic Arts),Stockholm,Sweden,18.0685808,59.3293235,2008,0,Developer,www.easystudios.se
 eat sleep play,Salt Lake City,United States,-111.8910474,40.7607793,2007,0,Developer,www.eatsleepplay.biz
 Echoboom,Madrid,Spain,-3.7037902,40.4167754,2012,0,Mobile/Handheld,www.echoboom.com
@@ -623,6 +571,7 @@ eeGeo,Dundee,Scotland,-2.970721,56.462018,2010,0,Developer,www.eegeo.com
 Efecto Studios,Bogota,Colombia,-74.075833,4.598056,2011,0,Developer,www.efectostudios.com
 eGames,Langhorne,United States,-74.9226665,40.1745538,1992,0,Online Developer,www.egames.com
 Egosoft,Wurselen,Germany,6.1320672,50.8216502,1988,0,Developer,www.egosoft.com
+Eidos Interactive,London,England,-0.1277583,51.5073509,1990,2009,Publisher,
 Eighting,Tokyo,Japan,139.6917064,35.6894875,1993,0,Developer,www.8ing.net
 Eipix,Novi Sad,Serbia,19.85,45.25,2005,0,Developer,www.eipix.com
 EivaaGames,Pune,India,73.8567437,18.5204303,2005,0,Developer,www.eivaagames.com
@@ -641,13 +590,17 @@ Engine Room Games,Bristol,England,-2.58791,51.454513,2008,0,Developer,www.engine
 Enigma Software Productions,Madrid,Spain,-3.7037902,40.4167754,1996,0,Developer,www.enigmasp.com
 Enlight Software,London,England,-0.1277583,51.5073509,1993,0,Developer,www.enlight.com
 Enne Studios,Salamanca,Spain,-5.6635397,40.9701039,2006,0,Developer,www.enne.es
+Ensemble Studios,Dallas,United States,-96.8009781,32.7802618,1995,2009,Developer,http://www.ensemblestudios.com/
 Enspire Learning,Austin,United States,-97.7430608,30.267153,2001,0,Developer,www.enspire.com
 Envision Entertainment,Ingelheim,Germany,8.0560682,49.9764195,2013,0,Developer,www.envision-entertainment.de
 Epic Games,Raleigh,United States,-78.6381787,35.7795897,1991,0,Developer,www.epicgames.com
 Epicenter Studios,Sherman Oaks,United States,-118.451357,34.1489719,2007,0,Developer,www.epicenter-studios.com
-Escalation Studios,Dallas,United States,-96.8004511,32.7801399,2007,0,Developer,www.escalationstudios.com
+Epyx,San Francisco,USA,-122.4194155,37.7749295,1978,1993,Developer,
+Escalation Studios,Dallas,United States,-96.8009781,32.7802618,2007,0,Developer,www.escalationstudios.com
 Escape Hatch Entertainment,Austin,United States,-97.7430608,30.267153,2004,0,Developer,www.eschatch.com
+Etranges Libellules,Lyon,France,4.835659,45.764043,1994,2012,Developer,
 Eugen Systems,Paris,France,2.3522219,48.856614,2000,0,Developer,www.eugensystems.com
+Eurocom,Derby,England,-1.4746186,52.9225301,1988,2012,Developer,
 Eutechnyx,Gateshead,England,-1.603411,54.95268,1987,0,Developer,www.eutechnyx.com
 eV Interactive,Chicago,United States,-87.6297982,41.8781136,2007,0,Developer,www.ev-interactive.com
 EverdreamSoft,Geneva,Switzerland,6.1422961,46.1983922,2010,0,Mobile/Handheld,www.everdreamsoft.com
@@ -659,7 +612,7 @@ Exato Games,Lynnwood,United States,-122.3151313,47.8209301,2009,0,Developer,www.
 Excalibur Publisher,Bicester,England,-1.1535899,51.899603,2004,0,Publisher,www.excalibur-publishing.com/
 Exclusive Games,Vladivostok,Russia,131.9,43.133333,2004,0,Developer,www.exclusivegames.com
 exDream entertainment,Hannover,Germany,9.7320104,52.3758916,1994,0,Developer,www.exdream.com
-Exigent Game Art Pvt Ltd,Delhi,India,77.22496,28.635308,2006,0,Developer,www.exigent3d.com/en/
+Exigent Game Art Pvt Ltd,Delhi,India,77.2207238,28.6322444,2006,0,Developer,www.exigent3d.com/en/
 Exit Games,Hamburg,Germany,9.9936818,53.5510846,2003,0,Online Developer,www.exitgames.com
 Exor Studios,Szczecin,Poland,14.5528116,53.4285438,2007,0,Developer,www.exorstudios.com
 Exozet ,Berlin,Germany,13.404954,52.5200066,1996,0,Developer,www.exozet.com
@@ -676,8 +629,9 @@ FanStudio,London,England,-0.1277583,51.5073509,2008,0,Mobile/Handheld,www.fanstu
 fantazm,s-Hertogenbosch,Netherlands,5.3036748,51.6978162,2004,0,Developer,www.fantazm.com
 Farmind,Oulu,Finland,25.4714526,65.0126148,2005,0,Developer,www.farmind.com
 FarSight Studios,Big Bear Lake,United States,-116.9114215,34.2438963,1989,0,Developer,www.farsightstudios.com
-Fathom Interactive,Vancouver,Canada,-123.1139268,49.261226,2006,0,Developer,www.fathominteractive.com
+Fathom Interactive,Vancouver,Canada,-123.1207375,49.2827291,2006,0,Developer,www.fathominteractive.com
 Fatshark,Stockholm,Sweden,18.0685808,59.3293235,2008,0,Developer,www.fatshark.se
+FeelPlus,Tokyo,Japan,139.6917064,35.6894875,1992,2010,Developer,www.feelplus.jp
 FencingFleas,Kuala Lumpur,Malaysia,101.686855,3.139003,2010,0,Mobile/Handheld,www.fencingfleas.com
 Feral Interactive,London,England,-0.1277583,51.5073509,1998,0,Publisher,www.feral.co.uk
 Fierce Fun,Dublin,Ireland,-6.2603097,53.3498053,2014,0,Developer,www.fiercefun.com
@@ -702,6 +656,7 @@ Fishing Cactus,Mons,Belgium,3.956659,50.4542408,2008,0,Developer,www.fishingcact
 FISHLABS (Deep Silver),Hamburg,Germany,9.9936818,53.5510846,2004,0,Developer,www.fishlabs.net
 FiveOneNine Games,Durham,United States,-78.898619,35.9940329,2011,0,Online Developer,www.fiveoneninegames.com
 Fixer Studios,Seattle,United States,-122.3320708,47.6062095,2013,0,Mobile/Handheld,www.fixerstudios.com
+Flagship Studios,San Francisco,USA,-122.4194155,37.7749295,2003,2008,Developer,
 Flarb,Los Angeles,United States,-118.2436849,34.0522342,2001,0,Mobile/Handheld,www.flarb.com
 Flaregames,Karlsruhe,Germany,8.4036527,49.0068901,2011,0,Mobile/Handheld,www.flaregames.com
 FLOAT (hybrid entertainment),San Francisco,United States,-122.4194155,37.7749295,2009,0,Developer,www.floathybrid.com
@@ -716,8 +671,9 @@ Fortuity Infotech,Hyderabad,India,78.486671,17.385044,2009,0,Developer,www.fortu
 Forward Games,Rome,Italy,12.4801802,41.8723889,2006,0,Developer,www.forwardgames.com
 Foundation 9 Entertainment (F9E),Irvine,United States,-117.7946942,33.6839473,1992,0,Developer,www.f9e.com
 Four Door Lemon,Bradford,England,-1.759398,53.795984,2005,0,Developer,www.fourdoorlemon.com
-Fource Labs,Utrecht,Netherlands,5.117778,52.091667,2009,0,Developer,www.fourcelabs.com
+Fource Labs,Utrecht,Netherlands,5.1214201,52.0907374,2009,0,Developer,www.fourcelabs.com
 Fowl Moon Studios,Winnipeg,Canada,-97.1374937,49.8997541,2013,0,Mobile/Handheld,www.fowlmoon.com
+Fox Interactive,Los Angeles,United States,-118.2436849,34.0522342,1994,2006,Publisher,
 Frame Studios Interactive,Belluno,Italy,12.2167088,46.1424635,2002,0,Developer,www.framestudios.com
 Framebunker,Copenhagen,Denmark,12.5683371,55.6760968,2013,0,Developer,www.framebunker.com
 Free Lunch Design,Gothenburg,Sweden,11.97456,57.70887,1998,0,Developer,www.freelunchdesign.com
@@ -737,10 +693,10 @@ Frozenbyte,Helsinki,Finland,24.9410248,60.1733244,2001,0,Developer,www.frozenbyt
 Fuel Games,Ottawa,Canada,-75.6971931,45.4215296,1999,0,Developer,www.fuelgames.com
 Fuero Games,Warsaw,Poland,21.0122287,52.2296756,2010,0,Developer,www.fuerogames.com
 Fugazo,Seattle,United States,-122.3320708,47.6062095,2007,0,Developer,www.fugazo.com
-Fugitive Interactive,Montreal,Canada,-73.5539925,45.5086699,2003,0,Mobile/Handheld,www.fugitive-interactive.com
+Fugitive Interactive,Montreal,Canada,-73.567256,45.5016889,2003,0,Mobile/Handheld,www.fugitive-interactive.com
 Full Fat Productions,Coventry,England,-1.519693,52.406822,1996,0,Developer,www.full-fat.com
 Fun Bits,Seattle,United States,-122.3320708,47.6062095,2009,0,Developer,www.funbits.com
-Fun Labs,Bucharest,Romania,26.103889,44.4325,1999,0,Developer,www.funlabs.com
+Fun Labs,Bucharest,Romania,26.1025384,44.4267674,1999,0,Developer,www.funlabs.com
 Fun Machine,Austin,United States,-97.7430608,30.267153,2011,0,Mobile/Handheld,www.fun-machine.com
 Funatics Software,Oberhausen,Germany,6.8637765,51.4963341,1998,0,Developer,www.funatics.de
 Funcom,Oslo,Norway,10.7522454,59.9138688,1993,0,Online Developer,www.funcom.com
@@ -763,15 +719,15 @@ G5 Entertainment,Stockholm,Sweden,18.0685808,59.3293235,2006,0,"Developer, Publi
 GaiaX,Tokyo,Japan,139.6917064,35.6894875,1999,0,"Developer, Publisher",www.gaiax.co.jp
 Gaijin Entertainment,Moscow,Russia,37.6173,55.755826,2002,0,Developer,www.gaijinent.com
 Gaijin Games,Santa Cruz,United States,-122.0307963,36.9741171,2004,0,Developer,www.gaijingames.com
-GainPlay Studio,Utrecht,Netherlands,5.117778,52.091667,2008,0,Developer,www.gainplaystudio.com
+GainPlay Studio,Utrecht,Netherlands,5.1214201,52.0907374,2008,0,Developer,www.gainplaystudio.com
 Gala Networks Europe,Dublin,Ireland,-6.2603097,53.3498053,2006,0,Online Developer,www.gala-net.eu
 Galactic Village Games,Westford,United States,-71.4378411,42.5792583,1998,0,Developer,www.galactic-village.com
 Galxyz,Mountain View,United States,-122.0838511,37.3860517,2013,0,Developer,www.galxyz.com
-Gamania Digital Entertainment Company,Taipei,Taiwan,121.4913182,25.0435466,1995,0,Publisher,tw.gamania.com
+Gamania Digital Entertainment Company,Taipei,Taiwan,121.5654177,25.0329694,1995,0,Publisher,tw.gamania.com
 Gamar,London,England,-0.1277583,51.5073509,2013,0,Mobile/Handheld,www.gamar.com
 Gambrinous,Dublin,Ireland,-6.2603097,53.3498053,2008,0,Developer,www.gambrinous.com
 Game Arts,Tokyo,Japan,139.6917064,35.6894875,1985,0,Developer,www.gamearts.co.jp
-Game Circus,Dallas,United States,-96.8004511,32.7801399,2010,0,Developer,www.gamecircus.com
+Game Circus,Dallas,United States,-96.8009781,32.7802618,2010,0,Developer,www.gamecircus.com
 Game Developers Association of Australia,Melbourne,Australia,144.96328,-37.814107,1999,0,Organization,www.gdaa.com.au
 Game Factory,Szczecin,Poland,14.5528116,53.4285438,2004,0,Online Developer,www.game-factory.eu
 Game Freak,Tokyo,Japan,139.6917064,35.6894875,1989,0,Developer,www.gamefreak.co.jp
@@ -803,7 +759,7 @@ GameOver-Games,Novosibirsk,Russia,82.9357327,55.0083526,2005,0,Developer,www.gam
 GameResort,Claremont,United States,-117.7197785,34.0966764,2008,0,Mobile/Handheld,www.gameresort.com
 Gamerholix,Leeds,England,-1.5490774,53.8007554,2005,0,Developer,www.gamerholix.co.uk
 GamersGate,Stockholm,Sweden,18.0685808,59.3293235,2006,0,Publisher,www.gamersgate.com
-Games Cafe,Calgary,Canada,-114.0581012,51.0453246,2006,0,"Developer, Publisher",www.gamescafe.com
+Games Cafe,Calgary,Canada,-114.0708459,51.0486151,2006,0,"Developer, Publisher",www.gamescafe.com
 Games Distillery,Bratislava,Slovakia,17.1071373,48.1458923,2008,0,Developer,www.gamesdistillery.com
 Games Faction,Sheffield,England,-1.470085,53.381129,2006,0,Developer,www.gamesfaction.com
 Games For Change ,New York City,United States,-74.0059413,40.7127837,2004,0,Organization,www.gamesforchange.org
@@ -835,7 +791,7 @@ Geemzo,Poznan,Poland,16.9251681,52.406374,2011,0,Developer,www.geemzo.com
 Geeta Games,Portage,United States,-85.5800022,42.2011538,2012,0,Developer,www.geetagames.com
 Geewa,Prague,Czech Republic,14.4378005,50.0755381,2005,0,"Mobile/Handheld, Online Developer",www.geewa.com
 Geniaware,Savona,Italy,8.4645,44.2975603,2008,0,Developer,www.geniaware.com
-Genius Factor Games,Vancouver,Canada,-123.1139268,49.261226,2008,0,"Developer, Publisher",www.geniusfactorgames.com
+Genius Factor Games,Vancouver,Canada,-123.1207375,49.2827291,2008,0,"Developer, Publisher",www.geniusfactorgames.com
 Genki,Tokyo,Japan,139.6917064,35.6894875,1990,0,Developer,www.genki.co.jp
 Genplay Games,Milpitas,United States,-121.8995741,37.4323341,2003,0,Mobile/Handheld,www.genplay.com
 Gentleman Squid Studio,Orlando,United States,-81.3792365,28.5383355,2011,0,Developer,www.gentlemansquidstudio.com
@@ -848,7 +804,7 @@ Giant Interactive,Shanghai,China,121.473701,31.230416,2001,0,Developer,
 Giant Sparrow,Santa Monica,United States,-118.4911912,34.0194543,2009,0,Online Developer,www.giantsparrow.com
 Giant Squid,Santa Monica,United States,-118.4911912,34.0194543,2013,0,Developer,www.giantsquidstudios.com
 GIANTS Software,Zurich,Switzerland,8.5391825,47.3686498,2004,0,Developer,www.giants-software.com
-GigaMedia,Taipei,Taiwan,121.4913182,25.0435466,1999,0,"Developer, Publisher",www.gigamedia.com
+GigaMedia,Taipei,Taiwan,121.5654177,25.0329694,1999,0,"Developer, Publisher",www.gigamedia.com
 Glass Egg,Ho Chi Minh City,Vietnam,106.6296638,10.8230989,1999,0,Developer,www.glassegg.com
 Global Fun,Austin,United States,-97.7430608,30.267153,2000,0,"Mobile/Handheld, Publisher",www.globalfun.com
 Global Game Center,Istanbul,Turkey,28.97696,41.00527,2006,0,Publisher,www.ggc.com.tr
@@ -857,7 +813,7 @@ Glu Games,San Francisco,United States,-122.4194155,37.7749295,2001,0,"Developer,
 Gogii Games,Moncton,Canada,-64.7782313,46.0878165,2006,0,"Developer, Publisher",www.gogiigames.com
 Gogogic,Reykjavik,Iceland,-21.933333,64.133333,2006,0,Developer,www.gogogic.com
 GoldFire Studios,Oklahoma City,United States,-97.5164276,35.4675602,2008,0,Online Developer,www.goldfirestudios.com
-GoldMine Studio,Buenos Aires,Argentina,-58.3815931,-34.6037232,2010,0,Mobile/Handheld,www.goldmine-studio.com
+GoldMine Studio,Buenos Aires,Argentina,-58.3815591,-34.6036844,2010,0,Mobile/Handheld,www.goldmine-studio.com
 GolemLabs,Sherbrooke,Canada,-71.8824288,45.4009928,2000,0,Developer,www.golemlabs.com
 Good Beans,Berlin,Germany,13.404954,52.5200066,2007,0,"Online Developer, Mobile",www.goodbeans.com
 Good Science Studio,Redmond,United States,-122.121512,47.6739881,2008,0,Developer,www.microsoft.com/games/
@@ -875,18 +831,20 @@ Graveck,Saint Paul,United States,-93.0899578,44.9537029,2005,0,Developer,www.gra
 Gravity,Seoul,South Korea,126.9779692,37.566535,2000,0,Developer,ww.gravity.co.kr
 Greater Good Games,Acworth,United States,-84.6768796,34.0659329,2009,0,Developer,www.greatergoodgames.org
 GREE International,San Francisco,United States,-122.4194155,37.7749295,2011,0,Mobile/Handheld,www.gree-corp.com
-Greenhouse Interactive,Vancouver,Canada,-123.1139268,49.261226,2008,0,Publisher,www.playgreenhouse.com
+Greenhouse Interactive,Vancouver,Canada,-123.1207375,49.2827291,2008,0,Publisher,www.playgreenhouse.com
 greenROKS Ventures,New York City,United States,-74.0059413,40.7127837,2013,0,Developer,www.greenroks.com
 Greenstreet Games,St. Ives,England,-5.4777498,50.2152089,1979,0,Publisher,www.greenstreetgames.com
+Gremlin Interactive,Sheffield,England,-1.470085,53.381129,1984,1999,Developer,
 Grey Area,Helsinki,Finland,24.9410248,60.1733244,2009,0,Mobile/Handheld,www.greyarealabs.com
 Grezzo,Shibuya,Japan,139.6982122,35.6640352,2006,0,Developer,
-Grimm Bros,Philadelphia,United States,-75.163789,39.952335,2012,0,Developer,www.grimm-bros.com
+Grimm Bros,Philadelphia,United States,-75.1652215,39.9525839,2012,0,Developer,www.grimm-bros.com
 GriN Multimedia,Antwerp,Belgium,4.4024643,51.2194475,2002,0,Developer,www.grin.be
 Grinding Gear Games,Auckland,New Zealand,174.7633315,-36.8484597,2006,0,Online Developer,www.grindinggear.com
 Gripati Digital Entertainment,Istanbul,Turkey,28.97696,41.00527,2011,0,Mobile/Handheld,www.gripati.com
 Griptonite Games,Kirkland,USA,-122.2087353,47.6814875,1994,0,Developer,
 GRL Games,Santa Cruz,United States,-122.0307963,36.9741171,2010,0,Mobile/Handheld,www.grlgames.net
 Grumpyface Games,Tempe,United States,-111.9400054,33.4255104,2010,0,Mobile/Handheld,www.grumpyfacestudios.com
+GSC Game World,Kiev,Ukraine,30.5234,50.4501,1995,2011,Developer,www.gsc-game.com
 Guerilla,Amsterdam,Netherlands,4.8951679,52.3702157,2000,0,Developer,www.guerrilla-games.com
 Guild Software,Milwaukee,United States,-87.9064736,43.0389025,1998,0,Online Developer,www.guildsoftware.com
 GungHo Online Entertainment,Tokyo,Japan,139.6917064,35.6894875,1998,0,Developer,
@@ -908,17 +866,18 @@ Happy Elements,Beijing,China,116.407395,39.904211,2009,0,Online Developer,www.ha
 Hard Light Studios (SEGA),Leamington Spa,England,-1.5200789,52.2851905,2012,0,Mobile/Handheld,www.hardlightstudio.com
 Hardscore Games,Berlin,Germany,13.404954,52.5200066,2013,0,Mobile/Handheld,www.hardscoregames.com
 Harmonix Music Systems,Cambridge,United States,-71.1097335,42.3736158,1995,0,Developer,www.harmonixmusic.com
+Hasbro Interactive,Alameda,United States,-122.2416355,37.7652065,1995,2001,Publisher,
 Haunted Temple Studios,Los Angeles,United States,-118.2436849,34.0522342,2009,0,Developer,www.skullsoftheshogun.com
-haute technique,Utrecht,Netherlands,5.117778,52.091667,2001,0,Developer,www.hautetechnique.com
+haute technique,Utrecht,Netherlands,5.1214201,52.0907374,2001,0,Developer,www.hautetechnique.com
 HB Studios,Lunenburg,Canada,-64.3188354,44.3770053,2000,0,Developer,www.hb-studios.com
-Headcandy,Utrecht,Netherlands,5.117778,52.091667,2008,0,Developer,www.headcandy.eu
+Headcandy,Utrecht,Netherlands,5.1214201,52.0907374,2008,0,Developer,www.headcandy.eu
 Headstrong Games (Kuju Entertainment),London,England,-0.1277583,51.5073509,2008,0,Developer,www.headstrong-games.com
 Headup Games,Cologne,Germany,6.9602786,50.937531,2009,0,Publisher,www.headupgames.com
 Heavy Iron,Culver City,United States,-118.3964665,34.0211224,1999,0,Developer,www.heavy-iron.com
 Hellfire Games,Austin,United States,-97.7430608,30.267153,2008,0,Developer,www.hellfiregames.com
 Hello Games,Guildford,England,-0.570409,51.23622,2009,0,Developer,www.hellogames.org
 Helsinki Game Works,Helsinki,Finland,24.9410248,60.1733244,2014,0,Mobile/Handheld,www.helsinkigameworks.com
-Hemisphere Games,Montreal,Canada,-73.5539925,45.5086699,2009,0,Developer,www.hemispheregames.com
+Hemisphere Games,Montreal,Canada,-73.567256,45.5016889,2009,0,Developer,www.hemispheregames.com
 Her Interactive,Bellevue,United States,-122.2006786,47.610377,1995,0,"Developer, Publisher",www.herinteractive.com
 HeroCraft,Kaliningrad,Russia,20.516667,54.716667,2001,0,Developer,www.herocraft.com
 Heroic Stand,Orlando,United States,-81.3792365,28.5383355,2014,0,Mobile/Handheld,www.heroic-stand.com
@@ -926,7 +885,7 @@ Hexage,Mnisek pod Brdy,Czech Republic,14.261765,49.8665005,2009,0,Developer,www.
 Hexagon Game Labs,Hamburg,Germany,9.9936818,53.5510846,2013,0,"Online Developer, Publisher",www.hexagongamelabs.com
 Hi-Rez Studios,Atlanta,United States,-84.3879824,33.7489954,2005,0,Online Developer,www.hirezstudios.com
 hi5,San Francisco,United States,-122.4194155,37.7749295,2004,0,Online Developer,www.hi5.com
-Hibernum Creations,Montreal,Canada,-73.5539925,45.5086699,2005,0,Developer,www.hibernum.com
+Hibernum Creations,Montreal,Canada,-73.567256,45.5016889,2005,0,Developer,www.hibernum.com
 Hidden Path Entertainment,Bellevue,United States,-122.2006786,47.610377,2006,0,Developer,www.hiddenpath.com
 High 5 Games,Mahwah,United States,-74.1435843,41.0886216,1995,0,Developer,www.high5games.com
 High Impact Games,Sherman Oaks,United States,-118.451357,34.1489719,2003,0,Developer,www.highimpactgames.com
@@ -935,13 +894,14 @@ High Voltage Software,Hoffman Estates,United States,-88.1227199,42.0629915,1993,
 Hinterland Studio,Cumberland,Canada,-125.031269,49.618806,2012,0,Developer,www.hinterlandgames.com
 Hipsoft,Redmond,United States,-122.121512,47.6739881,2002,0,Developer,www.hipsoft.com
 HitPoint Studios,Hatfield,United States,-75.2993417,40.2798274,2008,0,Developer,www.hitpointstudios.com
-Hololabs,Montreal,Canada,-73.5539925,45.5086699,2010,0,Developer,www.hololabs.org
+Hololabs,Montreal,Canada,-73.567256,45.5016889,2010,0,Developer,www.hololabs.org
 Honeyslug,London,England,-0.1277583,51.5073509,2008,0,Developer,www.honeyslug.com
 hopelab,Palo Alto,United States,-122.1430195,37.4418834,2001,0,Developer,www.hopelab.org
-Hoplon Infotainment,Florianopolis,Brazil,-48.5481743,-27.5949884,2004,0,Online Developer,www.hoplon.com
-Hothead Games,Vancouver,Canada,-123.1139268,49.261226,2006,0,Developer,www.hotheadgames.com
+Hoplon Infotainment,Florianopolis,Brazil,-48.5480499,-27.5953778,2004,0,Online Developer,www.hoplon.com
+Hothead Games,Vancouver,Canada,-123.1207375,49.2827291,2006,0,Developer,www.hotheadgames.com
 HouseMarque,Helsinki,Finland,24.9410248,60.1733244,1995,0,Developer,www.housemarque.com
-Hubbub,Utrecht,Netherlands,5.117778,52.091667,2011,0,Developer,www.whatsthehubbub.nl
+Hubbub,Utrecht,Netherlands,5.1214201,52.0907374,2011,0,Developer,www.whatsthehubbub.nl
+Hudson Soft,Tokyo,Japan,139.6917064,35.6894875,1973,2012,Developer,
 Human Head Studios,Madison,United States,-89.4012302,43.0730517,1997,0,Developer,www.humanhead.com
 HumaNature Studios,Berkeley,United States,-122.272747,37.8715926,2006,0,Developer,www.humanaturestudios.com
 Humble Bundle,San Francisco,United States,-122.4194155,37.7749295,2010,0,Organization,www.humblebundle.com
@@ -967,11 +927,11 @@ IF Games,Zurich,Switzerland,8.5391825,47.3686498,2013,0,Developer,www.ifgames.ch
 If You Can,San Mateo,United States,-122.3255254,37.5629917,2012,0,Mobile/Handheld,www.ifyoucan.org
 iFun4all,Lublin,Poland,22.5684463,51.2464536,2009,0,Developer,www.ifun4all.com
 IGA,Chicago,United States,-87.6297982,41.8781136,1994,0,Organization,www.igda.org/
-IGG,Vancouver,Canada,-123.1139268,49.261226,2006,0,Online Developer,www.igg.com
+IGG,Vancouver,Canada,-123.1207375,49.2827291,2006,0,Online Developer,www.igg.com
 Ignite Game Technologies,San Francisco,United States,-122.4194155,37.7749295,2008,0,Online Developer,www.ignitegt.com
 Ijsfontein,Amsterdam,Netherlands,4.8951679,52.3702157,1997,0,Developer,www.ijsfontein.nl
-Illfonic,Denver,United States,-104.9847179,39.737567,2007,0,Developer,www.illfonic.com
-Illogika,Montreal,Canada,-73.5539925,45.5086699,2009,0,Developer,www.illogika.com
+Illfonic,Denver,United States,-104.9848593,39.7384357,2007,0,Developer,www.illfonic.com
+Illogika,Montreal,Canada,-73.567256,45.5016889,2009,0,Developer,www.illogika.com
 iLogos,Lugansk,Ukraine,39.307815,48.574041,2006,0,Online Developer,www.ilogos-ua.com
 Image & Form International,Gothenburg,Sweden,11.97456,57.70887,1997,0,Developer,www.imageform.se
 Image Space,Ann Arbor,United States,-83.7430378,42.2808256,1992,0,Developer,www.imagespaceinc.com
@@ -989,7 +949,7 @@ IncaGold,Lezayre,Isle of Man,-4.42923,54.3187811,1996,0,Publisher,www.incagold.c
 Incredible Technologies,Arlington Heights,United States,-87.9806265,42.0883603,1985,0,Developer,www.itsgames.com
 Incubator Games,Toronto,Canada,-79.3831843,43.653226,2009,0,Developer,www.incubatorgames.com
 Independent Arts,Hamm,Germany,7.8159816,51.6738583,1990,0,Developer,www.independent-arts-software.de
-Indestructible Cannon,Houston,United States,-95.3693896,29.7601927,2010,0,Developer,www.indestructiblecannon.com
+Indestructible Cannon,Houston,United States,-95.3698028,29.7604267,2010,0,Developer,www.indestructiblecannon.com
 Indiagames (Disney),Mumbai,India,72.8776559,19.0759837,1999,0,"Mobile/Handheld, Publishing",www.indiagames.com
 Indienomicon,Orlando,United States,-81.3792365,28.5383355,2013,0,Organization,www.indienomicon.com
 indiePub Entertainment,Cincinnati,United States,-84.5120196,39.1031182,2012,0,"Developer, Publisher",www.indiepubentertainment.com
@@ -1009,6 +969,7 @@ Inhance Digital Corporation,Los Angeles,United States,-118.2436849,34.0522342,19
 iNiS Corporation,Tokyo,Japan,139.6917064,35.6894875,1997,0,Developer,www.inis.co.jp
 Inix Soft,Seoul,South Korea,126.9779692,37.566535,1998,0,"Developer, Publisher",www.inixsoft.co.kr
 InLogic Software,Banska Bystrica,Slovakia,19.1461917,48.736277,2005,0,Mobile ,www.inlogic.sk
+Innerloop Studios,Oslo,Norway,10.7522454,59.9138688,1996,2003,Developer,
 InnoGames,Hamburg,Germany,9.9936818,53.5510846,2007,0,"Developer, Publisher",www.innogames.de
 innoWate,Riga,Latvia,24.1051864,56.9496487,2009,0,Online Developer,www.innowate.com
 Ino-Co,Krasnodar City,Russia,38.966667,45.033333,2004,0,Developer,www.ino-co.com
@@ -1021,7 +982,7 @@ INTENIUM,Hamburg,Germany,9.9936818,53.5510846,2000,0,"Developer, Publisher",www.
 Interabang Entertainment,San Francisco,United States,-122.4194155,37.7749295,2009,0,Online Developer,www.interabangent.com
 Interama Games,Vitoria,Brazil,-40.2957768,-20.2976178,2005,0,Developer,www.interama.net
 Interceptor Entertainment,Herning,Denmark,8.967322,56.138557,2010,0,Developer,
-Interdimensional Games,Vancouver,Canada,-123.1139268,49.261226,2006,0,Developer,www.interdimensionalgames.com
+Interdimensional Games,Vancouver,Canada,-123.1207375,49.2827291,2006,0,Developer,www.interdimensionalgames.com
 International Game Technology,Reno,United States,-119.8138027,39.5296329,1975,0,Developer,www.igt.com
 Interplay Entertainment,Beverly Hills,United States,-118.4003563,34.0736204,1983,0,"Developer, Publisher",www.interplay.com
 Intervisio,Helsinki,Finland,24.9410248,60.1733244,2000,0,Developer,www.intervisio.fi
@@ -1033,20 +994,22 @@ Inverted Axis,Corona,United States,-117.5664384,33.8752935,2013,0,Developer,www.
 Invictus,Nyulas,Hungary,21.601238,47.5612819,1992,0,Developer,www.invictus.hu
 inXile Entertainment,Newport Beach,United States,-117.9289469,33.6189101,2002,0,Developer,www.inxile-entertainment.com
 IO Interactive,Copenhagen,Denmark,12.5683371,55.6760968,1998,0,Developer,www.ioi.dk
+Ion Storm,Dallas,USA,-96.8009781,32.7802618,1996,2005,Developer,
 Iran National Foundation of Computer Game,Tehran,Iran,51.423056,35.696111,2007,0,Organization,www.ircg.ir
 IREM Software Engineering,Hakusan,Japan,136.5658915,36.5144271,1974,0,Developer,www.irem.co.jp
 Iridium Studios,Burbank,United States,-118.3089661,34.1808392,2009,0,Developer,www.playiridium.com
 Iron Galaxy Studios,Chicago,United States,-87.6297982,41.8781136,2008,0,Developer,
 Iron Realms Entertainment,San Francisco,United States,-122.4194155,37.7749295,1996,0,Developer,www.ironrealms.com
 Iron Will Games,Austin,United States,-97.7430608,30.267153,2004,0,Online Developer,www.ironwillgames.com
-Ironclad Games,Vancouver,Canada,-123.1139268,49.261226,2003,0,Developer,www.ironcladgames.com
+Ironclad Games,Vancouver,Canada,-123.1207375,49.2827291,2003,0,Developer,www.ironcladgames.com
 Ironcode Gaming,Noida,India,77.3910265,28.5355161,2003,0,Developer,www.ironcode.com
 Ironhide Game Studio,Montevideo,Uruguay,-56.1645314,-34.9011127,2010,0,Mobile/Handheld,www.ironhidegames.com
 Ironstar Helsinki,Helsinki,Finland,24.9410248,60.1733244,2005,0,Online Developer,www.ironstarhelsinki.com
+Irrational Games,Quincy,USA,-71.0022705,42.2528772,1996,2014,Developer,
 Irrgheist,Tubingen,Germany,9.0576448,48.5216364,2006,0,Developer,www.irrgheist.com
 Isopod Labs,Los Angeles,United States,-118.2436849,34.0522342,2007,0,Developer,www.isopodlabs.net
-ISOTX,Utrecht,Netherlands,5.117778,52.091667,2005,0,Developer,www.isotx.com
-IUGO Mobile Entertainment,Vancouver,Canada,-123.1139268,49.261226,2003,0,Mobile/Handheld,www.iugome.com
+ISOTX,Utrecht,Netherlands,5.1214201,52.0907374,2005,0,Developer,www.isotx.com
+IUGO Mobile Entertainment,Vancouver,Canada,-123.1207375,49.2827291,2003,0,Mobile/Handheld,www.iugome.com
 Ivory Tower,Lyon,France,4.835659,45.764043,2007,0,Developer,www.ivory-tower.fr
 iWin,San Francisco,United States,-122.4194155,37.7749295,2001,0,"Developer, Publisher",www.iwin.com
 Jadestone Group,Stockholm,Sweden,18.0685808,59.3293235,2000,0,"Mobile, Online Developer",
@@ -1064,49 +1027,50 @@ JiggeryPokery,Guildford,England,-0.570409,51.23622,2013,0,Mobile/Handheld,www.ji
 Joe Got Game,Chandler,United States,-111.8412502,33.3061605,2012,0,Developer,www.joegotgame.com
 Joju Games,Berkeley,United States,-122.272747,37.8715926,2005,0,Developer,www.jojugames.com
 Jovian Minds,Denton,United States,-97.1330683,33.2148412,2005,0,Developer,www.jovianminds.com
+JoWooD Entertainment AG,Rottenmann,Austria,14.3584779,47.5223703,1995,2011,Publisher,
 JoyBits,Saint Petersburg,Russia,30.3350986,59.9342802,2002,0,Mobile/Handheld,www.joybits.org
 Joyride Laboratories,Berlin,Germany,13.404954,52.5200066,2009,0,Developer,www.joyridelabs.de
 Joystick Labs,Durham,United States,-78.898619,35.9940329,2010,0,Organization,www.joysticklabs.com
-Jujubee,Katowice,Poland,19.0237815,50.2648919,2012,0,Developer,www.jujubee.pl
-Just A Game,Berlin,Germany,13.404954,52.5200066,2010,0,Publisher,www.justagame.com
+Jujubee,Katowice,Poland,19.0237815,50.2667,2012,0,Developer,www.jujubee.pl
+Just A Game,Berlin,Germany,13.404954,50.2667,2010,0,Publisher,www.justagame.com
 Just Add Water ,Leeds,England,-1.5490774,53.8007554,2006,0,Developer,www.jawltd.com
-Just Flight,Huntingdon,England,-0.182552,52.33146,1995,0,"Developer, Publisher",www.justflight.com
 Just Funny Games,Imola,Italy,11.7124294,44.3599996,2009,0,Developer,www.justfunnygames.com
 JV Games,Las Vegas,USA,-115.1398296,36.1699412,1999,0,Developer,
-Jynx Playware,Recife,Brazil,-34.8769621,-8.0475458,2000,0,Developer,www.jynx.com.br
+Jynx Playware,Recife,Brazil,-34.8828969,-8.0578381,2000,0,Developer,www.jynx.com.br
 K-D Lab,Kaliningrad,Russia,20.516667,54.716667,1995,0,Developer,www.kdlab.com
 K2 Network,Irvine,United States,-117.7946942,33.6839473,2001,0,Online Developer,www.gamersfirst.com
 Kabam,San Francisco,United States,-122.4194155,37.7749295,2006,0,"Developer,Online Developer, Publisher",www.kabam.com
 Kakare Interactive,Istanbul,Turkey,28.97696,41.00527,2011,0,Developer,www.kakare.net
-Kalador Entertainment,Vancouver,Canada,-123.1139268,49.261226,2000,0,Mobile/Handheld,www.kalador.com
+Kalador Entertainment,Vancouver,Canada,-123.1207375,49.2827291,2000,0,Mobile/Handheld,www.kalador.com
 Kalani Games,Austin,United States,-97.7430608,30.267153,2007,0,Developer,www.kalanigames.com
 Kalloc Studios,Carlsbad,United States,-117.3505939,33.1580933,2006,0,Developer,www.kallocstudios.com
 Kalypso Media,Worms,Germany,8.3507182,49.6341372,2006,0,"Developer, Publisher",
 KAMAi MEDIA,Bitola,Macedonia,21.334722,41.031944,2011,0,Developer,www.kamaikamai.com
 Kaneva,Atlanta,United States,-84.3879824,33.7489954,2004,0,Online Developer,www.kaneva.com
+Kaos Studios,New York City,USA,-74.0059413,40.7127837,2006,2011,Developer,
 Karios Games,Geneva,Switzerland,6.1422961,46.1983922,2013,0,Mobile/Handheld,www.kariosgames.com
 KBooM! Games,Chicago,United States,-87.6297982,41.8781136,2010,0,Developer,www.kboomgames.com
 Keen Games,Frankfurt am Main,Germany,8.6821267,50.1109221,2005,0,Developer,www.keengames.com
 Keen Software House,Prague,Czech Republic,14.4378005,50.0755381,2010,0,Developer,www.keenswh.com
-KefSensei Studios,Miami,United States,-80.2040435,25.7890972,2007,0,Developer,www.kefsensei.com
+KefSensei Studios,Miami,United States,-80.1917902,25.7616798,2007,0,Developer,www.kefsensei.com
 Kemco,Tokyo,Japan,139.6917064,35.6894875,1984,0,Developer,www.kemco.jp
 Kenney.nl,Kerkrade,Netherlands,6.0705486,50.8659457,2009,0,Developer,www.kenney.nl
 Kentaura,Singapore,Singapore,103.8509491,1.2800945,2011,0,Online Developer,www.kentaura.com
-Kerberos Productions,Vancouver,Canada,-123.1139268,49.261226,2003,0,Developer,www.kerberos-productions.com
+Kerberos Productions,Vancouver,Canada,-123.1207375,49.2827291,2003,0,Developer,www.kerberos-productions.com
 Kerpoof Studios (Disney Interactive Media Group),Boulder,United States,-105.2705456,40.0149856,2006,0,Online Developer,www.kerpoof.com
-Keystone Games Studio,Taipei,Taiwan,121.4913182,25.0435466,2005,0,Developer,www.keystonegame.com
+Keystone Games Studio,Taipei,Taiwan,121.5654177,25.0329694,2005,0,Developer,www.keystonegame.com
 Khaeon Gamestudio,Den Haag,Netherlands,4.3006999,52.0704978,1999,0,Developer,www.khaeon.com
 Kheops Studio,Paris,France,2.3522219,48.856614,2003,0,Developer,www.kheopsstudio.fr
 Kidcore,Mainz,Germany,8.2472526,49.9928617,2013,0,Mobile/Handheld,www.kidcore.net
 Kihon Games,Tucson,United States,-110.926479,32.2217429,2011,0,Mobile/Handheld,www.kihongames.com
-Killhouse Games,Bucharest,Romania,26.103889,44.4325,2012,0,Developer,www.inthekillhouse.com
+Killhouse Games,Bucharest,Romania,26.1025384,44.4267674,2012,0,Developer,www.inthekillhouse.com
 Kiloo Games,Aarhus,Denmark,10.203921,56.162939,2000,0,Developer,
 Kinesthetic Games,Guildford,England,-0.570409,51.23622,2011,0,Developer,www.kinestheticgames.com
 King,London,England,-0.1277583,51.5073509,2003,0,"Mobile, Online Developer",www.company.king.com
 Kingdom Games,Austin,United States,-97.7430608,30.267153,2013,0,Developer,www.kingdomgames.com
 KingsIsle Entertainment,Austin,United States,-97.7430608,30.267153,2005,0,Online Developer,www.kingsisle.com
 Kixeye,San Francisco,United States,-122.4194155,37.7749295,2007,0,Online Developer,www.kixeye.com
-Klei Entertainment,Vancouver,Canada,-123.1139268,49.261226,2005,0,Developer,www.kleientertainment.com
+Klei Entertainment,Vancouver,Canada,-123.1207375,49.2827291,2005,0,Developer,www.kleientertainment.com
 KlickNation (Electronic Arts),Sacramento,United States,-121.4943996,38.5815719,2007,0,Online Developer,www.klicknation.com
 Knowledge Adventure,Los Angeles,United States,-118.2436849,34.0522342,1989,0,"Developer, Publisher",www.knowledgeadventure.com
 Kobojo,Paris,France,2.3522219,48.856614,2008,0,Online Developer,www.kobojo.com
@@ -1126,7 +1090,8 @@ Kukla Interactive,Istanbul,Turkey,28.97696,41.00527,2009,0,Developer,www.kuklain
 Kuma Reality Games,New York City,United States,-74.0059413,40.7127837,2003,0,Online Developer,www.kumawar.com
 Kung Fu Factory,Los Angeles,United States,-118.2436849,34.0522342,2002,0,Developer,www.kungfufactory.com
 Kurechii,Puchong,Malaysia,101.617767,3.02534,2009,0,Developer,www.kurechii.com
-Kutoka,Montreal,Canada,-73.5539925,45.5086699,1995,0,Developer,www.kutoka.com
+Kush Games,Camarillo,USA,-119.0376023,34.2163937,2002,2005,Developer,
+Kutoka,Montreal,Canada,-73.567256,45.5016889,1995,0,Developer,www.kutoka.com
 Kuuasema,Helsinki,Finland,24.9410248,60.1733244,2004,0,Developer,www.kuuasema.com
 Kylotonn Entertainment,Paris,France,2.3522219,48.856614,2002,0,Developer,www.kylotonn.com
 Labu Games,Jakarta,Indonesia,106.845599,-6.2087634,2010,0,Mobile/Handheld,www.labugames.com
@@ -1138,8 +1103,9 @@ Lantern,Los Angeles,United States,-118.2436849,34.0522342,2008,0,Developer,www.l
 Large Animal Games,New York City,United States,-74.0059413,40.7127837,2001,0,Publisher,www.largeanimal.com
 Larian Studios,Ghent,Belgium,3.7174243,51.0543422,1996,0,Developer,www.larian.com
 Larva Game Studios,Guadalajara,Mexico,-103.3496092,20.6596988,2007,0,Developer,www.larvagamestudios.com
-Laser Shot,Houston,United States,-95.3693896,29.7601927,1999,0,Developer,www.lasershot.com
+Laser Shot,Houston,United States,-95.3698028,29.7604267,1999,0,Developer,www.lasershot.com
 Last Day of Work,San Francisco,United States,-122.4194155,37.7749295,2002,0,Developer,www.ldw.com
+Launching Pad Games,Wellington,New Zealand,174.776236,-41.2864603,2008,2012,Mobile/Handheld,www.launchingpadgames.com
 Lazy 8 Studios,San Francisco,United States,-122.4194155,37.7749295,2008,0,Developer,www.lazy8studios.com
 LeapFrog Enterprises,Emeryville,United States,-122.2852473,37.831316,1994,0,Publisher,www.leapfrog.com
 Left Behind Games,Murrieta,United States,-117.2139232,33.5539143,2001,0,Developer,www.leftbehindgames.com
@@ -1176,9 +1142,11 @@ Llamasoft,Reading,England,-0.9781303,51.4542645,1982,0,Developer,
 Lockpick Entertainment,Skovde,Sweden,13.8461208,58.3902782,2004,0,Developer,www.lockpick.se
 Longbow Digital Arts,Toronto,Canada,-79.3831843,43.653226,2000,0,Developer,www.ldagames.com
 Longtail Studios,Halifax,Canada,-63.5753196,44.6488625,2004,0,Developer,www.longtailstudios.com
+Looking Glass Studios,Cambridge,USA,-71.1097335,42.3736158,1990,2000,Developer,
 Loot Drop,San Mateo,United States,-122.3255254,37.5629917,2010,0,Online Developer,www.lootdrop.com
 Louisiana Digital Gaming Initiative (LDGI),Baton Rouge,United States,-91.1403196,30.4582829,2010,0,Organization,www.ldgi.biz
-Ludia,Montreal,Canada,-73.5539925,45.5086699,2007,0,Developer,www.ludia.com
+LucasArts Entertainment Company (Disney),San Francisco,United States,-122.4194155,37.7749295,1982,2013,"Developer, Publisher",www.lucasarts.com
+Ludia,Montreal,Canada,-73.567256,45.5016889,2007,0,Developer,www.ludia.com
 Ludosity Interactive,Skovde,Sweden,13.8461208,58.3902782,2008,0,Developer,www.ludosity.com
 LuGus Studios,Genk,Belgium,5.5021,50.96613,2011,0,Developer,www.lugus-studios.be
 Luma Arcade,Johannesburg,South Afria,28.0473051,-26.2041028,2006,0,Developer,www.luma.co.za
@@ -1186,7 +1154,8 @@ Lumentech,Aracaju,Brazil,-37.0730823,-10.9472468,2004,0,Developer,www.lumentech.
 Lumosity,San Francisco,United States,-122.4194155,37.7749295,2005,0,Online Developer,www.lumosity.com
 Lunagames,Emmen,Netherlands,6.8975851,52.7858037,2003,0,Mobile/Handheld,www.lunagames.com
 Lunar Software,Preston,England,-2.70309,53.763201,2011,0,Developer,www.lunar-software.com
-lvl Studio,Montreal,Canada,-73.5539925,45.5086699,2003,0,Developer,www.lvlstudio.com
+Luxoflux,Santa Monica,USA,-118.4911912,34.0194543,1998,2010,Developer,
+lvl Studio,Montreal,Canada,-73.567256,45.5016889,2003,0,Developer,www.lvlstudio.com
 M-Inverse,Hong Kong,China,114.109497,22.396428,2005,0,Developer,www.m-inverse.com
 Machine Zone,Palo Alto,United States,-122.1430195,37.4418834,2008,0,Mobile/Handheld,www.machinezone.com
 MachineGames (ZeniMax Media),Uppsala,Sweden,17.6389267,59.8585638,2009,0,Developer,www.machinegames.com
@@ -1208,14 +1177,14 @@ Maharaja Games,Mumbai,India,72.8776559,19.0759837,2004,0,Developer,www.maharajag
 Majesco Entertainment,Edison,United States,-74.4120953,40.5187154,1986,0,Publisher,www.majescoentertainment.com
 ManagerZone,Karlskrona,Sweden,15.5869,56.161224,2001,0,Online Developer,www.managerzone.com
 Mandragora,Moscow,Russia,37.6173,55.755826,2012,0,Mobile/Handheld,www.themandragora.ru
-Manifesto Games,Recife,Brazil,-34.8769621,-8.0475458,2005,0,Developer,www.manifestogames.com.br
+Manifesto Games,Recife,Brazil,-34.8828969,-8.0578381,2005,0,Developer,www.manifestogames.com.br
 Manthan Studio,Nagpur,India,79.0881546,21.1458004,2008,0,Online Developer,www.manthanstudio.com
 Mantiz Game Studios,Pachuca,Mexico,-98.7591311,20.1010608,2010,0,Developer,www.mantizgs.com
 Marvelous AQL Europe,Tunbridge Wells,United Kingdom,0.263695,51.132377,2012,0,Publisher,www.marvelousgames.com
 Masque Publisher,Lone Tree,United States,-104.8970678,39.536482,1987,0,Publisher,www.masque.com
 Massive Black,San Francisco,United States,-122.4194155,37.7749295,2003,0,Online Developer,www.massiveblack.com
 Massive Entertainment (Ubisoft),Malmo,Sweden,13.003822,55.604981,1997,0,Developer,www.massive.se
-Mastertronic,Farringdon,England,-0.1051787,51.52017,1983,0,Publisher,www.mastertronic.com
+Mastertronic,Farringdon,England,-0.10518,51.52017,1983,0,Publisher,www.mastertronic.com
 Masthead Studios,Sofia,Bulgaria,23.3218675,42.6977082,2005,0,Online Developer,www.mastheadstudios.net
 Matrix Games,Staten Island,United States,-74.1502007,40.5795317,1999,0,Publisher,www.matrixgames.com
 Maximize Games,Medan,Indonesia,98.6692998,3.5915405,2000,0,Developer,www.maximizegames.com
@@ -1223,7 +1192,7 @@ Maxis Software,Emeryville,USA,-122.2852473,37.831316,1987,0,Developer,
 Mayness Studios,Sao Paulo,Brazil,-46.6333094,-23.5505199,2011,0,Mobile/Handheld,www.mayness.com.br
 Maysalward,Amman,Jordan,35.9456951,31.9565783,2003,0,Mobile/Handheld,www.maysalward.com
 Mean Hamster Software,Deer Park,United States,-95.1238204,29.7052284,1985,0,Developer,www.meanhamster.com
-Meantime Mobile Creations,Recife,Brazil,-34.8769621,-8.0475458,2003,0,Mobile/Handheld,www.meantime.com.br
+Meantime Mobile Creations,Recife,Brazil,-34.8828969,-8.0578381,2003,0,Mobile/Handheld,www.meantime.com.br
 Mechanical Butterfly Studios,San Francisco,United States,-122.4194155,37.7749295,2002,0,Developer,www.mbsgames.com
 Mechanist Games,Xiamen,China,118.089425,24.479834,2009,0,Online Developer,www.mechanist.co
 Medaverse,Dover,United States,-75.5243682,39.158168,2002,0,Developer,www.medaverse.com
@@ -1254,6 +1223,7 @@ Microsoft Game Studios,Redmond,United States,-122.121512,47.6739881,2002,0,Publi
 Midas Interactive,Bishops Stortford,England,0.158605,51.869052,1999,0,Publisher,www.midasinteractive.com
 Midnight Studios,Austin,United States,-97.7430608,30.267153,2007,0,Developer,www.midnight-studios.net
 Midnight Synergy,Regina,Canada,-104.606667,50.454722,1995,0,Developer,www.midnightsynergy.com
+Midway Games,Chicago,USA,-87.6297982,41.8781136,1988,2009,"Developer, Publisher",
 Might & Delight,Stockholm,Sweden,18.0685808,59.3293235,2010,0,Developer,www.mightanddelight.com
 Mighty Rabbit Studios,Cary,United States,-78.7811169,35.79154,2010,0,Mobile/Handheld,www.mightyrabbitstudios.com
 MightyGate,Seville,Spain,-5.9844589,37.3890924,2011,0,Mobile/Handheld,www.mightygate.com
@@ -1267,9 +1237,10 @@ Mindscape Asia Pacific,North Sydney,Australia,151.2071142,-33.8386344,1995,0,Pub
 Mindscape Germany,Aachen,Germany,6.0838868,50.7753455,1991,0,Publisher,www.mindscape.com
 Mindshapes,London,England,-0.1277583,51.5073509,2010,0,Developer,www.mindshapes.com
 MindSnacks,San Francisco,United States,-122.4194155,37.7749295,2010,0,Mobile/Handheld,www.mindsnacks.com
+Mindware Studios,Prague,Czech Republic,14.4378005,50.0755381,2002,2011,Developer,www.mindwarestudios.com
 MiniMega,Brisbane,Australia,153.0234489,-27.4710107,2011,0,Developer,www.minimega.com.au
 MinoMonsters,San Francisco,United States,-122.4194155,37.7749295,2011,0,Mobile/Handheld,www.minomonsters.com
-Minority Media,Montreal,Canada,-73.5539925,45.5086699,2010,0,Developer,www.weareminority.com
+Minority Media,Montreal,Canada,-73.567256,45.5016889,2010,0,Developer,www.weareminority.com
 Mist Walker,Tokyo,Japan,139.6917064,35.6894875,2004,0,Developer,www.mistwalkercorp.com
 Mitchell Corporation,Tokyo,Japan,139.6917064,35.6894875,1960,0,Developer,
 Mitorah Games,Hameenlinna,Finland,24.4672831,60.993641,2004,0,Developer,www.mitorahgames.com
@@ -1283,7 +1254,7 @@ Mode 7,London,England,-0.1277583,51.5073509,2005,0,Developer,www.mode7games.com
 Mohawk Games,Baltimore,United States,-76.6121893,39.2903848,2013,0,Developer,www.mohawkgames.com
 Mojang AB,Stockholm,Sweden,18.0685808,59.3293235,2009,0,Developer,
 Mojang Specifications,Stockholm,Sweden,18.0685808,59.3293235,2009,0,Developer,www.mojang.com
-Mojaro,Vancouver,Canada,-123.1139268,49.261226,2010,0,Mobile/Handheld,www.mojaro.com
+Mojaro,Vancouver,Canada,-123.1207375,49.2827291,2010,0,Mobile/Handheld,www.mojaro.com
 Mojo Forest,Singapore,Singapore,103.8509491,1.2800945,2011,0,Mobile/Handheld,www.mojoforest.com
 Mojo-Bone Software Studios,Phoenix,United States,-112.0740373,33.4483771,2008,0,Developer,www.mojo-bone.net
 Momentum Digital Media Technologies,Kocaeli,Turkey,29.8815203,40.8532704,1998,0,Developer,www.momentum-dmt.com
@@ -1297,9 +1268,9 @@ Moonberry Studios,Porto,Portugal,-8.6291053,41.1579438,2009,0,Developer,www.moon
 Moonpod,Sheffield,England,-1.470085,53.381129,2002,0,Developer,www.moonpod.com
 Morphonix,Sausalito,United States,-122.4852507,37.8590937,1990,0,Developer,www.morphonix.com
 Motiga,Bellevue,United States,-122.2006786,47.610377,2010,0,Online Developer,www.motiga.com
-Mukutu,Santos,Brazil,-46.3354875,-23.9540376,2001,0,Developer,www.mukutu.com.br
+Mukutu,Santos,Brazil,-46.3288865,-23.9678823,2001,0,Developer,www.mukutu.com.br
 Multimedia Games,Austin,United States,-97.7430608,30.267153,2000,0,Developer,www.multimediagames.com
-Mumbo Jumbo,Dallas,United States,-96.8004511,32.7801399,2001,0,"Developer, Publisher",www.mumbojumbo.com
+Mumbo Jumbo,Dallas,United States,-96.8009781,32.7802618,2001,0,"Developer, Publisher",www.mumbojumbo.com
 MunkyFun,San Francisco,United States,-122.4194155,37.7749295,2008,0,Developer,www.munkyfun.com
 Muse Games,New York City,United States,-74.0059413,40.7127837,2010,0,Online Developer,www.musegames.com
 Mutant Labs,Plymouth,England,-4.1426565,50.3754565,2009,0,Developer,www.mutantlabs.com
@@ -1308,180 +1279,895 @@ Mysterious Development,San Jose,Costa Rica,-84.0907246,9.9280694,2009,0,Online D
 Mystery Studio,Montevideo,Uruguay,-56.1645314,-34.9011127,2002,0,Developer,www.mysterystudio.com
 Mythic Entertainment (Electronic Arts),Fairfax,United States,-77.3063733,38.8462236,1996,0,Online Developer,www.mythicentertainment.com
 Mytopia,Tel Aviv,Israel,34.7817676,32.0852999,2006,0,Developer,www.mytopia.com
+N-Game Studios,Dnepropetrovsk,Ukraine,35.046183,48.464717,2002,0,Developer,www.ngsdev.com
 n-SPACE,Orlando,United States,-81.3792365,28.5383355,1994,0,Developer,www.n-space.com
+N3V Games,Helensvale,Australia,153.3378771,-27.9224124,1995,0,Developer,www.n3vgames.com
+Nabi Studios,Singapore,Singapore,103.8509491,1.2800945,2006,0,Developer,www.nabistudios.com
+Nadeo (Ubisoft),Issy-les-Moulineaux,France,2.2743419,48.8245306,2000,0,Developer,www.nadeo.com
+Naked Sky Entertainment,Los Angeles,United States,-118.2436849,34.0522342,2002,0,Developer,www.nakedsky.com
+NAMCO BANDAI Games,Tokyo,Japan,139.6917064,35.6894875,2007,0,"Developer, Publisher",www.namcobandaigames.com
+NanaOn-Sha,Tokyo,Japan,139.6917064,35.6894875,1993,0,Developer,www.nanaon-sha.com
+NAPS Team,Messino,Italy,15.5540152,38.1938137,1994,0,Developer,www.napsteam.com
 Natsume,Shinjuku,Japan,139.7035494,35.6938401,1987,0,"Developer, Publisher",
+Natsume Tokyo,Tokyo,Japan,139.6917064,35.6894875,1987,0,"Developer, Publisher",www.natsume.com
+NaturalMotion Games (Zynga),Oxford,England,-1.2577263,51.7520209,2001,0,Developer,www.naturalmotion.com
 Naughty Dog,Santa Monica,United States,-118.4911912,34.0194543,1986,0,Developer,www.naughtydog.com
-NCsoft,Seoul,South Korea,126.9779692,37.566535,1997,0,"Online Developer, Mobile",
+Nawia Games,Gdansk,Poland,18.6466384,54.3520252,2007,0,Developer,www.nawiagames.com
+NCsoft,Seoul,South Korea,126.9779692,37.566535,1997,0," Developer, Mobile/Handheld, Online Developer",www.ncsoft.com
 ndoors,Seoul,South Korea,126.9779692,37.566535,1999,0,Online Developer,www.ndoors.net
+nDreams,Farnborough,England,-0.752615,51.2868939,2006,0,Developer,www.ndreams.com
+Neggi Studio,Monterrey,Mexico,-100.3161126,25.6866142,2010,0,Developer,www.neggistudio.com
+Neko Entertainment,Montreuil Sous Bois,France,2.448451,48.863812,1999,0,Developer,www.e-neko.com
+Nemesys,Budapest,Hungary,19.040235,47.497912,2006,0,Developer,www.nemesys.hu
+Neon Play,Cirencester,England,-1.968243,51.718495,2010,0,Mobile,www.neonplay.com
+Neonga,Berlin,Germany,13.404954,52.5200066,2010,0,Online Developer,www.neonga.com
+Neopica,Ghent,Belgium,3.7174243,51.0543422,2007,0,Developer,www.neopica.com
+Neople,Seoul,South Korea,126.9779692,37.566535,2001,0,"Developer, Publisher",www.neople.co.kr
 Neowiz,Seoul,South Korea,126.9779692,37.566535,1997,0,"Developer, Publisher",www.neowiz.com
+Nerd Monkeys,Lisbon,Portugal,-9.1393366,38.7222524,2013,0,Developer,www.nerdmonkeys.pt
 Nerve Software,Mesquite,United States,-96.5991593,32.7667955,1999,0,Developer,www.nervesoftware.com
 NetDevil,Louisville,United States,-85.7584557,38.2526647,1997,0,Online Developer,www.netdevil.com
 Netdragon,Fuzhou,China,119.296494,26.074508,1999,0,Developer,
 NetherRealm Studios,Chicago,USA,-87.6297982,41.8781136,2010,0,Developer,
+Neuron Games,Mountain View,United States,-122.0838511,37.3860517,1997,0,Developer,www.neurongames.com
+NeverMind Games,Thurles,Ireland,-7.8044421,52.6801064,2010,0,Developer,www.nevermindgames.com
+Neversoft Entertainment (Activision),Woodland Hills,United States,-118.6089752,34.165357,1994,2014,Developer,www.neversoft.com
+NevoSoft,Saint Petersburg,Russia,30.3350986,59.9342802,2002,0,Developer,www.nevosoft.com
+Newsoft,Murcia,Spain,-1.1306544,37.9922399,1991,0,Developer,www.newsoft.es
+Nex Entertainment,Tokyo,Japan,139.6917064,35.6894875,1992,0,Developer,www.nex-ent.co.jp
+Nexgen Studio,Singapore,Singapore,103.8509491,1.2800945,2003,0,Mobile/Handheld,www.nexgenstudio.com
 Nexon,Seoul,South Korea,126.9779692,37.566535,1994,0,"Developer, Publisher",www.nexon.com
-Next Level Games,Vancouver,Canada,-123.1139268,49.261226,2002,0,Developer,www.nextlevelgames.com
-NGD Studios,Buenos Aires,Argentina,-58.3815931,-34.6037232,2002,0,Developer,
+Next Level Games,Vancouver,Canada,-123.1207375,49.2827291,2002,0,Developer,www.nextlevelgames.com
+Nezal Entertainment,Cairo,Egypt,31.2357116,30.0444196,2010,0,Developer,www.nezal.com
+nFusion Interactive,Marlboro,United States,-74.2687291,40.3380949,1997,0,Developer,www.n-fusion.com
+NGD Studios,Buenos Aires,Argentina,-58.3815591,-34.6036844,2002,0,Developer,
+ngmoco (DeNA),San Francisco,United States,-122.4194155,37.7749295,2008,0,Mobile/Handheld,blog.ngmoco.com
 NHN,Seoul,South Korea,126.9779692,37.566535,1998,0,Online Developer,www.hangame.com
+Nicalis,Los Angeles,United States,-118.2436849,34.0522342,2007,0,Developer,www.nicalis.com
+Nicholas Games,Katowice,Poland,19.0237815,50.2667,2004,0,Developer,www.nicolasgames.pl
+Niels Bauer games,Freiburg,Germany,7.8421043,50.2667,1998,0,Developer,www.nbsd.de
+Night & Day Studios,Portland,United States,-122.6764816,45.5230622,2006,0,Mobile/Handheld,www.nightanddaystudios.com
+Night Dive Studios,Portland,United States,-122.6764816,45.5230622,2012,0,Developer,www.nightdivestudios.com
+Night Owl Games,Austin,United States,-97.7430608,30.267153,2008,0,Online Developer,www.nightowlgames.net
+Nightspade,Bandung,Indonesia,107.6082421,-6.9148644,2010,0,Mobile/Handheld,www.nightspade.com
+Nigoro,Tokyo,Japan,139.6917064,35.6894875,2007,0,Developer,www.nigoro.jp
 Nihon Falcom,Tokyo,Japan,139.6917064,35.6894875,1981,0,Developer,
+NileeGames,Mumbai,India,72.8776559,19.0759837,2011,0,Online Developer,www.nileegames.com
+Nimblebit,Poway,United States,-117.0358646,32.9628232,2007,0,Mobile/Handheld,www.nimblebit.com
+Nine Dots Studio,Quebec,Canada,-73.5491361,52.9399159,2011,0,Developer,www.ninedotsstudio.com
+Nine Pound Studios,Churchville,United States,-76.2497401,39.5596314,2009,0,Mobile/Handheld,www.ninepound.com
+Ninja Kiwi,Auckland,New Zealand,174.7633315,-36.8484597,2006,0,Developer,www.ninjakiwi.com
 Ninja Theory,Cambridge,England,0.121817,52.205337,2000,0,Developer,www.ninjatheory.com
 NinjaBee,Orem,United States,-111.6946475,40.2968979,2005,0,Developer,www.ninjabee.com
 Nintendo,Kyoto,Japan,135.7680294,35.0116363,1974,0,"Developer, Publisher",www.nintendo.com
+Ninth Dimension Studios,Yorkville,United States,-88.4472948,41.6411409,2009,0,Developer,www.ninthdimensionstudios.com
 Nippon Ichi Software,Gifu,Japan,136.7606537,35.4232984,1991,0,"Developer, Publisher",www.nippon1.co.jp
+NIS America,Santa Ana,United States,-117.8678338,33.7455731,1994,0,Publisher,www.nisamerica.com
+Nitako,Tel Aviv,Israel,34.7817676,32.0852999,2008,0,Mobile/Handheld,www.nitako.com
+Nitreal Games,Warsaw,Poland,21.0122287,52.2296756,2009,0,Developer,www.nitrealgames.com
 Nitro Games,Helsinki,Finland,24.9410248,60.1733244,2002,0,Developer,www.nitrogames.com
+Nitrome,London,England,-0.1277583,51.5073509,2007,0,Online Developer,www.nitrome.com
+Nival Interactive,Moscow,Russia,37.6173,55.755826,1996,0,Developer,www.nival.com
+Nix Hydra,Los Angeles,United States,-118.2436849,34.0522342,2012,0,Developer,www.nixhydra.com
+Nnooo,Sydney,Australia,151.2069902,-33.8674869,2006,0,Developer,www.nnooo.com
+No Goblin,Seattle,United States,-122.3320708,47.6062095,2013,0,Developer,www.nogoblin.com
+Nomad Games,Lymm,England,-2.480044,53.381724,2011,0,Mobile/Handheld,www.nomadgames.co.uk
+Noobware,Madrid,Spain,-3.7037902,40.4167754,2010,0,Mobile/Handheld,www.noobware.net
 Nordcurrent,Vilnius,Lithuania,25.2796514,54.6871555,2002,0,Developer,www.nordcurrent.com
-Nordeus,San Francisco,United States,-122.4194155,37.7749295,2009,0,Online Developer,www.nordeus.com
 Nordeus,Belgrade,Serbia,20.466667,44.816667,2009,0,Online Developer,www.nordeus.com
-Nordeus,Skopje,Macedonia,21.4279956,41.9973462,2009,0,Online Developer,www.nordeus.com
-Nordeus,Tel Aviv,Israel,34.7817676,32.0852999,2009,0,Online Developer,www.nordeus.com
-Nordeus,Dublin,Ireland,-6.2603097,53.3498053,2009,0,Online Developer,www.nordeus.com
-Novalogic,Calabasas,United States,-118.660833,34.138333,1985,0,"Developer, Publisher",
+Nordic Games,Vienna,Austria,16.3738189,48.2081743,2011,0,Publisher,www.nordicgames.at
+Northworks Software,Hamburg,Germany,9.9936818,53.5510846,2006,0,Online Developer,www.northworks.de
+Nothing,Wabern,Switzerland,7.4489732,46.9290164,1999,0,"Developer, Publisher",www.nothing.ch
+Noumena Studios,Berlin,Germany,13.404954,52.5200066,2010,0,Developer,www.noumenastudios.com
+NovaLogic,Calabasas,United States,-118.660833,34.138333,1985,0,"Developer, Publisher",www.novalogic.com
 Novarama,Barcelona,Spain,2.1734035,41.3850639,2003,0,Developer,www.novarama.com
+Noviy Disk Company,Moscow,Russia,37.6173,55.755826,1991,0,Publisher,www.nd.ru
+Now Production,Osaka,Japan,135.5021651,34.6937378,1986,0,Developer,www.nowpro.co.jp
+nStigate,San Rafael,United States,-122.5310874,37.9735346,1998,0,Developer,www.nstigate.com
+Ntreev,Seoul,South Korea,126.9779692,37.566535,2003,0,Online Developer,www.ntreev.com
+Nubee,Tokyo,Japan,139.6917064,35.6894875,2010,0,Online Developer,www.nubee.com
+Nuclear Division,Encino,United States,-118.5214282,34.1517492,2013,0,Mobile/Handheld,www.nucleardivision.com
+Nuclei 3D,Miami,United States,-80.1917902,25.7616798,2008,0,Mobile/Handheld,www.nuclei3d.com
+nurien,Seoul,South Korea,126.9779692,37.566535,2004,0,Online Developer,corp.nurien.com
+nWay,San Francisco,United States,-122.4194155,37.7749295,2011,0,Online Developer,www.nway.com
+Nyamyam,Tamworth,England,-1.691032,52.633584,2010,0,Developer,www.nyamyam.com
+O2 Games,Belo Horizonte,Brazil,-43.9344931,-19.9166813,2005,0,Developer,www.o2games.com.br
+Obelisk Entertainment,Kansas City,United States,-94.5785667,39.0997265,2012,0,Online Developer,www.obeliskentertainment.com
 Obsidian Entertainment,Irvine,United States,-117.7946942,33.6839473,2004,0,Developer,www.obsidianent.com
+Oceanhouse Media,Encinitas,United States,-117.2919818,33.0369867,2009,0,"Developer, Publisher",www.oceanhousemedia.com
+Octeto Studios,Santiago,Chile,-70.641997,-33.4691199,2011,0,Developer,www.octetostudios.com
+Octopus 8 Studios,London,England,-0.1277583,51.5073509,2013,0,Mobile/Handheld,www.octopus8studios.com
+Oculus VR,Irvine,United States,-117.7946942,33.6839473,2012,0,Developer,www.oculusvr.com
+Oddlabs,Odense,Denmark,10.40237,55.403756,2001,0,Developer,www.oddlabs.com
 Oddworld Inhabitants,Berkeley,United States,-122.272747,37.8715926,1994,0,Developer,www.oddworld.com
+Ogmento,New York City,United States,-74.0059413,40.7127837,2009,0,Developer,www.ogmento.com
+Okam Studio,Buenos Aires,Argentina,-58.3815591,-34.6036844,2010,0,Developer,www.okamstudio.com
+Ominous Development,Kalamazoo,United States,-85.5872286,42.2917069,1998,0,Developer,www.ominousdev.com
+Omnidrone,Barcelona,Spain,2.1734035,41.3850639,2013,0,Developer,www.omnidrone.net
+One Thumb Mobile,Glasgow,Scotland,-4.251806,55.864237,2006,0,Mobile/Handheld,www.onethumbmobile.com
+one2tribe,Reguly,Poland,20.8621359,52.1740633,2003,0,Developer,www.one2tribe.pl
+Online Alchemy,Austin,United States,-97.7430608,30.267153,2002,0,Online Developer,www.onlinealchemy.com
+onNet,Seoul,South Korea,126.9779692,37.566535,2006,0,Online Developer,www.onnetusa.com
+ooblada,Montreuil,France,2.448451,48.863812,2000,0,Developer,www.ooblada.com
+Oora! Games,Milwaukee,United States,-87.9064736,43.0389025,2010,0,Mobile/Handheld,www.ooragames.com
+ootii,Orlando,United States,-81.3792365,28.5383355,2011,0,Developer,www.ootii.com
+Opposable Games,Bristol,England,-2.58791,51.454513,2011,0,Mobile/Handheld,www.opposablegames.com
+Opus Studios,Tokyo,Japan,139.6917064,35.6894875,1990,0,Developer,www.opus.co.jp
+Orbis Games,Austin,United States,-97.7430608,30.267153,2004,0,Online Developer,www.orbisgames.com
+Orbotix,Boulder,United States,-105.2705456,40.0149856,2010,0,Developer,www.gosphero.com
+Orchid Games,Warsaw,Poland,21.0122287,52.2296756,2004,0,Developer,www.orchidgames.com
+Origin8,London,England,-0.1277583,51.5073509,2008,0,Mobile/Handheld,www.origin8.com
+OSome Studio,Lyon,France,4.835659,45.764043,2013,0,Developer,www.osome-studio.com
+Ostrich Banditos,Utrecht,Netherlands,5.1214201,52.0907374,2012,0,Online Developer,www.ostrichbanditos.com
+Other Ocean Interactive,Charlottetown,Canada,-63.1310704,46.23824,2006,0,Developer,www.otherocean.com
+Outbreak Studios,Gothenburg,Sweden,11.97456,57.70887,2009,0,Developer,www.outbreakstudios.se
+Outrage Entertainment,Ann Arbor,USA,-83.7430378,42.2808256,1996,2004,Developer,
 Outsmart Studios,Auckland,New Zealand,174.7633315,-36.8484597,2005,0,Developer,
+Outspark,San Francisco,United States,-122.4194155,37.7749295,2007,0,Developer,www.outspark.com
+Over the Top Games,Madrid,Spain,-3.7037902,40.4167754,2008,0,Developer,www.overthetopgames.com
 Overkill Software (Starbreeze),Stockholm,Sweden,18.0685808,59.3293235,2009,0,Developer,www.overkillsoftware.com
+Ovosonico,Varese,Italy,8.8250576,45.8205989,2012,0,Publisher,www.ovosonico.com
+Owlchemy Labs,Cambridge,United States,-71.1097335,42.3736158,2010,0,Developer,www.owlchemylabs.com
+Owlient (Ubisoft),Paris,France,2.3522219,48.856614,2005,0,Online Developer,www.owlient.eu
+Own Games,Bandung,Indonesia,107.6082421,-6.9148644,2011,0,Developer,www.own-games.com
 Oxygen Games,Northamptonshire,United Kingdom,-0.8755515,52.2729944,2004,0,"Developer, Publisher",
+Oxygen Interactive Software,Wellingborough,England,-0.693964,52.302419,2006,0,Developer,www.oxygengames.net
+Ozura,Singapore,Singapore,103.8509491,1.2800945,2004,0,Mobile/Handheld,www.ozura.com
 Page 44 Studios,San Francisco,USA,-122.4194155,37.7749295,1998,0,Developer,
+PageNet,Moscow,Russia,37.6173,55.755826,1996,0,Mobile/Handheld,www.pagenetsoft.com
+Paladin Studios,Den Haag,Netherlands,4.3006999,52.0704978,2005,0,Developer,www.paladinstudios.com
+PAN Vision,Stockholm,Sweden,18.0685808,59.3293235,2001,0,Publisher,www.panvision.com
+PandaKnows,Orlando,United States,-81.3792365,28.5383355,2011,0,Mobile/Handheld,www.panda-knows.com
+Pandemic Studios,Los Angeles,USA,-118.2436849,34.0522342,1998,2009,Developer,
+Pangea Software,Austin,United States,-97.7430608,30.267153,1987,0,Developer,www.pangeasoft.net
+Panic Art Studios,Tampere,Finland,23.7610254,61.4981508,2012,0,Mobile/Handheld,www.panicartstudios.com
+Panic Button,Austin,United States,-97.7430608,30.267153,2007,0,Developer,www.panicbuttongames.com
 Panther Games Pty Ltd,Canberra,Australia,149.1286843,-35.2819998,1985,0,Developer,
 Paon,Tokyo,Japan,139.6917064,35.6894875,1999,0,Developer,
 Papaya Studio,Irvine,United States,-117.7946942,33.6839473,1999,0,Developer,www.papayastudio.com
+Paper Child Studios,Austin,United States,-97.7430608,30.267153,2009,0,Developer,www.paperchild.com
 Paradox Interactive,Stockholm,Sweden,18.0685808,59.3293235,1998,0,Developer,www.paradoxplaza.com
+Parallax Software,Ann Arbor,USA,-83.7430378,42.2808256,1993,1997,Developer,
+Pardis Game Studio,Tehran,Iran,51.423056,35.696111,2011,0,Developer,www.pardisgamestudio.com
+Parlay Entertainment,Oakville,Canada,-79.6876659,43.467517,1998,0,Developer,www.parlaygroup.com
+Part 12 Studios,Randolph,United States,-71.042551,42.1619739,2008,0,Developer,part12studios.com
+Part Time Evil,Austin,United States,-97.7430608,30.267153,2011,0,Developer,www.parttimeevil.com
+PASSTECH Games,Lyon,France,4.835659,45.764043,2012,0,Developer,www.passtechgames.com
+Pastagames,Paris,France,2.3522219,48.856614,2000,0,Developer,www.pastagames.com/
 Pax Softnica,Kanagawa,Japan,139.6423446,35.4475073,1983,0,Developer,
+Payload Studios,London,England,-0.1277583,51.5073509,2012,0,Developer,www.terratechgame.com
+Peak Games,Istanbul,Turkey,28.97696,41.00527,2010,0,Online Developer,www.peakgames.net
 Pendulo Studios,Madrid,Spain,-3.7037902,40.4167754,1993,0,Developer,www.pendulostudios.com
 Penguin Software,Geneva,United States,-88.3053525,41.8875281,1978,0,Developer,
+PeopleFun,Dallas,United States,-96.8009781,32.7802618,2011,0,Mobile/Handheld,www.peoplefun.com
+PerBlue,Madison,United States,-89.4012302,43.0730517,2008,0,Mobile/Handheld,www.perblue.com
+Perceptum,Santo Andre,Brazil,-46.5436003,-23.6742228,1995,0,Developer,www.perceptum.com
 Perfect World Company,Beijing,China,116.407395,39.904211,2004,0,Publisher,www.pwrd.com
+Perfect World Entertainment,Redwood Shores,United States,-122.2455364,37.5364134,2008,0,Publisher,www.perfectworld.com
 Persha Studia (Wargaming),Kiev,Ukraine,30.5234,50.4501,2000,0,Developer,www.pershastudia.com
+Persuasive Games,Atlanta,United States,-84.3879824,33.7489954,2003,0,Developer,www.persuasivegames.com
 Petroglyph,Las Vegas,United States,-115.1398296,36.1699412,2003,0,Developer,www.petroglyphgames.com
 Phantagram,Seoul,South Korea,126.9779692,37.566535,1994,0,Developer,www.phantagram.com
+Phenomedia Publishing,Bochum,Germany,7.2162363,51.4818445,2004,0,Publisher,www.phenomedia.com
+Phenomic Game Development,Ingelheim am Rhein,Germany,8.0560682,49.9764195,1997,2013,Developer,
+Phi Mobile,Hamburg,Germany,9.9936818,53.5510846,2001,0,Mobile/Handheld,www.phimobile.com
+PHL Collective,Philadelphia,United States,-75.1652215,39.9525839,2013,0,Developer,www.phlcollective.com
+Phoenix Labs,Vancouver,Canada,-123.1207375,49.2827291,2014,0,Developer,www.phxlabs.ca
+Phosphor Games Studio,Chicago,United States,-87.6297982,41.8781136,2009,0,Developer,www.phosphorgames.com
+Phyken Media,Orlando,United States,-81.3792365,28.5383355,2005,0,Mobile/Handheld,www.phykenmedia.com
+Phyne Games,Mexico City,Mexico,-99.133208,19.4326077,2012,0,Mobile/Handheld,www.phynegames.com
+Pi Studios,Houston,USA,-95.3698028,29.7604267,2002,2011,Developer,
+Picadilla,Wroclaw,Poland,17.0385376,51.1078852,2010,0,Online Developer,www.picadilla.com
 Pieces Interactive,Skovde,Sweden,13.8461208,58.3902782,2007,0,Developer,www.piecesinteractive.se
+Pikpok,Wellington,New Zealand,174.776236,-41.2864603,1997,0,Developer,www.pikpok.com
+Pinkerton Road Studios,Lancaster,United States,-76.3055144,40.0378755,2012,0,Developer,www.pinkertonroad.com
+Pinpin Team,Paris,France,2.3522219,48.856614,2008,0,Developer,www.pinpinteam.com
+Pipeworks ,Eugene,United States,-123.0867536,44.0520691,1999,0,Developer,www.pipeworks.com
 Piranha Bytes,Ruhrgebiet,Germany,7.6282792,51.3659097,1997,0,Developer,
+Piranha Games,Vancouver,Canada,-123.1207375,49.2827291,2000,0,Developer,www.piranha-games.com
+Pitbull Studio,Sunderland,England,-1.383801,54.906869,2009,0,Developer,www.pitbullstudio.co.uk
+Pivotal Games,Bath,England,-2.3599039,51.375801,2000,2008,Developer,
+Pixel Dash Studios,Baton Rouge,United States,-91.1403196,30.4582829,2011,0,Developer,www.pixeldashstudios.com
 Pixel Maverick Games,Orlando,USA,-81.3792365,28.5383355,2012,0,Developer,www.pixelmaverickgames.com
+Pixel Punch,Kaunas,Lithuania,23.9035965,54.8985207,2011,0,Developer,www.pixel-punch.com
+Pixel Tales,Stockholm,Sweden,18.0685808,59.3293235,2004,0,Developer,www.pixeltales.com
+Pixel Toys,Warwick,England,-1.584927,52.282316,2012,0,Mobile/Handheld,www.pixeltoys.com
+Pixel Trap,Bucharest,Romania,26.1025384,44.4267674,2013,0,Developer,www.pixel-trap.com
+Pixelbite,Helsingborg,Sweden,12.6945121,56.0464674,2009,0,Mobile/Handheld,www.pixelbite.se
+PixelSoft,Beijing,China,116.407395,39.904211,2002,0,Online Developer,www.pixelgame.net/en/
+Pixofactor,Royal Oak,United States,-83.1446485,42.4894801,2009,0,Developer,www.pixofactor.com
+Pixofun,Ankara,Turkey,32.85411,39.92077,2005,0,Online Developer,www.pixofun.com
+Pixowl,San Francisco,United States,-122.4194155,37.7749295,2011,0,Mobile/Handheld,www.pixowl.com
+Planet Spogg,Uppsala,Sweden,17.6389267,59.8585638,2003,0,Developer,www.spogg.com
+PLAOR,Boston,United States,-71.060097,42.3584865,2011,0,Online Developer,www.plaor.com
+Plarium,Herzliya,Israel,34.844675,32.162413,2009,0,Developer,www.plarium.com
+Plastic Fantastic Games Studio,Hong Kong,China,114.109497,22.396428,2010,0,Online Developer,www.plastic-fantastic.hk
+Plata Games,Wroclaw,Poland,17.0385376,51.1078852,2011,0,Developer,www.platagames.com
 Platinum Games,Osaka,Japan,135.5021651,34.6937378,2006,0,Developer,www.platinumgames.com
+Play Mechanix,Glen Ellyn,United States,-88.0670118,41.8775293,1995,0,Developer,www.playmechanix.com
+Playa Games,Hamburg,Germany,9.9936818,53.5510846,2009,0,Online Developer,www.playagames.com
+Playart Labs,Tel Aviv,Israel,34.7817676,32.0852999,2013,0,Mobile/Handheld,www.playartlabs.com
+Playbrains,Ottawa,Canada,-75.6971931,45.4215296,2008,0,Developer,www.playbrains.com
 Playdead,Copenhagen,Denmark,12.5683371,55.6760968,2006,0,Developer,www.limbogame.org
+Playdek,Carlsbad,United States,-117.3505939,33.1580933,2011,0,Developer,www.playdekgames.com
+Playdemic (RockYou),Manchester,England,-2.2426305,53.4807593,2010,0,Online Developer,www.playdemic.com
 Playdom,San Francisco,USA,-122.4194155,37.7749295,2009,0,Online Developer,
+Playdom (Disney Interactive),Palo Alto,United States,-122.1430195,37.4418834,2008,0,Online Developer,www.playdom.com
+Playerthree,London,England,-0.1277583,51.5073509,2001,0,Developer,www.playerthree.com
+PlayerX,London,England,-0.1277583,51.5073509,2004,0,Mobile/Handheld,www.playerx.co.uk
 PlayFirst,San Francisco,USA,-122.4194155,37.7749295,2004,0,Publisher,
 Playfish,London,United Kingdom,-0.1277583,51.5073509,2007,0,"Developer, Publisher",www.playfish.com
+Playful Shark,Tel Aviv,Israel,34.7817676,32.0852999,2004,0,Online Developer,www.playfulshark.com
 Playground Games,Leamington Spa,England,-1.5200789,52.2851905,2009,0,Developer,www.playground-games.com
+Playjam,London,England,-0.1277583,51.5073509,1999,0,Developer,www.playjam.com
 Playlogic Games,Amsterdam,Netherlands,4.8951679,52.3702157,2002,0,"Developer, Publisher",www.playlogicgames.com
+Playnery,Seoul,South Korea,126.9779692,37.566535,2011,0,Online Developer,www.playnery.com
+Playnfo,Cordoba,Argentina,-64.1821289,-31.3989296,2012,0,Developer,www.playnfo.com
+Playsino,Santa Monica,United States,-118.4911912,34.0194543,1985,0,"Developer, Publisher",www.playsino.com
+Playsoft Games,Paris,France,2.3522219,48.856614,2004,0,Developer,www.playsoftgames.com
+PlaySpace,Palma de Mallorca,Spain,2.6501603,39.5696005,2011,0,Developer,www.playspace.com
+Playstos Entertainment,Milan,Italy,9.1859243,45.4654219,2001,0,Developer,www.playstos.com
+Playtika,Tel Aviv,Israel,34.7817676,32.0852999,2010,0,Online Developer,www.playtika.com
+Playware Studios,Singapore,Singapore,103.8509491,1.2800945,2005,0,Developer,www.playwarestudios.com
+PlayWay,Warsaw,Poland,21.0122287,52.2296756,2011,0,Publisher,www.playway.com
+Plexonic,Yerevan,Armenia,44.516667,40.183333,2007,0,Developer,www.plexonic.com
+Plow Games,Indiapolis,United States,-86.158068,39.768403,2007,0,Mobile/Handheld,www.plowdigital.com
+Plug-in Media,Brighton,England,-0.137163,50.82253,2004,0,Developer,www.pluginmedia.net
+Plunge Interactive,Lleida,Spain,0.6200146,41.6175899,2011,0,Developer,www.plungeinteractive.net
+Pluto 13 (PIRANHA BYTES),Essen,Germany,7.0115552,51.4556432,1997,0,Developer,www.piranha-bytes.com
+PLYFE,New York City,United States,-74.0059413,40.7127837,2011,0,Online Developer,www.plyfe.me
+PM Studios,Bari,Italy,16.8718715,41.1171432,2008,0,Developer,www.pmstudios.it
+Pocket Gems,San Francisco,United States,-122.4194155,37.7749295,2009,0,Mobile/Handheld,www.pocketgems.com
 Pocket PlayLab,Bangkok,Thailand ,100.5241235,13.7278956,2012,0,"Developer, Publisher",www.pocketplaylab.com/
+Pocketeers,Doncaster,England,-1.128462,53.52282,2002,0,"Developer, Mobile/Handheld",www.pocketeers.co.uk
+Pocketz,San Francisco,United States,-122.4194155,37.7749295,2013,0,Mobile/Handheld,www.pocketzworld.com
+Pokelabo (GREE),Tokyo,Japan,139.6917064,35.6894875,2007,0,Mobile/Handheld,www.pokelabo.co.jp
+Polarbit,Sodertalje,Sweden,17.625689,59.195363,2005,0,Developer,www.polarbit.com
 Polyphony Digital,Tokyo,Japan,139.6917064,35.6894875,1998,0,Developer,
-PopCap Games,Seattle,USA,-122.3320708,47.6062095,2000,0,"Developer, Publisher",
+Polytron Corporation,Montreal,Canada,-73.567256,45.5016889,2008,0,Mobile/Handheld,www.polytroncorporation.com
+PopCap Games (Electronic Arts),Seattle,USA,-122.3320708,47.6062095,2000,0,"Developer, Publisher",www.popcap.com
+Portable Zoo,Santa Clara,United States,-121.9552356,37.3541079,2009,0,Mobile/Handheld,
+Portalarium,Austin,United States,-97.7430608,30.267153,2009,0,Online Developer,www.portalarium.com
+Powerful Robot Games,Montevideo,Uruguay,-56.1645314,-34.9011127,2002,0,Developer,www.powerfulrobot.com
+Powerhead Games,New York City,United States,-74.0059413,40.7127837,2000,0,Developer,www.powerheadgames.com
+Preliminal Games,London,England,-0.1277583,51.5073509,2012,0,Mobile/Handheld,www.preliminal.com
+Prelusion Games,Ostersund,Sweden,14.6360681,63.1766832,1996,0,Developer,www.prelusion.com
 Press Play,Copenhagen,Denmark,12.5683371,55.6760968,2006,0,Developer,www.pressplay.dk
+PressOK Entertainment,Seattle,United States,-122.3320708,47.6062095,2008,0,"Developer, Mobile/Handheld",www.pressokentertainment.com
+Pretty Simple Games,Paris,France,2.3522219,48.856614,2010,0,Online Developer,www.prettysimplegames.com
+Proletariat,Cambridge,United States,-71.1097335,42.3736158,2012,0,Developer,www.proletariat.com
+Propaganda3,Kansas City,United States,-94.5785667,39.0997265,2001,0,Developer,www.propaganda3.com
+PROPE,Tokyo,Japan,139.6917064,35.6894875,2006,0,Developer,www.prope.jp
+Proper Games,Dundee,Scotland,-2.970721,56.462018,2006,0,Developer,www.proper-games.com
+Psyonix,San Diego,United States,-117.1610838,32.715738,2000,0,Developer,www.psyonix.com
 Punch Entertainment,Palo Alto,USA,-122.1430195,37.4418834,2005,0,"Developer, Publisher",
+Punch Wolf Game Studios,Helsinki,Finland,24.9410248,60.1733244,2011,0,Mobile/Handheld,www.punchwolf.com
+Puny Human,Morrisville,United States,-78.8255621,35.823483,2007,0,Developer,www.punyhumangames.com
+Puppy Punch,Gainesville,United States,-82.3248262,29.6516344,2011,0,Developer,
+Puya Arts Software,Tehran,Iran,51.423056,35.696111,2002,0,Developer,www.puyaarts.com
 Pyro Studios,Madrid,Spain,-3.7037902,40.4167754,1996,0,Developer,www.pyrostudios.com
 Q Entertainment,Tokyo,Japan,139.6917064,35.6894875,2003,0,Developer,www.qentertainment.com
 Q-Games,Kyoto,Japan,135.7680294,35.0116363,2001,0,Developer,www.q-games.com
+QB9,Buenos Aires,Argentina,-58.3815591,-34.6036844,2005,0,Developer,www.qb9.net
 QLOC,Warsaw,Poland,21.0122287,52.2296756,2009,0,Developer,
 Quantic Dream,Paris,France,2.3522219,48.856614,1997,0,Developer,www.quanticdream.com
-Radical Entertainment,Vancouver,Canada,-123.1139268,49.261226,1991,0,Developer,
+Quark Games,Cupertino,United States,-122.0321823,37.3229978,2008,0,Mobile/Handheld,www.quarkgames.com
+Quartic Llama,Dundee,Scotland,-2.970721,56.462018,2012,0,Developer,www.quarticllama.com
+Qubic Games,Warsaw,Poland,21.0122287,52.2296756,2006,0,Developer,www.qubicgames.com
+Quest Online,Chandler,United States,-111.8412502,33.3061605,2006,0,Online Developer,www.qol.com
+Quirkat,Amman,Jordan,35.9456951,31.9565783,2004,0,Developer,www.quirkat.com
+Ra.nj,Rotterdam,Netherlands,4.4777325,51.9244201,1999,0,Developer,www.ranj.nl
+Radiance Digital Entertainment,Shanghai,China,121.473701,31.230416,2005,0,Online Developer,www.radiance.cn
+Radical Entertainment,Vancouver,Canada,-123.1207375,49.2827291,1991,0,Developer,
+Radon Labs (Bigpoint),Berlin,Germany,13.404954,52.5200066,1995,0,Developer,www.radonlabs.de
+Rage Software,Liverpool,England,-2.9915726,53.4083714,1992,2003,Developer,
+Rainbow Studios,Phoenix,USA,-112.0740373,33.4483771,1996,2013,"Developer, Publisher",
+Rake In Grass,Prague,Czech Republic,14.4378005,50.0755381,2000,0,Developer,www.rakeingrass.com
 Rare Limited,Twycross,England,-1.504612,52.642629,1982,0,Developer,www.rareware.com
+Ratloop,Houston,United States,-95.3698028,29.7604267,1997,0,Developer,www.ratloop.com
 Raven Software (Activision),Madison,United States,-89.4012302,43.0730517,1990,0,Developer,www.ravensoft.com
+Ravn Studio,Drammen,Norway,10.2044564,59.7440738,2002,0,Developer,www.ravnstudio.no
+Raw Thrills,Chicago,United States,-87.6297982,41.8781136,2001,0,Developer,www.rawthrills.com
+Raylight Studios,Napoli,Italy,14.2681244,40.8517746,2000,0,Developer,www.raylight.it
+Razorback Developments,Croydon,England,-0.098234,51.376165,2003,0,Developer,www.razorback.co.uk
+React! Games,Salt Lake City,United States,-111.8910474,40.7607793,2008,0,Developer,www.reactgames.com
+Reactor Interactive,San Francisco,United States,-122.4194155,37.7749295,2001,0,Developer,www.reactorinteractive.net
+Reactor Zero,Ann Arbor,United States,-83.7430378,42.2808256,2005,0,Developer,www.reactorzero.com
+Ready at Dawn Studios,Irvine,United States,-117.7946942,33.6839473,2003,0,Developer,www.readyatdawn.com
+Reakktor,Hannover,Germany,9.7320104,52.3758916,1991,0,Online Developer,www.reakktor.com
+Real Fun Learning,Cali,Colombia,-76.522222,3.420556,2011,0,Mobile/Handheld,www.realfunlearning.com
+Reality Pump,Krakow,Poland,19.9449799,50.0646501,1995,0,Developer,www.realitypump.pl
 Reality Pump Studios,Kraków,Poland,19.9449799,50.0646501,1995,0,Developer,
+Reality Twist,Munich,Germany,11.5819806,48.1351253,2008,0,Developer,www.reality-twist.com
+Realm Games,Moreno Valley,United States,-117.2296717,33.9424658,2009,0,Developer,www.realmgames.com
+Realore Studios,Kaliningrad,Russia,20.516667,54.716667,2002,0,"Developer, Publisher",www.realore.com
 Realtime Associates,El Segundo,United States,-118.4164652,33.9191799,1986,0,Developer,www.rtassoc.com
-Rebellion Developments,Oxford,England,-1.2577263,51.7520209,1992,0,Developer,
-Red Storm Entertainment,Cary,USA,-78.7811169,35.79154,1996,0,Developer,
+Realtime Worlds,Dundee,Scotland,-2.970721,56.462018,2002,2010,Developer,
+Reaxion,Seattle,United States,-122.3320708,47.6062095,2001,0,Developer,www.reaxion.com
+Rebel Planet Creations,Buffalo,United States,-78.8783689,42.8864468,2005,0,Developer,www.therebelplanet.com
+Rebellion,Oxford,England,-1.2577263,51.7520209,1992,0,Developer,www.rebellion.co.uk
+Recharge Studios,Minneapolis,United States,-93.26667,44.983334,2010,0,"Developer, Publisher",www.rechargestudios.com
+Recoil Games,Helsinki,Finland,24.9410248,60.1733244,2006,0,Developer,www.recoilgames.com
+Red 5 Studios (The9),Aliso Viejo,United States,-117.725556,33.575,2005,0,Online Developer,www.red5studios.com
+Red Barrels,Montreal,Canada,-73.567256,45.5016889,2011,0,Developer,www.redbarrelsgames.com
+Red Bedlam,Brighton,England,-0.137163,50.82253,2001,0,Developer,www.redbedlam.com
+Red Dot Games,Rzeszow,Poland,21.9991196,50.0411867,1993,0,Developer,www.reddotgames.pl
+Red Entertainment,Tokyo,Japan,139.6917064,35.6894875,2000,0,Developer,www.red-entertainment.co.jp
+Red Hot Labs,San Francisco,United States,-122.4194155,37.7749295,2012,0,Online Developer,www.redhotlabs.com
+Red Katana,Buenos Aires,Argentina,-58.3815591,-34.6036844,2010,0,Mobile/Handheld,www.redkatana.com
+Red Lynx (Ubisoft),Helsinki,Finland,24.9410248,60.1733244,2000,0,Mobile/Handheld,www.redlynx.com
+Red Panda Studios,Savannah,United States,-81.0998342,32.0835407,2011,0,Mobile/Handheld,www.redpandastudios.net
+Red Robot Labs,Palo Alto,United States,-122.1430195,37.4418834,2011,0,Online Developer,www.redrobotlabs.com
+Red Rocket Games,Shanghai,China,121.473701,31.230416,2005,0,"Developer, Publisher",www.redrocketgames.com
+Red Storm Entertainment,Cary,USA,-78.7811169,35.79154,1996,0,Developer,www.redstorm.com
+Red Wasp Design,Bristol,England,-2.58791,51.454513,2011,0,Developer,www.redwaspdesign.wordpress.com
+Redbana,San Mateo,United States,-122.3255254,37.5629917,2008,0,Developer,www.redbana.com
+RedFly Studio,Austin,United States,-97.7430608,30.267153,2005,0,Developer,www.redflystudio.com
 RedLynx,Helsinki,Finland,24.9410248,60.1733244,2000,0,"Developer, Publisher",
+REDOX Game Labs,Salzburg,Austria,13.05501,47.80949,2014,0,Developer,www.redox-labs.com
 Redtribe,Melbourne,Australia,144.96328,-37.814107,2003,0,Developer,
 Reflections Interactive,Newcastle upon Tyne,England,-1.61778,54.978252,1984,0,Developer,
 Reflexive Entertainment,Lake Forest,USA,-117.689218,33.6469661,1997,0,Developer,
-Relic Entertainment (SEGA),Vancouver,Canada,-123.1139268,49.261226,1997,0,Developer,www.relic.com
+Refractive Studios,Essen,Germany,7.0115552,51.4556432,2012,0,Developer,www.refractive-studios.de
+Rejet,Tokyo,Japan,139.6917064,35.6894875,2009,0,Developer,
+Rekoo,Beijing,China,116.407395,39.904211,2008,0,Online Developer,www.rekoo.com
+Related Designs Software,Mainz,Germany,8.2472526,49.9928617,1995,0,Developer,www.related-designs.de
+Relevant Games,Durham,United States,-78.898619,35.9940329,2013,0,"Developer, Publisher",www.relevantgames.com
+Relic Entertainment (SEGA),Vancouver,Canada,-123.1207375,49.2827291,1997,0,Developer,www.relic.com
 Remedy Entertainment,Espoo,Finland,24.6559001,60.2054911,1995,0,Developer,www.remedygames.com
-Respawn Entertainment,Los Angeles,United States,-118.2436849,34.0522342,2010,0,Developer,www.respawn.com
+Renegade Kid,Austin,United States,-97.7430608,30.267153,2007,0,Developer,www.renegadekid.com
+Replay Games,Austin,United States,-97.7430608,30.267153,2008,0,Developer,www.replaygamesinc.com
+Resolution Interactive,Umea,Sweden,20.2630354,63.8258471,2003,0,Developer,
+Respawn Entertainment,Los Angeles,USA,-118.2436849,34.0522342,2010,0,Developer,www.respawn.com
+responDESIGN,Portland,United States,-122.6764816,45.5230622,2004,0,Developer,www.respondesign.com
+Retired Astronaut Collective,Austin,United States,-97.7430608,30.267153,2009,0,Online Developer,www.retiredastronaut.com
 Reto-Moto,Copenhagen,Denmark,12.5683371,55.6760968,2008,0,Developer,
 Retro Studios (Nintendo),Austin,United States,-97.7430608,30.267153,1998,0,Developer,www.retrostudios.com
+Revelation Interactive,Houston,United States,-95.3698028,29.7604267,2001,0,Developer,www.revelation-interactive.com
+Reverge Labs,Los Angeles,United States,-118.2436849,34.0522342,2010,0,Developer,www.revergelabs.com
+Revistronic,Madrid,Spain,-3.7037902,40.4167754,1995,0,Developer,www.revistronic.com
 Revolution Software,York,England,-1.0872979,53.9599651,1990,0,Developer,www.revolution.co.uk
+Ricochet Labs,Austin,United States,-97.7430608,30.267153,2010,0,Mobile/Handheld,www.ricochetlabs.com
+Right Pedal Studios,Brisbane,Australia,153.0234489,-27.4710107,2012,0,Publisher,www.rightpedalstudios.com
 Riot Games,Santa Monica,United States,-118.4911912,34.0194543,2006,0,Developer,www.riotgames.com
+Riptide Games,Aurora,United States,-104.8319195,39.7294319,2007,0,Mobile/Handheld,www.riptidegames.com
 Rising Star Games,Bancroft,England,-0.7901538,52.0554945,2004,0,Publisher,www.risingstargames.com
+Riverman Media,Tucson,United States,-110.926479,32.2217429,2005,0,Developer,www.rivermanmedia.com
+Roadhouse Game Studios,Vancouver,Canada,-123.1207375,49.2827291,2009,0,Online Developer,www.roadhouseinteractive.com
+Robomodo,Chicago,United States,-87.6297982,41.8781136,2008,0,Developer,www.robomodo.com
+Robot Entertainment,Plano,United States,-96.6988856,33.0198431,2009,0,Developer,www.robotentertainment.com
+Robot Invader,Mountain View,United States,-122.0838511,37.3860517,2011,0,Mobile/Handheld,www.robotinvader.com
+Robotoki,Los Angeles,United States,-118.2436849,34.0522342,2012,0,Developer,www.robotoki.com
+Robotube Games,New Haven,United States,-72.9278835,41.308274,1999,0,Mobile/Handheld,www.robotubegames.com
+Rock Pocket Games,Tonsberg,Norway,10.4075608,59.2675699,2008,0,Mobile/Handheld,www.rockpocketgames.com
+Rocket Owl,Ottawa,Canada,-75.6971931,45.4215296,2010,0,Developer,www.rocketowl.com
+Rocket Pack,Helsinki,Finland,24.9410248,60.1733244,2010,0,Online Developer,www.rocketpack.fi
+Rocket Science,Tampere,Finland,23.7610254,61.4981508,1993,1997,"Developer, Mobile/Handheld",
 Rockstar ,New York City,United States,-74.0059413,40.7127837,1998,0,"Developer, Publisher",www.rockstargames.com
 Rocksteady Studios,London,England,-0.1277583,51.5073509,2005,0,Developer,www.rocksteadyltd.com
+RockYou,Redwood City,United States,-122.2363548,37.4852152,2005,0,Publisher,www.rockyou.com
+Rodeo Games,Guildford,England,-0.570409,51.23622,2010,0,Mobile/Handheld,www.rodeogames.co.uk
+Rogue Factor,Montreal,Canada,-73.567256,45.5016889,2013,0,Developer,www.rogue-factor.com
+Ronimo Games,Utrecht,Netherlands,5.1214201,52.0907374,2008,0,"Developer, Publisher",www.ronimo-games.com
+Room 8 Studio,Kiev,Ukraine,30.5234,50.4501,2012,0,Developer,www.room8studio.com
+RoseVeRte,Nagano,Japan,138.1942432,36.6485496,2010,0,"Developer, Publisher",www.roseverte.net
+Rovio,Espoo,Finland,24.6559001,60.2054911,2003,0,Mobile/Handheld,www.rovio.com
+Row Sham Bow,Orlando,United States,-81.3792365,28.5383355,2011,0,Online Developer,www.rowshambow.com
+Rubicon Development,Ventnor,England,-1.2061,50.595484,2004,0,Mobile/Handheld,www.rubicondev.com
 Ruffian Games,Dundee,Scotland,-2.970721,56.462018,2008,0,Developer,www.ruffiangames.com
+Rumble Entertainment,Redwood City,United States,-122.2363548,37.4852152,2011,0,Online Developer,www.rumblegames.com
+Run Games,Los Angeles,United States,-118.2436849,34.0522342,2011,0,Developer,www.run-games.com
+Runewaker,Taichung,Taiwan,120.6807984,24.1547304,2004,0,Online Developer,www.runewaker.com
 Runic Games,Seattle,United States,-122.3320708,47.6062095,2008,0,Developer,www.runicgames.com
 Running With Scissors,Tucson,United States,-110.926479,32.2217429,1997,0,Developer,www.gopostal.com
+Russobit-M,Moscow,Russia,37.6173,55.755826,1999,0,Publisher,www.russobit-m.ru
+S2Games,Rohnert Park,United States,-122.7010984,38.3396367,2001,0,Developer,www.s2games.com
+Sabarasa Entertainment,Buenos Aires,Argentina,-58.3815591,-34.6036844,1996,0,Mobile/Handheld,www.sabarasa.com
+Saber Interactive,Cranford,United States,-74.2995928,40.6584212,2000,0,Developer,www.saber3d.com
+Sanuk Games,Pak Kret,Thailand,100.5426442,13.8994973,2003,0,Developer,www.sanuk.biz
+Sanzaru Games,Foster City,United States,-122.2710788,37.5585465,2007,0,Developer,www.sanzaru.com
 Sarbakan,Quebec City,Canada,-71.242796,46.8032826,1998,0,"Developer, Publisher",www.sarbakan.com
+Sauma Technologies,Helsinki,Finland,24.9410248,60.1733244,2004,0,Online Developer,www.saumatechnologies.com
+Savage Entertainment,Marina Del Rey,United States,-118.4517449,33.9802893,1997,0,Developer,www.savagesite.com
+Savivo,Copenhagen,Denmark,12.5683371,55.6760968,2006,0,Developer,www.savivo.com
+SCE Studio Liverpool,Liverpool,England,-2.9915726,53.4083714,1984,2012,Developer,
+Schell Games,Pittsburgh,United States,-79.9958864,40.4406248,2002,0,Developer,www.schellgames.com
+Scientifically Proven Entertainment,Detroit,United States,-83.0457538,42.331427,2005,0,Developer,www.scientificallyproven.com
+Scopely,Los Angeles,United States,-118.2436849,34.0522342,2011,0,Mobile/Handheld,www.scopely.com
+Screenlife,Seattle,United States,-122.3320708,47.6062095,2002,0,Developer,www.screenlifegames.com
+Screwtape Studios,Brisbane,Australia,153.0234489,-27.4710107,2011,0,Developer,www.screwtapestudios.com
 SCS Software,Prague,Czech Republic,14.4378005,50.0755381,1997,0,Developer,www.scssoft.com
+SCVNGR,Boston,United States,-71.060097,42.3584865,2008,0,Online Developer,www.scvngr.com
+Seaven Studios,Lille,France,3.057256,50.62925,2012,0,Developer,www.seaven-studio.com
+Second Avenue Learning,Rochester,United States,-77.6109219,43.16103,2006,0,Developer,www.secondavenuelearning.com
+Secret Builders,San Mateo,United States,-122.3255254,37.5629917,2007,0,Online Developer,www.secretbuilders.com
+Secret Exit,Helsinki,Finland,24.9410248,60.1733244,2006,0,Developer,www.secretexit.com
+Secret Identity Studios (Gazillion),San Mateo,United States,-122.3255254,37.5629917,2009,0,Online Developer,www.gazillion.com
+Secret Library,Atlanta,United States,-84.3879824,33.7489954,2011,2014,Mobile/Handheld,www.secret-library.com
+SecretNewCo,Timonium,United States,-76.6196915,39.4370508,2013,0,Developer,www.secretnewco.com
+Sector3 Games,South Caulfield,Australia,145.0228199,-37.8829136,1999,0,Developer,www.sector3.com.au
+Seed Studios,Porto,Portugal,-8.6291053,41.1579438,2006,0,Developer,www.seed-studios.com
+Sega ,Tokyo,Japan,139.6917064,35.6894875,1940,0,"Developer, Publisher",www.sega.com
+Seismic Games,Los Angeles,United States,-118.2436849,34.0522342,2011,0,Developer,www.seismicgames.com
+Self Aware Games Studio (Big Fish Games),Oakland,United States,-122.2711137,37.8043637,2009,0,Mobile/Handheld,www.selfawaregames.com
+Serellan,Seattle,United States,-122.3320708,47.6062095,2011,0,Developer,www.serellan.com
+Serenity Forge,Boulder,United States,-105.2705456,40.0149856,2010,0,Developer,www.serenityforge.com
+Serious Games Initiative,Washington DC,United States,-77.0368707,38.9071923,2002,0,Organization,www.seriousgames.org
 Serious Games Interactive,Copenhagen,Denmark,12.5683371,55.6760968,2005,0,Developer,www.seriousgames.dk
+Seven45 Studios,Boston,United States,-71.060097,42.3584865,2007,0,Developer,www.seven45studios.com
+SGN (Social Gaming Network),Palo Alto,United States,-122.1430195,37.4418834,2010,0,"Developer, Publisher",www.sgn.com
+Shadow Tor Studios,Truro,England,-5.051041,50.263195,2004,0,Developer,www.shadowtorstudios.co.uk
+Shanblue Interactive,Valencia,Spain,-0.3762881,39.4699075,2006,0,Developer,www.shanblue.com
 Shanda Interactive,Shanghai,China,121.473701,31.230416,1999,0,Publisher,www.shanda.com.cn
+Shark Punch,San Francisco,United States,-122.4194155,37.7749295,2010,0,Developer,www.sharkpunch.com
+Sharkbyte Studios,Houston,United States,-95.3698028,29.7604267,2005,0,Developer,www.sharkbyte.com
+Sherman3D Sdn Bhd,Petaling Jaya,Malaysia,101.6448581,3.099293,2003,0,Developer,www.sherman3d.com
+Shin'en,Munich,Germany,11.5819806,48.1351253,1999,0,Developer,www.shinen.com
+Shiro Games,Bordeaux,France,-0.57918,44.837789,2012,0,Developer,www.shirogames.com
+Shiver Entertainment,Miami,United States,-80.1917902,25.7616798,2013,0,Developer,www.joinshiver.com
+Shockwave Productions,Simsbury,United States,-72.825278,41.870556,2003,0,Developer,www.shockwaveproductions.com
+Shortfuse Games,Skovde,Sweden,13.8461208,58.3902782,2008,0,Developer,www.shortfuse.se
+Sickhead Games,Dallas,United States,-96.8009781,32.7802618,2002,0,Developer,www.sickheadgames.com
+Sidebar,Athens,Greece,23.7293599,37.983917,2009,0,Online Developer,www.sidebar.gr
+Sidhe Interactive,Wellington,New Zealand,174.776236,-41.2864603,1997,0,Developer,www.sidhe.co.nz
+Sifteo,San Francisco,United States,-122.4194155,37.7749295,2009,0,Developer,www.sifteo.com
+Signal Studios,Bothell,United States,-122.2054035,47.7623204,2008,0,Online Developer,www.signalstudios.net
+SilentFuture,Wuppertal,Germany,7.1507636,51.2562128,2012,0,Developer,www.silentfuture.de
+Silhouette Studios,Melbourne,Australia,144.96328,-37.814107,2005,0,Mobile/Handheld,
 Silicon Knights,St. Catherines,Canada,-79.2468626,43.1593745,1992,0,Developer,www.siliconknights.com
 Silicon Studio,Tokyo,Japan,139.6917064,35.6894875,2000,0,Developer,www.siliconstudio.co.jp
+Sillysoft,Vancouver,Canada,-123.1207375,49.2827291,2002,0,Developer,www.sillysoft.net
+Silver Creek Entertainment,Grants Pass,United States,-123.3283925,42.4390069,1994,0,Developer,www.silvercrk.com
+Silver Style Entertainment e.K.,Berlin,Germany,13.404954,52.5200066,1993,2010,Developer,www.silver-style-studios.com
+Silverlode Interactive,Orem,United States,-111.6946475,40.2968979,2005,0,Online Developer,www.silverlodeinteractive.com
+SilverTree Media,Palo Alto,United States,-122.1430195,37.4418834,2004,0,Developer,www.silvertreemedia.com
+SimBin Development Team,Vara,Sweden,12.960194,58.261781,2003,0,Developer,www.simbin.se
+Simogo,Malmo,Sweden,13.003822,55.604981,2010,0,Developer,www.simogo.com
+Simutronics Corp,St. Louis,United States,-90.1994042,38.6270025,1987,0,Online Developer,www.play.net
+Six Shooter Games,Gainesville,United States,-82.3248262,29.6516344,2010,0,Developer,www.sixshootergames.com
+SixMinute,Dublin,Ireland,-6.2603097,53.3498053,2013,0,Online Developer,www.sixminute.com
+Ska Studios,Schenectady,United States,-73.9395687,42.8142432,2001,0,Developer,www.ska-studios.com
+Skunk Studios,San Francisco,United States,-122.4194155,37.7749295,2001,0,Developer,www.skunkstudios.com
+Sky Fallen Entertainment,Moscow,Russia,37.6173,55.755826,2002,0,Developer,www.skyfallen.com
+Sky Parlor Studios,Sanford,United States,-81.269453,28.8028612,2010,0,Mobile/Handheld,www.skyparlorstudios.com
+SkyBox Labs,Burnaby,Canada,-122.9581694,49.2380432,2011,0,Developer,www.skyboxlabs.com
+Skyjoy Interactive,Miami,United States,-80.1917902,25.7616798,2012,0,Mobile/Handheld,www.skyjoy.com
+Skymap Games,Methuen,United States,-71.1908924,42.7262016,2012,0,Developer,www.skymapgames.com
+SkyRiver Studios,Samara,Russia,50.140833,53.202778,2001,0,Developer,www.skyriver.ru
+SkyVu Entertainment,Omaha,United States,-95.9979883,41.2523634,2009,0,Mobile/Handheld,www.sky.vu/
+Skyworks Interactive,Hackensack,United States,-74.0434736,40.8859325,1995,0,Developer,www.skyworks.com
 Sledgehammer Games (Activision),Foster City,United States,-122.2710788,37.5585465,2009,0,Developer,www.sledgehammergames.com
+Slick Entertainment,Vancouver,Canada,-123.1207375,49.2827291,2007,0,Developer,www.slickentertainment.com
+Slightly Mad Studios,London,England,-0.1277583,51.5073509,2008,0,Developer,www.slightlymadstudios.com
+Slingo,Hackensack,United States,-74.0434736,40.8859325,1995,0,Developer,www.slingo.com
+SlipShift,Berlin,Germany,13.404954,52.5200066,2010,0,Developer,www.slipshift.net
+Small Planet,New York City,United States,-74.0059413,40.7127837,2009,0,Mobile/Handheld,www.smallplanet.com
+Smallfry Mobile,Pretoria,South Africa,28.188056,-25.746111,2005,0,Mobile/Handheld,www.smallfrymobile.com
+Smart Bomb Interactive,Salt Lake City,United States,-111.8910474,40.7607793,2003,0,Developer,www.smartbombinteractive.com
+Smashing Ideas,Seattle,United States,-122.3320708,47.6062095,1996,0,Mobile/Handheld,www.smashingideas.com
+SmashMouth Games,Hale,England,-2.343509,53.37891,2006,0,Mobile/Handheld,www.smashmouthgames.com
+SmileBoom,Sapporo,Japan,141.3543763,43.0620958,2008,0,Developer,www.smileboom.com
+SmileGate,Seoul,South Korea,126.9779692,37.566535,2002,0,Online Developer,www.smilegate.com
+Smoking Gun Interactive,Vancouver,Canada,-123.1207375,49.2827291,2007,0,Developer,www.smokingguninc.com
+Smyowl,Sorocaba,Brazil,-47.4525603,-23.5015299,2012,0,Developer,www.smyowl.com.br
 Snail Games,Suzhou,China,120.585297,31.298974,2000,0,Developer,
+Snakehead Software,Austin,United States,-97.7430608,30.267153,2008,0,Mobile/Handheld,www.snakeheadsoftware.com
+SneakyBox,Kaunas,Lithuania,23.9035965,54.8985207,2012,0,Mobile/Handheld,www.sneakybox-studios.com
+Snjohus Software,Reykjavik,Iceland,-21.933333,64.133333,2013,0,Mobile/Handheld,www.snjohus.com
+Snowblind Studios,Seattle,USA,-122.3320708,47.6062095,1997,2012,Developer,
+Snowed In Studios,Ottawa,Canada,-75.6971931,45.4215296,2010,0,Developer,www.snowedin.ca
+Snowstep Development,Dusseldorf,Germany,6.7734556,51.2277411,2004,0,Developer,www.snowstep.com
+SNS Plus,Taipei,Taiwan,121.5654177,25.0329694,2010,0,Publisher,www.snsplus.com
 Sobee,Istanbul,Turkey,28.97696,41.00527,2000,0,Developer,www.sobee.com.tr
+Social Point,Barcelona,Spain,2.1734035,41.3850639,2008,0,Developer,www.socialpoint.es
+Social Spiel,Vienna,Austria,16.3738189,48.2081743,2010,0,Online Developer,www.socialspiel.com
+SockMonkey Studios,Middlesbrough,England,-1.234956,54.574227,2013,0,Mobile/Handheld,www.sockmonkeystudios.co.uk
+SOCO SOFT,Shanghai,China,121.473701,31.230416,2005,0,Mobile/Handheld,www.socogame.com
+Sodigital,Krakow,Poland,19.9449799,50.0646501,2003,0,Online Developer,www.sodigital.com
+Sofatronic,Hamburg,Germany,9.9936818,53.5510846,2006,0,Developer,
+SOFTGAMES,Berlin,Germany,13.404954,52.5200066,2003,0,Mobile/Handheld,www.softgames.de
+Softkinetic Studios,Brussels,Belgium,4.3517103,50.8503396,2007,0,Developer,www.softkinetic.net
+Softnyx,Seoul,South Korea,126.9779692,37.566535,2001,0,Developer,www.softnyx.com
+Softstar Entertainment,Taipei,Taiwan,121.5654177,25.0329694,1988,0,"Developer, Publisher",www.softstar.com.tw
+Software 2000,Eutin,Germany,10.6095048,54.1330282,1987,2002,"Developer, Publisher",
+Soldak Entertainment,Plano,United States,-96.6988856,33.0198431,2004,0,Developer,www.soldak.com
+Soma Games,Newberg,United States,-122.9731565,45.3001178,2008,0,Developer,www.somagames.com
 Sonic Team,Tokyo,Japan,139.6917064,35.6894875,1988,0,Developer,
-Sony Computer Entertainment,Frankfurt am Main,Germany,8.6821267,50.1109221,1994,0,Publisher,www.playstation.de
+Sony Computer Entertainment,Tokyo,Japan,139.6917064,35.6894875,1993,0,"Developer, Publisher",www.scei.co.jp
+Sony Online Entertainment,San Diego,United States,-117.1610838,32.715738,1995,0,Online Developer,www.sonyonline.com
 Sora Ltd.,Tokyo,Japan,139.6917064,35.6894875,2005,0,Developer,
+Sourcebits,San Francisco,United States,-122.4194155,37.7749295,2006,0,Developer,www.sourcebits.com
+Southpeak Interactive,Midlothian,United States,-77.6491578,37.5059814,1996,0,Publisher,www.southpeakgames.com
+Space Ape,London,England,-0.1277583,51.5073509,2012,0,Mobile/Handheld,www.spaceapegames.com
+Space Cowboys,Ness Tsiyona,Israel,34.801327,31.932111,2009,0,Developer,www.spacecowboysstudio.com
+Space Dream Factory,Moscow,Russia,37.6173,55.755826,1998,0,Developer,www.ifh.firstones.com
+Space Dust Studios,Melbourne,Australia,144.96328,-37.814107,2013,0,Developer,www.spaceduststudios.com
+Space Whale Studios,Philadelphia,United States,-75.1652215,39.9525839,2009,0,Developer,www.spacewhalestudios.com
+Spacetime Studios,Austin,United States,-97.7430608,30.267153,2005,0,Developer,www.spacetimestudios.com
+Spark Plug Games,Raleigh,United States,-78.6381787,35.7795897,2008,0,Developer,www.sparkpluggames.com
+Spark Unlimited,Sherman Oaks,United States,-118.451357,34.1489719,2002,0,Developer,www.sparkunlimited.com
+Spearhead Games,Montreal,Canada,-73.567256,45.5016889,2012,0,Developer,www.spearheadgames.ca
+Spectre Media,Houston,United States,-95.3698028,29.7604267,2011,0,Mobile/Handheld,www.spectremediallc.com
+Spectrum HoloByte,Alameda,USA,-122.2416355,37.7652065,1983,1998,"Developer, Publisher",
+Specular Interactive,Foothill Ranch,United States,-117.6664308,33.6831832,2007,0,Developer,www.specular.com
+Spellbound Entertainment,Offenburg,Germany,7.9498017,48.473451,1994,2012,Developer,
+Spicy Horse,Shanghai,China,121.473701,31.230416,2007,0,Developer,www.spicyhorse.com
+SpiderMonk Entertainment,Grapevine,United States,-97.0780654,32.9342919,2004,0,Developer,www.spidermonk.com
+Spiders,Paris,France,2.3522219,48.856614,2008,0,Developer,www.spiders-games.com
+Spiderweb Software,Seattle,United States,-122.3320708,47.6062095,1994,0,Developer,www.spiderwebsoftware.com
+Spike Chunsoft,Tokyo,Japan,139.6917064,35.6894875,2012,0,Developer,www.spike-chunsoft.co.jp
+SpikySnail Games,Tel Aviv,Israel,34.7817676,32.0852999,2010,0,Developer,www.spikysnail.com
+Spil Games ,Hilversum,Netherlands,5.1668974,52.2291696,2004,0,"Developer, Publisher",www.spilgames.com
+SpinVector,Benevento,Italy,14.7826208,41.1297613,2001,0,Developer,www.spinvector.com
+Spiral House,Liverpool,England,-2.9915726,53.4083714,1998,0,Developer,www.spiralhouse.co.uk
 Splash Damage,London,England,-0.1277583,51.5073509,2001,0,Developer,www.splashdamage.com
+Splashworks,Toronto,Canada,-79.3831843,43.653226,1998,0,Developer,www.splashworks.com
+Splitscreen Studios,Hamburg,Germany,9.9936818,53.5510846,2008,0,Online Developer,www.splitscreenstudios.com
+Spooky Cool Labs,Chicago,United States,-87.6297982,41.8781136,2010,0,Online Developer,www.spookycool.com
+Sports Interactive,London,England,-0.1277583,51.5073509,1994,0,Developer,www.sigames.com
+Sports Mogul,Medford,United States,-122.8755949,42.3265152,1995,0,Developer,www.sportsmogul.com
+Spotkin,Eugene,United States,-123.0867536,44.0520691,2012,0,Developer,www.spotkin.com
+Sproing,Vienna,Austria,16.3738189,48.2081743,2001,0,Developer,www.sproing.com
+Spry Fox,Juanita,United States,-95.148049,42.5802581,2010,0,Developer,www.spryfox.com
+Spyra,San Francisco,United States,-122.4194155,37.7749295,2011,0,Mobile/Handheld,www.spyragames.com
+Spyros Games,Alexandria,Egypt,29.9187387,31.2000924,2010,0,Mobile/Handheld,www.spyros-games.com
+Square Eni,Tokyo,Japan,139.6917064,35.6894875,2003,0,Developer,www.square-enix.com
 Square Enix,Tokyo,Japan,139.6917064,35.6894875,2003,0,"Developer, Publisher",
+SRRN Games,Richmond,United States,-77.4360481,37.5407246,2009,0,Developer,www.srrngames.com
 Stainless Games,Newport,England,-1.291633,50.700803,1993,0,Developer,www.stainlessgames.com
 Stainless Steel Studios,Cambridge,USA,-71.1097335,42.3736158,1998,0,Developer,
 Star Vault,Malmo,Sweden,13.003822,55.604981,2007,0,Online Developer,www.starvault.se
 Starbreeze Studios,Uppsala,Sweden,17.6389267,59.8585638,1998,0,Developer,www.starbreeze.com
 Stardock,Plymouth,United States,-93.4555093,45.0105194,1991,0,Developer,www.stardock.com
+State of Play,London,England,-0.1277583,51.5073509,2008,0,Online Developer,www.stateofplaygames.com
+Station Interactive,Karlshamn,Sweden,14.863073,56.170303,2013,0,Developer,www.station-interactive.com
+Steamroller Studios,Eustis,United States,-81.6853534,28.8527675,2009,0,Developer,www.steamrollerstudios.com
+Steel Wool Games,Oakland,United States,-122.2711137,37.8043637,2011,0,Mobile/Handheld,www.steelwoolgames.com
+Steroid Interactive,Mainz,Germany,8.2472526,49.9928617,2009,0,Online Developer,www.steroid-interactive.com
+Stickery,San Francisco,United States,-122.4194155,37.7749295,2011,0,Mobile/Handheld,www.stickeryapp.com
+Stickmen Studios,Christchurch,New Zealand,172.6362254,-43.5320544,2006,0,Developer,www.stickmenstudios.co.nz
 Sting Entertainment,Tokyo,Japan,139.6917064,35.6894875,1989,0,Developer,
+Stolen Couch Games,Utrecht,Netherlands,5.1214201,52.0907374,2010,0,Mobile/Handheld,www.stolencouchgames.com
+Storm Basic Games,Sevilla,Spain,-5.9844589,37.3890924,2004,0,Developer,www.stormbasic.com
+Storm8,Redwood City,United States,-122.2363548,37.4852152,2009,0,Mobile/Handheld,www.storm8.com
+Strange Loop Games,Seattle,United States,-122.3320708,47.6062095,2009,0,Developer,www.strangeloopgames.com
+Strategy First,Montreal,Canada,-73.567256,45.5016889,1990,0,"Developer, Publisher",www.strategyfirst.com
 Strawdog Studios,Derby,England,-1.4746186,52.9225301,2003,0,Developer,www.strawdogstudios.com
+Straylight Studios,Dunedin,New Zealand,170.5027976,-45.8787605,2004,2009,Developer,
 Streamline Studios,Amsterdam,Netherlands,4.8951679,52.3702157,2001,0,Developer,
 Streum On Studio,Paris,France,2.3522219,48.856614,2007,0,Developer,
+Studio Bleep,Groningen,Netherlands,6.5665018,53.2193835,2013,0,Developer,www.studiobleep.nl/en
+Studio Evil,Bologna,Italy,11.3426163,44.494887,2010,0,Developer,www.studioevil.com
+Studio Fizbin,Ludwigsburg,Germany,9.195464,48.8940624,2011,0,Developer,www.studio-fizbin.de
+Studio Gobo,Brighton,England,-0.137163,50.82253,2011,0,Developer,www.studiogobo.com
+Studio Kontrabida,Toronto,Canada,-79.3831843,43.653226,2010,0,Developer,www.kontrabida.ca
+Studio Nord,Saint Petersburg,Russia,30.3350986,59.9342802,2011,0,Developer,www.games.my.com
+Studio Radi-8,Apex,United States,-78.8502856,35.732652,2003,0,Developer,www.radi-8.com
+Stunlock Studios,Skovde,Sweden,13.8461208,58.3902782,2010,0,Developer,www.stunlockstudios.com
+Stupid Fun Club,Berkeley,United States,-122.272747,37.8715926,2001,0,Developer,www.stupidfunclub.com
+Subatomic Games,Cambridge,United States,-71.1097335,42.3736158,2008,0,Mobile/Handheld,www.subatomicstudios.com
+Subutai Corporation,Seattle,United States,-122.3320708,47.6062095,2010,0,Developer,www.subutai.mn
+Subversive Games,Canberra,Australia,149.1286843,-35.2819998,2007,0,Developer,www.subversivegames.com
 Sucker Punch Productions (Sony),Bellevue,United States,-122.2006786,47.610377,1997,0,Developer,www.suckerpunch.com
+Sulake Labs,Helsinki,Finland,24.9410248,60.1733244,2000,0,Online Developer,www.sulake.com
 Sumo Digital,Sheffield,England,-1.470085,53.381129,2003,0,Developer,www.sumo-digital.com
+Sumom Games,Kiev,Ukraine,30.5234,50.4501,2011,0,Developer,www.sumomgames.com
+Sunflowers Interactive Entertainment Software,Heusenstamm,Germany,8.7999301,50.0554864,1993,2007,"Developer, Publisher",
+SUNFOX Games,Vienna,Austria,16.3738189,48.2081743,2011,0,Online Developer,www.sunfoxgames.com
+Sunleaf Studios,Redmond,United States,-122.121512,47.6739881,2007,0,Developer,www.sunleafstudios.com
+Sunnyside Interactive,Lausanne,Switzerland,6.6335971,46.5199617,2013,0,Developer,www.sunnyside-interactive.com
+Sunshine Lab,Montpellier,France,3.876716,43.610769,2010,0,Developer,www.sunshine-lab.com
+Sunstorm Games,Las Vegas,United States,-115.1398296,36.1699412,2009,0,Developer,www.sunstormgames.com
+Super Awesome Hyper Dimensional Mega Team,Valencia,Spain,-0.3762881,39.4699075,2009,0,"Developer, Mobile/Handheld",www.supermegateam.com
+Super Evil Megacorp,San Mateo,United States,-122.3255254,37.5629917,2012,0,Mobile/Handheld,www.superevilmegacorp.com
+Super Happy Fun Fun,Austin,United States,-97.7430608,30.267153,2001,0,Developer,www.superhappyfunfun.com
+SuperBot Entertainment,Culver City,United States,-118.3964665,34.0211224,2010,0,Developer,www.superbotentertainment.com
+Supercell,Helsinki,Finland,24.9410248,60.1733244,2010,0,Online Developer,www.supercell.net
+Superfunplay,Carlow,Ireland,-6.8503703,52.7189747,2011,0,Mobile/Handheld,www.superfunplay.com
+Supergiant Games,San Francisco,United States,-122.4194155,37.7749295,2009,0,Developer,www.supergiantgames.com
+Superhippo,Dublin,Ireland,-6.2603097,53.3498053,2012,0,Mobile/Handheld,www.superhippo.com
+Supermassive Games,Guildford,England,-0.570409,51.23622,2008,0,Developer,www.supermassivegames.com
+Supermono (Red Robot Labs),London,England,-0.1277583,51.5073509,2011,0,Mobile/Handheld,www.supermono-studios.com
+SuperMoon Games,San Francisco,United States,-122.4194155,37.7749295,2014,0,Mobile/Handheld,www.supermoongames.com
+Supertales,Novato,United States,-122.5697032,38.1074198,2013,0,Mobile/Handheld,www.supertales.com
 SuperVillian Studios,Santa Ana,United States,-117.8678338,33.7455731,2004,0,Developer,www.supervillainstudios.com
+Swallowtail Games,Dundee,Scotland,-2.970721,56.462018,2012,0,Mobile/Handheld,www.swallowtailgames.co.uk
+Swamiware,Ann Arbor,United States,-83.7430378,42.2808256,2000,0,Developer,www.swamiware.com
+Swedish Games Industry,Stockholm,Sweden,18.0685808,59.3293235,1992,0,Organization,www.swedishgamesindustry.com
 Swingin' Ape Studios,Aliso Viejo,USA,-117.725556,33.575,2000,0,Developer,
+Swiss Game Developers Association,Zurich,Switzerland,8.5391825,47.3686498,2012,0,Organization,www.sgda.ch
+Sybex Verlag,Dusseldorf,Germany,6.7734556,51.2277411,1981,0,Publisher,www.sybex.de
+Synaptic Switch,Alamosa,United States,-105.8700214,37.4694491,2010,0,Mobile/Handheld,www.synapticswitch.com
+Synetic - The Funfactory,Gutersloh,Germany,8.3857535,51.9032375,1996,0,Developer,www.synetic.de
+Synosure Games,Santa Ana,United States,-117.8678338,33.7455731,2013,0,Developer,www.synosuregames.com
+Syntertainment,Berkeley,United States,-122.272747,37.8715926,2012,0,Developer,www.syntertainment.com
+Tactile Entertainment,Copenhagen,Denmark,12.5683371,55.6760968,2009,0,Developer,www.tactileent.blogspot.com
 Tag Games,Dundee,Scotland,-2.970721,56.462018,2006,0,Mobile/Handheld,www.tag-games.com
+Tag of Joy,Vilnius,Lithuania,25.2796514,54.6871555,2012,0,Developer,www.tagofjoy.lt
+Tagged,San Francisco,United States,-122.4194155,37.7749295,2004,0,Online Developer,www.tagged.com
 Taito (Square Enix),Tokyo,Japan,139.6917064,35.6894875,1953,0,Developer,
 Take 2 Interactive,New York City,United States,-74.0059413,40.7127837,1993,0,"Developer, Publisher",www.take2games.com
-TaleWorlds,Ankara,Turkey,32.85411,39.92077,2005,0,Developer,
+Takuyo,Yokosuka,Japan,139.6722005,35.2813412,1997,0,Developer,www.takuyo.co.jp
+Talawa Games,Stockholm,Sweden,18.0685808,59.3293235,2011,0,Developer,www.talawagames.com
+Tale of Tales,Ghent,Belgium,3.7174243,51.0543422,2003,0,Developer,www.tale-of-tales.com
+Taleworlds Entertainment,Ankara,Turkey,32.85411,39.92077,2005,0,Developer,www.taleworlds.com
 Tamsoft,Asakusa,Japan,139.796686,35.7118881,1992,0,Developer,
+Tandem Games,Round Rock,United States,-97.678896,30.5082551,2007,0,Developer,www.tandemgames.com
 Tango Gameworks,Tokyo,Japan,139.6917064,35.6894875,2010,0,Developer,
-Tantalus Media,Melbourne,Australia,144.96328,-37.814107,1994,0,Developer,
+Tanoshii Creative Studio,Depok,Indonesia,106.8300687,-6.3888772,2012,0,Developer,www.tanoshiistudio.com
+Tantalus,Melbourne,Australia,144.96328,-37.814107,1994,0,Developer,www.tantalus.com.au
+Tap4Fun,Chengdu,China,104.066541,30.572269,2011,0,Online Developer,www.tap4fun.com
+TapBlaze,Santa Monica,United States,-118.4911912,34.0194543,2012,0,Mobile/Handheld,www.tapblaze.com
+Tapestry Software,Coimbra,Portugal,-8.4102573,40.2033145,1993,0,Online Developer,www.tapestrysoftware.com
+TapStar Interactive Software,Dhaka,Bangladesh,90.4125181,23.810332,2013,0,Developer,www.tapstarapps.com
+Tapulous,Palo Alto,United States,-122.1430195,37.4418834,2008,2014,Online Developer,www.tapulous.com
+Targem Games,Ekaterinburg,Russia,60.6057025,56.8389261,2002,0,Developer,www.targem.ru
+Tarsier Studios,Karlshamn,Sweden,14.863073,56.170303,2006,0,Developer,www.tarsier.se
+Tarver Games,Santa Monica,United States,-118.4911912,34.0194543,2008,0,Mobile/Handheld,www.tarvergames.com
+Tasty Poison Games,Cape Town,South Africa,18.4240553,-33.9248685,2010,0,Mobile/Handheld,www.tastypoisongames.com
+Tate Interactive,Krakow,Poland,19.9449799,50.0646501,2003,0,Developer,www.tate.pl
+TBA Games,Orlando,United States,-81.3792365,28.5383355,2011,0,Developer,www.periareion.com
+Team 17,Ossett,England,-1.578877,53.681091,1990,0,Developer,www.team17.com
+Team 3 games,Cheadle,England,-2.214115,53.394361,2005,0,Developer,www.team3games.com
+Team Bondi,Sydney,Australia,151.2069902,-33.8674869,2003,2011,Developer,
+Team Chaos,Austin,United States,-97.7430608,30.267153,2012,0,Mobile/Handheld,www.teamchaos.com
+Team Ninja (Tecmo Koei),Tokyo,Japan,139.6917064,35.6894875,1995,0,Developer,www.tecmoinc.com
+Team Phobic,Boulder,United States,-105.2705456,40.0149856,2007,0,Mobile/Handheld,ww2.teamphobic.com
+Team Tachyon (Tecmo Koei),Tokyo,Japan,139.6917064,35.6894875,2007,0,Developer,www.tecmoinc.com
+Team Vienna,Vienna,Austria,16.3738189,48.2081743,2006,0,Online Developer,www.teamvienna.at
 Team17,Ossett,England,-1.578877,53.681091,1990,0,Developer,
+Team6,Assen,Netherlands,6.5642284,52.992753,2001,0,Developer,www.team6-games.com
+TechFront,Curitiba,Brazil,-49.267137,-25.4289541,2006,0,Developer,www.techfront.com.br
 Techland,Wroclaw,Poland,17.0385376,51.1078852,1991,0,Developer,www.techland.pl
 Tecmo Koei,Yokohama,Japan,139.6380256,35.4437078,2009,0,Developer,
+Tectoy Studios,Campinas,Brazil,-47.0626332,-22.9099384,2011,0,Mobile/Handheld,www.tectoystudios.com
 Telltale Games,San Rafael,United States,-122.5310874,37.9735346,2004,0,Developer,www.telltalegames.com
+Tempa Labs,Jakarta,Indonesia,106.845599,-6.2087634,2010,0,Online Developer,www.tempalabs.com
+Ten Square Games,Wroclaw,Poland,17.0385376,51.1078852,2011,0,Developer,www.tensquaregames.com
 Tencent,Shenzen,China,114.057868,22.543099,1998,0,Online Developer,www.tencent.com
+Tequila Mobile,Wroclaw,Poland,17.0385376,51.1078852,2007,0,Mobile/Handheld,www.tequilamobile.com
 Tequila Works,Madrid,Spain,-3.7037902,40.4167754,2009,0,Developer,www.tequilaworks.com
 Terminal Reality,Lewisville,United States,-96.994174,33.046233,1994,0,Developer,www.terminalreality.com
+Terzio Verlag,Munich,Germany,11.5819806,48.1351253,1997,0,Publisher,www.terzio.de
+Tethys Interactive,Fishers,United States,-86.01335,39.9567548,2011,0,Mobile/Handheld,www.tethysinteractive.com
+Teyon,Krakow,Poland,19.9449799,50.0646501,2006,0,Developer,www.teyon.com
+TG Nord,Hannover,Germany,9.7320104,52.3758916,2013,0,Online Developer,www.tg-nord.com
+thatgamecompany,Santa Monica,United States,-118.4911912,34.0194543,2006,0,Developer,www.thatgamecompany.com
+The Astronauts,Warsaw,Poland,21.0122287,52.2296756,2012,0,Developer,www.theastronauts.com
+The Bartlet Jones Supernatural Detective Agency,San Diego,United States,-117.1610838,32.715738,2013,0,Developer,www.blog.bartletjones.com
 The Behemoth,San Diego,United States,-117.1610838,32.715738,2002,0,"Developer, Publisher",www.thebehemoth.com
 The Bitmap Brothers,London,England,-0.1277583,51.5073509,1987,0,Developer,
 The Chinese Room,Brighton,England,-0.137163,50.82253,2007,0,Developer,
+The Creative Assembly,Horsham,England,-0.325858,51.062883,1987,0,Developer,www.creative-assembly.co.uk
+The Farm 51,Gliwice,Poland,18.6713802,50.2944923,2005,0,Developer,www.thefarm51.com
+The Fullbright Company,Portland,United States,-122.6764816,45.5230622,2012,0,Developer,www.thefullbrightcompany.com
+The Indepenent Game Developers Association (TIGA),Brighton,England,-0.137163,50.82253,2001,0,Organization,www.tiga.org
+The Lordz Game Studio,Amsterdam,Netherlands,4.8951679,52.3702157,2006,0,Developer,www.thelordzgamesstudio.com
+The Men Who Wear Many Hats,Chicago,United States,-87.6297982,41.8781136,2012,0,Developer,www.hatsproductions.com
+The Tap Lab,Cambridge,United States,-71.1097335,42.3736158,2009,0,Mobile/Handheld,www.thetaplab.com
+The Voxel Agents,Melbourne,Australia,144.96328,-37.814107,2009,0,Developer,www.thevoxelagents.com
+The Web Production,Saint Petersburg,Russia,30.3350986,59.9342802,1998,0,Developer,www.thewebproduction.com
+The Workshop,Marina Del Rey,United States,-118.4517449,33.9802893,2007,0,Developer,www.theworkshop.us.com
 The9,Shanghai,China,121.473701,31.230416,1999,0,Online Developer,
+thechineseroom,Brighton,England,-0.137163,50.82253,2007,0,Developer,www.thechineseroom.co.uk
+Thinking Monkeys,Gurgaon,India,77.0266383,28.4594965,2004,0,Developer,www.thinkingmonkeys.com
+Third Wave Games,Melbourne,Australia,144.96328,-37.814107,2004,0,Developer,www.thirdwavegames.com
+Third Wire Productions,Austin,United States,-97.7430608,30.267153,1999,0,Developer,www.thirdwire.com
+Thousand Gears,London,England,-0.1277583,51.5073509,2013,0,Mobile/Handheld,www.thousandgears.com
+THQ,Agoura Hills,United States,-118.7616764,34.1533395,1989,2013,Developer,
+Three Melons,Buenos Aires,Argentina,-58.3815591,-34.6036844,2005,0,Developer,www.threemelons.com
+Three One Zero,Santa Monica,United States,-118.4911912,34.0194543,2013,0,Developer,www.threeonezero.com
 Three Rings Design (SEGA),San Francisco,United States,-122.4194155,37.7749295,2001,0,Online Developer,www.threerings.net
+ThreeGates,Visby,Sweden,18.29484,57.6348,2010,0,Developer,www.threegates.se
+Thrust Interactive,Atlanta,United States,-84.3879824,33.7489954,2004,0,Online Developer,www.thrustinteractive.com
+Tic Toc Games,Santa Clarita,United States,-118.542586,34.3916641,2010,0,Mobile/Handheld,www.tictocgames.com
+Ticking Bomb Games,Hamburg,Germany,9.9936818,53.5510846,2008,0,Online Developer,www.ticking-bomb-games.de
+Tiertex Design Studios,Manchester,England,-2.2426305,53.4807593,1987,0,Developer,www.tiertex.com
+Tiger Style,Austin,United States,-97.7430608,30.267153,2009,0,Developer,www.tigerstylegames.com
+Tiglon,Istanbul,Turkey,28.97696,41.00527,1999,0,Publisher,www.tiglon.com.tr
+TikGames,San Mateo,United States,-122.3255254,37.5629917,2002,0,Developer,www.tikgames.com
+tikle,Istanbul,Turkey,28.97696,41.00527,1999,0,Mobile/Handheld,www.tikle.com
+TikTak Games,Barcelona,Spain,2.1734035,41.3850639,2011,0,Online Developer,www.tiktakgames.com
+Tilted Mill Entertainment,Framingham,United States,-71.4161565,42.279286,2001,0,Developer,www.tiltedmill.com
+TimeGate Studios,Sugar Land,United States,-95.6349463,29.6196787,1998,2013,Developer,
+TimePlay Entertainment,Los Angeles,United States,-118.2436849,34.0522342,2004,0,Developer,www.timeplay.com
+Tin Truck,San Mateo,United States,-122.3255254,37.5629917,2011,0,Mobile/Handheld,www.tintruck.com
+Tindalos Interactive,Paris,France,2.3522219,48.856614,2010,0,Developer,www.tindalos-interactive.com
+Tinderbox Entertainment,Vancouver,United States,-122.6614861,45.6387281,2003,0,Developer,www.tinderboxentertainment.com
+Tintash,Palo Alto,United States,-122.1430195,37.4418834,2008,0,Mobile/Handheld,www.tintash.com
+Tiny Mob Games,Victoria,Canada,-123.3656444,48.4284207,2013,0,Developer,www.tinymobgames.com
+TinyCo,San Francisco,United States,-122.4194155,37.7749295,2009,0,Mobile/Handheld,www.tinyco.com
+Tio Atum,Lisbon,Portugal,-9.1393366,38.7222524,2012,0,Mobile/Handheld,www.tioatum.tumblr.com
+TipCat Interactive,Suzhou,China,120.585297,31.298974,2009,0,Online Developer,www.tipcat.com
+Tivola Publishing,Berlin,Germany,13.404954,52.5200066,1996,0,Publisher,www.tivola.de
+Tomozaru Games,Foster City,United States,-122.2710788,37.5585465,2011,0,Developer,www.tomozaru.com
+Tonika Games,Madrid,Spain,-3.7037902,40.4167754,2009,0,Mobile/Handheld,www.tonikagames.com
+TopWare Interactive,Ettlingen,Germany,8.3980172,48.943208,2002,0,"Developer, Publisher",www.topware.com
+Tornado Studios,Tulsa,United States,-95.992775,36.1539816,2008,0,Developer,www.tornadostudios.com
 Torpex Games,Bellevue,United States,-122.2006786,47.610377,2005,0,Developer,www.torpexgames.com
+Torquemada Games,Katowice,Poland,19.0237815,50.2667,2002,0,Developer,www.torquemada-games.com
 Torus Games,Victoria,Australia,144.7851531,-37.4713077,1994,0,Developer,www.torus.com.au
 Tose,Kyoto,Japan,135.7680294,35.0116363,1979,0,Developer,
-Toys for Bob,Novato,United States,-122.5697032,38.1074198,1989,0,"Developer, Publisher",
-trapdoor,Montreal,Canada,-73.5539925,45.5086699,2010,0,Developer,www.trapdoorinc.com
+Total Eclipse,Thessaloniki,Greece,22.9444191,40.6400629,2004,0,Developer,www.totaleclipsegames.com
+TouchTilt Games,Halifax,Canada,-63.5753196,44.6488625,2011,0,Developer,www.touchtilt.com
+Toys for Bob,Novato,United States,-122.5697032,38.1074198,1989,0,"Developer, Publisher",www.toysforbob.com
+ToyStudio,Chicago,United States,-87.6297982,41.8781136,2009,0,Online Developer,www.toystudio.com
+TQ Digital,Fuzhou,China,119.296494,26.074508,2000,0,Online Developer,us.tqdigital.com
+Track7 Games,Athens,Greece,23.7293599,37.983917,2002,0,Developer,www.track7games.com
+Tradeks,Istanbul,Turkey,28.97696,41.00527,1997,0,Publisher,www.tradeks.com.tr
+Tragnarion Studios,Mallorca,Spain,3.0175712,39.6952629,2003,0,Developer,www.tragnarion.com
+Transgaming,Toronto,Canada,-79.3831843,43.653226,2001,0,Developer,www.transgaming.com
+Transmission Games,Melbourne,Australia,144.96328,-37.814107,1996,2009,Developer,
+trapdoor,Montreal,Canada,-73.567256,45.5016889,2010,0,Developer,www.trapdoorinc.com
 Travellers Tales,Knutsford,England,-2.371833,53.3005939,1990,0,Developer,www.ttgames.com
+Travian Games,Munich,Germany,11.5819806,48.1351253,2005,0,Online Developer,www.traviangames.com
+TRC Family Entertainment,Msida,Malta,14.489444,35.897778,2011,0,Developer,www.trcmediagroup.com
+Treasure,Tokyo,Japan,139.6917064,35.6894875,1992,0,Developer,www.treasure-inc.co.jp
+Tree Interactive,San Jose,Costa Rica,-84.0907246,9.9280694,2011,0,Mobile/Handheld,www.treeinteractivecr.com
+Trendy Entertainment,Gainesville,United States,-82.3248262,29.6516344,2009,0,Developer,www.trendyent.com
 Treyarch (Activision),Santa Monica,United States,-118.4911912,34.0194543,1996,0,Developer,www.treyarch.com
 Tri-Ace,Tokyo,Japan,139.6917064,35.6894875,1995,0,Developer,www.tri-ace.com/en/
+tri-Crescendo,Tokyo,Japan,139.6917064,35.6894875,1999,0,Developer,www.tri-crescendo.co.jp
+Triangle Studios,Leeuwarden,Netherlands,5.7999133,53.2012334,2005,0,Developer,www.triangle-studios.com
+Tribal Nova,Montreal,Canada,-73.567256,45.5016889,2005,0,Online Developer,www.tribalnova.com
+Tribe Studios,Helsinki,Finland,24.9410248,60.1733244,2010,0,Online Developer,www.tribestudios.com
+TribePlay,Chengdu,China,104.066541,30.572269,2008,0,Mobile/Handheld,www.tribeplay.com
+Tribute Games,Montreal,Canada,-73.567256,45.5016889,2011,0,Developer,www.tributegames.com
+Trick Gaming Studios,Buenos Aires,Argentina,-58.3815591,-34.6036844,2012,0,Developer,www.trickgs.com
+Trickster Arts,Brno,Czech Republic,16.6068371,49.1950602,2012,0,Mobile/Handheld,www.tricksterarts.com
+Trigger Happy,Venice,United States,-82.4542632,27.0997775,2010,0,Mobile/Handheld,www.triggerhappy.la
+Trine Entertainment,Mumbai,India,72.8776559,19.0759837,2006,0,Developer,www.trinegames.com
+Triolith Entertainment,Skovde,Sweden,13.8461208,58.3902782,2011,0,Developer,www.triolith.com
+Trion Worlds,Redwood City,United States,-122.2363548,37.4852152,2006,0,"Developer, Publisher",www.trionworlds.com
+Triotech Amusement,Montreal,Canada,-73.567256,45.5016889,1999,0,Developer,www.trio-tech.com
+Triple Claim Game Collective,Sarajevo,Bosnia and Herzegovina,18.4130763,43.8562586,2011,0,Mobile/Handheld,www.tripleclaim.com
 Tripwire Interactive,Roswell,United States,-84.3615555,34.0232431,2005,0,Developer,www.tripwireinteractive.com
 Triumph Studios,Delft,Netherlands,4.3570677,52.0115769,1997,0,Developer,www.triumphstudios.com
+TT Fusion,Wilmslow,England,-2.229409,53.328,2005,0,Developer,www.ttgames.com
+Turbine (Warner Bros),Needham,United States,-71.2377548,42.2809285,1994,0,Online Developer,www.turbinegames.com
+Turbo Tape Games,Bergen,Norway,5.3220544,60.3912628,2008,0,Developer,www.turbotapegames.com
 Turn 10 Studios,Redmond,United States,-122.121512,47.6739881,2001,0,Developer,www.forzamotorsport.net
 Turtle Rock Studios,Lake Forest,United States,-117.689218,33.6469661,2002,0,Developer,www.turtlerockstudios.com
+Twelve Games,Msida,Malta,14.489444,35.897778,2003,0,Developer,www.twelvegames.com
+Twenty First Street Games,New York City,United States,-74.0059413,40.7127837,2011,0,Developer,www.21stgames.com
+Twisted Pixel Games (Microsoft),Austin,United States,-97.7430608,30.267153,2006,0,Developer,www.twistedpixelgames.com
+Twitchy Thumbs Entertainment,San Diego,United States,-117.1610838,32.715738,2005,0,Developer,www.twitchythumbs.com
+Two Creature Studios,Dundee,Scotland,-2.970721,56.462018,2012,0,Mobile/Handheld,www.twocreature.com
+Two Guys From Andromeda,Eugene,United States,-123.0867536,44.0520691,2012,0,Developer,www.guysfromandromeda.com
 Two Tribes,Amersfoort,Netherlands,5.3878266,52.1561113,2000,0,Developer,www.twotribes.com
 Typhoon Games,Hong Kong,China,114.109497,22.396428,2001,0,Online Developer,www.typhoongames.com
-Ubisoft,Montreuil-sous-Bois,France,2.448451,48.863812,1986,0,"Developer, Publisher",www.ubisoft.com/en-US
-United Front Games,Vancouver,Canada,-123.1139268,49.261226,2006,0,Developer,www.unitedfrontgames.com
+Uber Entertainment,Kirkland,United States,-122.2087353,47.6814875,2008,0,Developer,www.uberent.com
+Ubisoft,Montreuil,France,2.448451,48.863812,1986,0,"Developer, Publisher",www.ubiport.com
+Uken,Toronto,Canada,-79.3831843,43.653226,2009,0,Developer,www.uken.com
+Ultimate Play The Game,Ashby-de-la-Zouch,England,-1.468618,52.749212,1982,1988,Developer,
+UltiZen Games,Shanghai,China,121.473701,31.230416,2005,0,Developer,www.ultizen.com
+Undead Labs,Seattle,United States,-122.3320708,47.6062095,2009,0,Online Developer,www.undeadlabs.com
+Undercoders,Barcelona,Spain,2.1734035,41.3850639,2006,0,Developer,www.undercoders.com
+Unigine,Tomsk,Russia,84.9924506,56.5010397,2005,0,Developer,unigine.com
+Unique Development Studios,Norrkoping ,Sweden,16.192421,58.587745,1993,2004,Developer,
+Unit9,London,United Kingdom,-0.1277583,51.5073509,1996,0,Developer,www.unit9.com
+United Front Games,Vancouver,Canada,-123.1207375,49.2827291,2007,0,Developer,www.unitedfrontgames.com
+Unity Technologies,Copenhagen,Denmark,12.5683371,55.6760968,2004,0,Developer,www.unity3d.com
+Universomo,Tampere,Finland,23.7610254,61.4981508,2002,2010,Developer,
+Unknown Worlds,San Francisco,United States,-122.4194155,37.7749295,2001,0,Developer,www.unknownworlds.com
+Unspoken Tales,San Francisco,United States,-122.4194155,37.7749295,2014,0,Developer,www.unspokentales.com
+Untold Entertainment,Toronto,Canada,-79.3831843,43.653226,2007,0,Developer,www.untoldentertainment.com
+Upjers,Bamberg,Germany,10.9027636,49.8988135,2006,0,Online Developer,de.upjers.com
+Valkyrie Entertainment,Seattle,United States,-122.3320708,47.6062095,2000,0,Developer,www.valkyrie-entertainment.com
+ValuSoft,Chaska,United States,-93.6018389,44.7893446,1982,0,Publisher,www.valusoft.com
 Valve Corporation,Bellevue,United States,-122.2006786,47.610377,1996,0,Developer,www.valvesoftware.com
+Vanguard Entertainment,Amsterdam,Netherlands,4.8951679,52.3702157,2010,0,Developer,www.vanguardgames.net
+Vanillaware,Osaka,Japan,135.5021651,34.6937378,2002,0,Developer,www.vanillaware.co.jp
+Vast Studios,Toronto,Canada,-79.3831843,43.653226,2008,0,Developer,www.vaststudio.com
+Vatra (Kuju Entertainment),Brno,Czech Republic,16.6068371,49.1950602,2009,0,Developer,www.vatragames.com
+Vblank Entertainment,Vancouver,Canada,-123.1207375,49.2827291,2007,0,Developer,www.vblank.com
+Vector Unit,San Rafael,United States,-122.5310874,37.9735346,2008,0,Developer,www.vectorunit.com
+Vectorform Game Studio,Royal Oak,United States,-83.1446485,42.4894801,1999,0,Developer,www.vectorform.com
+Veiled Games,Minneapolis,United States,-93.26667,44.983334,2008,0,Mobile/Handheld,www.veiledgames.com
+Venan Entertainment,Middletown,United States,-72.6506488,41.5623209,2002,0,Mobile/Handheld,www.venan.com
 Venan Entertainment,Middletown,USA,-72.6506488,41.5623209,2002,0,Mobile/Handheld,www.venan.com
-Vicarious Visions,Albany,USA,-73.7562317,42.6525793,1990,0,Developer,
+Vertigo Games,Rotterdam,Netherlands,4.4777325,51.9244201,2008,0,Developer,www.vertigo-games.com
+Vetasoft,Mons,Belgium,3.956659,50.4542408,2009,0,Mobile/Handheld,www.vetasoft.com
+Vicarious Visions,Albany,USA,-73.7562317,42.6525793,1990,0,Developer,www.vvisions.com
+Vicinity Games,Kansas City,United States,-94.5785667,39.0997265,2010,0,Mobile/Handheld,www.vicinitygames.com
+Vicious Cycle Software,Chapel Hill,United States,-79.0558445,35.9131996,2000,0,Developer,www.viciouscycleinc.com
+VideoGames Chile,Santiago,Chile,-70.641997,-33.4691199,2010,0,Organization,www.videogameschile.com
+Vigil Games,Austin,USA,-97.7430608,30.267153,2005,2013,Developer,
+ViquaSoft,Bangkok,Thailand,100.5241235,13.7278956,2005,0,Developer,www.viquagames.com
+Vir2L Studios,Rockville,United States,-77.1527578,39.0839973,1999,0,Mobile/Handheld,www.vir2l.com
 Virtual Adventures Inc.,Quebec,Canada,-73.5491361,52.9399159,1994,0,Developer,
-"Virtual Heroes, Inc.",Raleigh,USA,-78.6381787,35.7795897,2004,0,Developer,
-Visceral Games,Redwood City,USA,-122.2363548,37.4852152,1998,0,Developer,
+"Virtual Heroes, Inc.",Raleigh,USA,-78.6381787,35.7795897,2004,0,Developer,www.virtualheroes.com
+Virtual Space Entertainment,San Anselmo,United States,-122.5616448,37.9746458,2007,0,Online Developer,www.virtualspaceentertainment.com
+Virtual Toys,Madrid,Spain,-3.7037902,40.4167754,1995,0,Developer,www.virtualtoys.net
+Virtuos,Shanghai,China,121.473701,31.230416,2004,0,Developer,www.virtuosgames.com
+Virtway,Oviedo,Spain,-5.8493887,43.3619145,1999,0,Developer,www.virtway.com
+Visceral Games,Redwood City,USA,-122.2363548,37.4852152,1998,0,Developer,www.visceralgames.com
 Visual Concepts,California,USA,-119.4179324,36.778261,1988,0,Developer,
+Visual Impact ,Paris,France,2.3522219,48.856614,1994,0,Developer,www.viprod.com
+Vivid Games,Bydgoszcz,Poland,18.0084378,53.1234804,2006,0,Developer,www.vividgames.pl
+Vlambeer,Utrecht,Netherlands,5.1214201,52.0907374,2010,0,Developer,www.vlambeer.com
+Vogster Entertainment,New York City,United States,-74.0059413,40.7127837,2005,0,Online Developer,www.vogster.com
+voidALPHA,Emeryville,United States,-122.2852473,37.831316,2011,0,Developer,www.voidalpha.com
 Volition (Deep Silver),Champaign,USA,-88.2433829,40.1164204,1996,0,Developer,www.dsvolition.com
-Wahoo Studios,Orem,USA,-111.6946475,40.2968979,2001,0,Developer,
+Vostok Games,Kiev,Ukraine,30.5234,50.4501,2012,0,Developer,www.vostokgames.com
+Vostu,Buenos Aires,Argentina,-58.3815591,-34.6036844,2007,0,Online Developer,www.vostu.com
+VSTEP,Rotterdam,Netherlands,4.4777325,51.9244201,2002,0,Developer,www.vstep.nl
+Wahoo Studios,Orem,United States,-111.6946475,40.2968979,2001,0,Developer,www.wahoo.com
+Wales Interactive,Cardiff,Wales,-3.17909,51.481581,2012,0,Mobile/Handheld,www.walesinteractive.com
+Walnut Games,Kolkata,India,88.363895,22.572646,2014,0,Developer,www.walnutgames.in
 Wanako Games,Santiago de Chile,Chile,-70.641997,-33.4691199,2002,0,Developer,
-Wargaming Saint Petersburg,Saint Petersburg,Russia,30.3350986,59.9342802,1991,0,Developer,
+Wargaming ,Nicosia,Cyprus,33.366667,35.166667,1998,0,Developer,www.wargaming.com
 Warhorse Studios,Prague,Czech Republic,14.4378005,50.0755381,2011,0,Developer,www.warhorsestudios.cz
-WayForward Technologies,Valencia,USA,-79.9895022,40.6747887,1990,0,Developer,
+Warner Brothers Interactive Entertainment,Burbank,United States,-118.3089661,34.1808392,1993,0,"Developer, Publisher",www.wbie.com
+Washawasha,Mexico City,Mexico,-99.133208,19.4326077,2010,0,Mobile/Handheld,www.washawasha.com
+Washington Interactive Network,Seattle,United States,-122.3320708,47.6062095,2004,0,Organization,www.washingtoninteractivenetwork.org
+Wavefront,Vancouver,Canada,-123.1207375,49.2827291,2008,0,Organization,www.wavefrontac.com
+WayForward Technologies,Valencia,USA,-79.9895022,40.6747887,1990,0,Developer,www.wayforward.com
 WB Games,Chicago,USA,-87.6297982,41.8781136,1988,0,"Developer, Publisher",
+We R Interactive,London,England,-0.1277583,51.5073509,2010,0,Online Developer,www.werinteractive.com
+Webcore Games,Sao Paulo,Brazil,-46.6333094,-23.5505199,1999,0,Online Developer,www.webcoregames.com.br
 Webfoot Technologies,Lemont,United States,-88.0017261,41.673642,1993,0,Developer,www.webfootgames.com
-Wildfire Studios,Brisbane,Australia,153.0234489,-27.4710107,1995,0,Developer,
-Wolfire Games,Berkeley,USA,-122.272747,37.8715926,2003,0,Developer,
-XPEC Entertainment,Taipei,Taiwan,121.4913182,25.0435466,2000,0,"Developer, Publisher",
-Yager Development,Berlin,Germany,13.404954,52.5200066,1999,0,Developer,
-Yuke's,Osaka,Japan,135.5021651,34.6937378,1993,0,Developer,
+WEBZEN,Seoul,South Korea,126.9779692,37.566535,2000,0,Online Developer,www.webzen.com
+WeeWorld,Glasgow,Scotland,-4.251806,55.864237,1998,0,Online Developer,www.weeworld.com
+Wemade Entertainment,Seoul,South Korea,126.9779692,37.566535,2000,0,"Developer, Publisher",www.wemade.com
+Wendigo Studios,Saguenay,Canada,-71.0684923,48.4280529,2006,0,Developer,www.wendigostudios.com
+Werd Interactive,Orlando,United States,-81.3792365,28.5383355,1998,0,Mobile/Handheld,www.werdinteractive.com
+West-Games,Kiev,Ukraine,30.5234,50.4501,2013,0,Developer,www.west-games.com
+White Paper Games,Preston,England,-2.70309,53.763201,2011,0,Developer,www.whitepapergames.com
+White Whale Games,Austin,United States,-97.7430608,30.267153,2011,0,Mobile/Handheld,www.whitewhalegames.com
+White Widget,Quezon City,Philippines,121.0437003,14.6760413,2010,0,Developer,www.whitewidget.com
+WhiteMoon Dreams,Pasadena,United States,-118.1445155,34.1477849,2007,0,Developer,www.whitemoondreams.com
+Wicked Interactive,Toronto,Canada,-79.3831843,43.653226,2008,0,Publisher,www.wickedinteractiveltd.com
+Wicked Witch Software,Melbourne,Australia,144.96328,-37.814107,1999,0,Developer,www.wicked-witch.com.au
+Wideload Games,Chicago,USA,-87.6297982,41.8781136,2003,2014,Developer,www.wideload.com
+Wild Games Studio,Mascouche,Canada,-73.6,45.75,2010,0,Developer,www.wildgamestudio.com
+Wild Hare Entertainment,Richardson,United States,-96.7298519,32.9483335,2006,0,Publisher,www.gowildhare.com
+Wildfire Studios,Brisbane,Australia,153.0234489,-27.4710107,1995,0,Developer,www.wildfire.com.au
+WildTangent,Redmond,United States,-122.121512,47.6739881,1998,0,"Developer, Publisher",www.wildtangent.com
+Williams Interactive,Cedar Falls,United States,-92.4453161,42.5348993,2012,0,"Developer, Publisher",www.williamsinteractive.com
+WiMi5,Bilbao,Spain,-2.9349852,43.2630126,2013,0,Online Developer,www.wimi5.com
+Windysoft,Seoul,South Korea,126.9779692,37.566535,2002,0,"Developer, Publisher",www.windysoft.net
+WingzStudio Game Factory,Coimbra,Portugal,-8.4102573,40.2033145,2011,0,Mobile/Handheld,www.wingzstudio.com
+Wispfire,Utrecht,Netherlands,5.1214201,52.0907374,2013,0,Developer,www.wispfire.com
+Witch Beam,Brisbane,Australia,153.0234489,-27.4710107,2013,0,Developer,www.witchbeam.com.au
+Witching Hour Studios,Singapore,Singapore,103.8509491,1.2800945,2010,0,Mobile/Handheld,www.witching-hour.net
+Wizards of the Coast,Renton,United States,-122.2170661,47.4828776,1990,0,"Developer, Publisher",www.wizards.com
+WMS,Chicago,United States,-87.6297982,41.8781136,1974,0,Developer,www.wms.com
+Wolfire Games,Berkeley,USA,-122.272747,37.8715926,2003,0,Developer,www.wolfire.com
+Wolverine Soft,Ann Arbor,United States,-83.7430378,42.2808256,1999,0,Organization,www.wolverinesoft.org
+Wooga,Berlin,Germany,13.404954,52.5200066,2009,0,Online Developer,www.wooga.com
+Woozworld,Montreal,Canada,-73.567256,45.5016889,2009,0,Online Developer,www.woozworld.com
+Workinman Interactive,Rochester,United States,-77.6109219,43.16103,2001,0,Developer,www.workinman.com
+WorldWinner,Newton,United States,-71.2092214,42.3370413,1999,0,Developer,www.worldwinner.com
+X-Ray Kid,Newport Beach,United States,-117.9289469,33.6189101,2006,0,Developer,www.x-raykid.com
+Xaviant,Alpharetta,United States,-84.2940899,34.0753762,2007,0,Developer,www.xaviant.com
+Xbox Entertainment Studios,Santa Monica,United States,-118.4911912,34.0194543,2010,0,Developer,
+Xendex Holding,Graz,Austria,15.439504,47.070714,2001,0,Publisher,www.xendex.com
+Xform Games,Utrecht,Netherlands,5.1214201,52.0907374,2004,0,Developer,www.xformgames.com
+Xgen Studios,Edmonton,Canada,-113.4909267,53.544389,2003,0,Developer,www.xgenstudios.com
+Xibalba Studios,Monterrey,Mexico,-100.3161126,25.6866142,2004,0,Developer,www.xibalbastudios.com
+XMG Studio,Toronto,Canada,-79.3831843,43.653226,2009,0,Mobile/Handheld,www.xmgstudio.com
+XPEC Entertainment,Taipei,Taiwan,121.5654177,25.0329694,2000,0,"Developer, Publisher",www.xpec.com.tw
+Xseed,Torrance,United States,-118.3406288,33.8358492,2004,0,Publisher,www.xseedgames.com
+XYRALITY,Hamburg,Germany,9.9936818,53.5510846,2011,0,Online Developer,www.xyrality.com
+Yacht Club Games,Santa Clarita,United States,-118.542586,34.3916641,2011,0,Developer,www.yachtclubgames.com
+Yager Development,Berlin,Germany,13.404954,52.5200066,1999,0,Developer,www.yager.de
+Yamago,Paris,France,2.3522219,48.856614,2000,0,Developer,www.yamago.net
+Yamisoft Entertainment,Vancouver,Canada,-123.1207375,49.2827291,2001,0,Developer,www.yamisoft.com
+Ydreams,Lisbon,Portugal,-9.1393366,38.7222524,2000,0,Online Developer,www.ydreams.com
+Yellow Monkey Studios,Mumbai,India,72.8776559,19.0759837,2007,0,Mobile/Handheld,www.yellowmonkeystudios.com
+yetiZen,San Francisco,United States,-122.4194155,37.7749295,2010,0,Organization,www.yetizen.com
+Yingpei Games,Shanghai,China,121.473701,31.230416,2008,0,Developer,www.epicgameschina.com
+YMC Network,Shanghai,China,121.473701,31.230416,2012,0,"Developer, Publisher",www.ymcnetwork.com
+Ymir Mobile,Grindavik,Iceland,-22.4383818,63.8441808,2008,0,Mobile/Handheld,www.ymirmobile.com
+Yodo1,Beijing,China,116.407395,39.904211,2011,0,"Developer, Publisher",www.yodo1.com
+Young Horses,Chicago,United States,-87.6297982,41.8781136,2010,0,Developer,www.octodadgame.com
+Yucca Studios,Arruda dos Vinhos,Portugal,-9.0774591,38.9835516,2012,0,Mobile/Handheld,www.yuccastudios.com
+Yuke's,Osaka,Japan,135.5021651,34.6937378,1993,0,Developer,www.yukes.co.jp
 Z2Live,Seattle,United States,-122.3320708,47.6062095,2009,0,Mobile/Handheld,www.z2live.com
 Zagrava Games,Rivne,Ukraine,26.251617,50.6199,2010,0,Developer,www.zagravagames.com
 ZAPiT Games,Mississauga,Canada,-79.6441198,43.5890452,2003,0,Publisher,www.zapitgames.com
+ZapSpot,Seattle,USA,-122.3320708,47.6062095,1999,2001,Developer,
 Zariba,Varna,Bulgaria,27.9147333,43.2140504,2007,0,Developer,www.zariba.com
 Zed Group,Madrid,Spain,-3.7037902,40.4167754,1996,0,Developer,www.business.zed.com
 ZeeGee Games,Orlando,United States,-81.3792365,28.5383355,2002,0,Online Developer,www.zeegeegames.com
@@ -1497,6 +2183,7 @@ Zhurosoft,Seattle,United States,-122.3320708,47.6062095,2009,0,Mobile/Handheld,w
 ZiBUMi,Ankara,Turkey,32.85411,39.92077,2010,0,Online Developer,www.zibumigames.com
 Zindagi Games,Camarillo,United States,-119.0376023,34.2163937,2007,0,Developer,www.zindagigames.com
 Zipline Games,Seattle,United States,-122.3320708,47.6062095,2010,0,Mobile/Handheld,www.ziplinegames.com
+Zipper Interactive,Redmond,USA,-122.121512,47.6739881,1995,2012,Developer,
 Zivix,Minneapolis,United States,-93.26667,44.983334,2010,0,"Developer, Publisher",www.zivix.net
 Zoetrope Interactive,Istanbul,Turkey,28.97696,41.00527,2005,0,Developer,www.zoetrope-interactive.com
 Zojoi,Charlottesville,United States,-78.4766781,38.0293059,2012,0,Mobile/Handheld,www.zojoi.com
