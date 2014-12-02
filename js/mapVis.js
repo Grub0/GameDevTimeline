@@ -76,8 +76,6 @@ function createMap() {
     });
     animating = true;
     startAnimation();
-	var informationTable = tabulate(dataset, ["company","city"]);
-
 }
 
 function createZoomedMap() {
@@ -143,7 +141,10 @@ function createPoints(data) {
         }
     });
 }
-    
+    function clearBox(elementID)
+{
+    document.getElementById(elementID).innerHTML = "";
+}
     // when the input range changes update the circle 
 d3.select("#year").on("input", function() {
   update(+this.value);
@@ -189,11 +190,15 @@ function update(year)
     d3.select("#count").text(yearDataset.length);
     // Update the points
     createPoints(yearDataset);
+	
+	//Update the Table
+		clearBox('dataTable');
+	var informationTable = tabulate(yearDataset, ["company","city","country","yearEST","category","website"]);
 }
 
 // The table generation function
 function tabulate(data, columns) {
-    var table = d3.select("body").append("table")
+    var table = d3.select("#dataTable").append("table")
             .attr("style", "margin-left: 250px"),
         thead = table.append("thead"),
         tbody = table.append("tbody");
@@ -221,8 +226,7 @@ function tabulate(data, columns) {
         })
         .enter()
         .append("td")
-		.style("fill", "white")
-        .attr("style", "font-family: Courier") // sets the font style
+        //.attr("style", "font-family: Courier") // sets the font style
         .html(function(d) { return d.value; });
     
     return table;

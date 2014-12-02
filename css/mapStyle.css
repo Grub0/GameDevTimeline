@@ -19,7 +19,14 @@ h1 {
 	position: absolute;
 	top: 50px;
 }
-
+td
+{
+	color:white;
+}
+th
+{
+	color:white;
+}
 #map {
 	width: 1500px;
 	height: 850px;
