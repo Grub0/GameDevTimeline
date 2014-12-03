@@ -192,8 +192,11 @@ function update(year)
     createPoints(yearDataset);
 	
 	//Update the Table
+    if(animating == false)
+    {
 		clearBox('dataTable');
 	var informationTable = tabulate(yearDataset, ["company","city","country","yearEST","category","website"]);
+    }
 }
 
 // The table generation function
