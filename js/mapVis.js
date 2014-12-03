@@ -186,6 +186,7 @@ function update(year)
             yearDataset.push(dataset[i]);
         }
     }
+    //Showing how commits work
     // Update the #count
     d3.select("#count").text(yearDataset.length);
     // Update the points
