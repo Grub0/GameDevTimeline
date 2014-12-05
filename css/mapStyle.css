@@ -32,6 +32,12 @@ th
 	height: 850px;
 	margin: 0 auto;
 	position: relative;
+
+}
+
+#map rect.background {
+	fill: none;
+	
 }
 
 .hoverInfo {

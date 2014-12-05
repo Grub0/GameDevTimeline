@@ -1,7 +1,22 @@
-var map, 
+var svg,
+    map, 
     dataset,
     yearShown,
     animating;
+
+var width = 1500,
+    height = 850;
+
+var centered;
+var gPaths, gBubbles;
+var radius = 2;
+
+// Set the map's projection type
+var projection = d3.geo.mercator()
+    .translate([width/2, height/2]);
+
+var path = d3.geo.path()
+    .projection(projection);
 
 
 d3.csv("data/video_game_developers.csv", function(error, data) {
@@ -14,9 +29,9 @@ d3.csv("data/video_game_developers.csv", function(error, data) {
         dataset = data;
         for(var i = 0; i < dataset.length; i++){
             //  radius
-            dataset[i].radius = 3;
+            dataset[i].radius = radius;
 
-            // Seperate the categor string into an array
+            // Seperate the category string into an array
             if( dataset[i].category.search(/,/) != -1 ) {
                 dataset[i].category = dataset[i].category.split(",");                
             }else {
@@ -45,17 +60,66 @@ d3.csv("data/video_game_developers.csv", function(error, data) {
             }
         }
         createMap();
+
+        // Insert rectangle into svg 
+        // (need this for zooming effect)
+        svg = d3.select("svg");
+        gPaths = svg.select(".datamaps-subunits");
+        gBubbles = svg.select(".bubbles");
+        svg.insert("rect", "g")
+            .attr("class", "background")
+            .attr("width", width-1)
+            .attr("height", height-1)
+            .on("click", zoom);
+
         // Default points
         update(1960);
     }
 });
+
+
+function zoom(d) {
+    var x, y, zoomLevel;
+    
+    if(d && centered !== d) {
+        var centroid = path.centroid(d);
+        x = centroid[0];
+        y = centroid[1];
+        zoomLevel = 4;
+        centered = d;
+        radius = 1;
+    }else {
+        x = width / 2;
+        y = height / 2;
+        zoomLevel = 1;
+        centered = null;
+        radius = 2;
+    }
+
+    // Countires paths
+    gPaths.selectAll("path")
+      .classed("active", centered && function(d) { return d === centered; });
+    gPaths.transition()
+      .duration(500)
+      .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + zoomLevel + ")translate(" + -x + "," + -y + ")")
+      .style("stroke-width", 1.5 / zoomLevel + "px");
+
+    // Bubbles
+    gBubbles.selectAll("circle")
+    .transition()
+        .duration(500)
+        .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + zoomLevel + ")translate(" + -x + "," + -y + ")")
+        .attr("r", radius);
+}
 
 function createMap() {
 
     // Create a new world map 
     map = new Datamap({
         element: document.getElementById("map"),
-        projection: "mercator",
+        setProjection: function(){
+            return {path: path, projection: projection};
+        },
         geographyConfig: {
             //popupOnHover: false,
             //highlightOnHover: tfalse,
@@ -74,49 +138,12 @@ function createMap() {
             other: "#FFF"
         }
     });
-    animating = true;
-    startAnimation();
+
+   animating = true;
+   startAnimation();
 }
 
-function createZoomedMap() {
 
-    // Create a new world map 
-    map = new Datamap({
-  element: document.getElementById("map"),
-  scope: 'world',
-  // Zoom in on Africa
-  setProjection: function(element) {
-    var projection = d3.geo.equirectangular()
-      .center([-100, 40])
-      .rotate([0, 0])
-      .scale(1000)
-      .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
-      
-    var path = d3.geo.path()
-      .projection(projection);
-    
-    return {path: path, projection: projection};
-  },geographyConfig: {
-            //popupOnHover: false,
-            //highlightOnHover: tfalse,
-            //highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
-            //highlightBorderWidth: 2,
-            highlightFillColor: "#00ADBC",
-            borderColor: "#00ADBC"
-        },
-        fills: {
-            defaultFill: "rgb(34,34,34)",    // Map color
-            pub: "#FFDE12",
-            dev: "#BEF600", 
-            onlineDev: "#9639AD",
-            mob: "#FF2F7C",
-            org: "#00ADBC",
-            other: "#FFF"
-        }
-    });
-    animating = true;
-    startAnimation();
-}
 
 // Draws the coordinate points
 function createPoints(data) {
@@ -141,36 +168,37 @@ function createPoints(data) {
         }
     });
 }
-    function clearBox(elementID)
-{
+    
+function clearBox(elementID) {
     document.getElementById(elementID).innerHTML = "";
 }
-    // when the input range changes update the circle 
+
+// when the input range changes update the circle 
 d3.select("#year").on("input", function() {
   update(+this.value);
 });
 
+
 function startAnimation() {
-    if(animating == true)
-    {
-    yearShown = yearShown + 1;
-    d3.select("#titleHeader").text("Game Companies in " + yearShown);
-        if(yearShown > 2013)
-        {
+    if(animating == true) {
+        yearShown = yearShown + 1;
+        d3.select("#titleHeader").text("Game Companies in " + yearShown);
+        if(yearShown > 2013) {
             animating = false;
         }
         update(yearShown);
         //console.log(year);
-    var t = setTimeout(function()
-    {
-        startAnimation()
-    },100);
+        var t = setTimeout(function(){
+            startAnimation()
+        },100);
+    }else {
+        // When the animation ends add the click event to the path elements
+       d3.selectAll("path").on("click", zoom);
     }
 }
 
 // update the elements
-function update(year) 
-{
+function update(year) {
   // adjust the text on the range slider
   d3.select("#year-value").text(year);
   d3.select("#year").property("value", year);
