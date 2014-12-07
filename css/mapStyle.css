@@ -15,6 +15,16 @@ h1 {
 	font-size: 3em;
     margin-top:20px;
     margin-left: 20px;
+    display: inline-block;
+}
+#topDescription
+{
+    color: white;
+    margin-left: 20px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    display: inline-block;
+    text-align: left;
 }
 #titleBar
 {
@@ -31,12 +41,15 @@ h1 {
 }
 #dataTable
 {
-    margin-top: 30px;
+    margin-top: 50px;
     display: block;
+    margin-left: 10%;
+    width:80%;
 }
 td
 {
 	color:white;
+    background-color: black;
 }
 th
 {
@@ -44,7 +57,7 @@ th
 }
 table
 {
-    width:1400px;
+    width:100%;
 }
 #map 
 {
