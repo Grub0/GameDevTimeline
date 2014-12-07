@@ -8,8 +8,11 @@
 </head>
     
 <body>
+    <div id = "titleBar" class="majorElement">
+        <h1 id = "titleHeader">Game Companies</h1>    
+    </div>
     
-    <div id="legend">
+    <div id="legend" class="majorElement">
       <ul>
         <li id="dev"><div class="color"></div><span>Developer</span></li>
         <li id="online"><div class="color"></div><span>Online Developer</span></li>
@@ -19,13 +22,18 @@
         <li id="other"><div class="color"></div><span>Other</span></li>
       </ul>
     </div>
-    <div id="map" class="map"></div>
+
+    <div id="map" class="majorElement"></div>
+    
+    <div id ="timeline" class ="majorElement">
     <p id = "inputLabel">Year</p>
-    <div id = "yearChanger">
-    <p id = "yearLabels">1960</p><input type="range" min="1960" max="2014" id="year"><p id = "yearLabels">2014</p>
+        <div id = "yearChanger">
+        <p id = "yearLabels">1960</p><input type="range" min="1960" max="2014" id="year"><p id = "yearLabels">2014</p>
+        </div>
     </div>
-    <h1 id = "titleHeader">Game Companies</h1>
-	<div id = "dataTable"></div>
+    
+	<div id = "dataTable" class="majorElement"></div>
+    
     <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://d3js.org/topojson.v1.min.js"></script>
     <script src="js/datamaps.world.min.js"></script>

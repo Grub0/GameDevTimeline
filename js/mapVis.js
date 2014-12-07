@@ -231,7 +231,6 @@ function update(year) {
 // The table generation function
 function tabulate(data, columns) {
     var table = d3.select("#dataTable").append("table")
-            .attr("style", "margin-left: 250px"),
         thead = table.append("thead"),
         tbody = table.append("tbody");
 
