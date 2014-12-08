@@ -17,8 +17,8 @@ h1 {
     margin-left: 20px;
     display: inline-block;
 }
-#topDescription
-{
+
+#topDescription {
     color: white;
     margin-left: 20px;
     margin-top:0px;
@@ -26,8 +26,8 @@ h1 {
     display: inline-block;
     text-align: left;
 }
-#titleBar
-{
+
+#titleBar {
     background-color: black;
     height: 6em;
     margin-left: -20px;
@@ -35,39 +35,38 @@ h1 {
     margin-right: 0px;
     width: 102%;
 }
-.majorElement
-{
+
+.majorElement {
     display: inline-block;
 }
-#dataTable
-{
+
+#dataTable {
     margin-top: 50px;
     display: block;
     margin-left: 10%;
     width:80%;
 }
-td
-{
+
+td {
 	color:white;
     background-color: black;
 }
-th
-{
+
+th {
 	color:white;
-}
-table
-{
+} 
+
+table {
     width:100%;
-}
-#map 
-{
+} 
+
+#map {
     margin-top: -190px;
 	width: 1500px;
 	height: 850px;
 }
 
-#map rect.background 
-{
+#map rect.background {
 	fill: none;
 }
 
@@ -81,44 +80,45 @@ table
 .hoverInfo span {
 	color: #9639AD;
 }
-#timeline
-{
+
+#timeline {
     text-align: center;
     display: block;
     margin-top: -200px;
 }
+
 #yearChanger {
     color: white !important;
 	font-size: 18px;
     text-align: center;
 }
-#yearLabels
-{
+
+#yearLabels {
     display: inline-block;
     color: white;
     text-align: center;
     font-size: 2em;
     font-weight: bold;
 }
-input[type='range'] 
-{
+
+input[type='range'] {
     width: 1000px;
 }
-#inputLabel
-{
+
+#inputLabel {
     color: white;
     text-align: center;
     margin-bottom: -45px;
-        	font-size: 1em;
+    font-size: 1em;
     font-weight: bold;
 }
 
-#legend 
-{
+#legend {
     display: block;
     top: 100px;
 	z-index: 5;
 }
+
 #legend ul {
 	 list-style-type: none;
 }
@@ -132,32 +132,9 @@ input[type='range']
 	width: 15px;
 	height: 15px;
 	margin-right: 5px;
+    border-radius: 50%;
 }
 
-#legend div {
+#legend div.color {
 	display: inline-block;
-}
-
-#legend #dev div{
-	background-color: #BEF600;
-}
-
-#legend #online div{
-	background-color: #9639AD;
-}
-
-#legend #mob div{
-	background-color: #FF2F7C;
-}
-
-#legend #pub div{
-	background-color: #FFDE12;
-}
-
-#legend #org div{
-	background-color: #00ADBC;
-}
-
-#legend #other div{
-	background-color: #fff;
 }

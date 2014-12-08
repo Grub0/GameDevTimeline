@@ -18,6 +18,15 @@ var projection = d3.geo.mercator()
 var path = d3.geo.path()
     .projection(projection);
 
+var mapLegend = [
+    {key: "Developer", color: "#BEF600"},
+    {key: "Online Developer", color: "#9639AD"},
+    {key: "Publisher", color: "#FFDE12"},
+    {key: "Mobile/Handheld", color: "#FF2F7C"},
+    {key: "Organization", color: "#00ADBC"},
+    {key: "Other", color: "#FFF"}
+];
+
 
 d3.csv("data/video_game_developers.csv", function(error, data) {
 
@@ -25,7 +34,10 @@ d3.csv("data/video_game_developers.csv", function(error, data) {
     if(error) {
         console.log(error);
     }else {
-       // console.log(data);
+        // console.log(data);
+        // Create the map legend
+        createLegend(mapLegend);
+
         dataset = data;
         for(var i = 0; i < dataset.length; i++){
             //  radius
@@ -167,6 +179,13 @@ function createPoints(data) {
             return string;
         }
     });
+
+    /*// Bubbles
+    gBubbles.selectAll("circle")
+    .transition()
+        .duration(500)
+        .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + zoomLevel + ")translate(" + -x + "," + -y + ")")
+        .attr("r", radius);*/
 }
     
 function clearBox(elementID) {
@@ -175,7 +194,7 @@ function clearBox(elementID) {
 
 // when the input range changes update the circle 
 d3.select("#year").on("input", function() {
-  update(+this.value);
+    update(+this.value);
 });
 
 
@@ -261,4 +280,27 @@ function tabulate(data, columns) {
         .html(function(d) { return d.value; });
     
     return table;
+}
+
+function createLegend(dataset){
+    var key = d3.select("body")
+        .insert("div", "#map")
+            .attr("id", "legend")
+            .append("ul");
+    
+    // Create div elements for colors
+    key.selectAll("li")
+        .data(dataset)
+        .enter()
+        .append("li")
+            .append("div")
+                .attr("class", "color")
+                .style("background-color", function(d){ return d.color; });
+    
+    // Create text labels
+    key.selectAll("li")
+        .data(dataset)
+        .append("span")
+            .text(function(d){ return d.key; });
+    
 }
