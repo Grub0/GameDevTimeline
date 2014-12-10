@@ -4,8 +4,8 @@ var svg,
     yearShown,
     animating;
 
-var width = 1500,
-    height = 850;
+var width = 800,
+    height = 450;
 
 var centered;
 var gPaths, gBubbles;
@@ -13,7 +13,7 @@ var radius = 2;
 
 // Set the map's projection type
 var projection = d3.geo.mercator()
-    .translate([width/2, height/2]);
+    .translate([width/2 + 100, height/2 + 220]);
 
 var path = d3.geo.path()
     .projection(projection);
@@ -283,9 +283,7 @@ function tabulate(data, columns) {
 }
 
 function createLegend(dataset){
-    var key = d3.select("body")
-        .insert("div", "#map")
-            .attr("id", "legend")
+    var key = d3.select("#legend")
             .append("ul");
     
     // Create div elements for colors

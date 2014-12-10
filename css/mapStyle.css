@@ -55,15 +55,19 @@ td {
 th {
 	color:white;
 } 
-
+#lineGraph
+{
+    background-color: white;
+    width: 600px;
+    height: 650px;
+}
 table {
     width:100%;
 } 
 
 #map {
-    margin-top: -190px;
-	width: 1500px;
-	height: 850px;
+	width: 1000px;
+	height: 650px;
 }
 
 #map rect.background {
@@ -84,7 +88,6 @@ table {
 #timeline {
     text-align: center;
     display: block;
-    margin-top: -200px;
 }
 
 #yearChanger {
@@ -114,18 +117,27 @@ input[type='range'] {
 }
 
 #legend {
-    display: block;
-    top: 100px;
+    display: inline-block;
+    top: 10px;
 	z-index: 5;
+    margin-left: 25%;
+    margin-top: -20px;
+
 }
 
 #legend ul {
 	 list-style-type: none;
+        text-align: center;
+
 }
 
 #legend li {
 	color: #fff;
 	padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+        padding-right:10px;
+
 }
 
 #legend .color {
