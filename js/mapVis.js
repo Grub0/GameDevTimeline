@@ -90,7 +90,8 @@ d3.csv("data/video_game_developers.csv", function(error, data) {
 });
 
 
-function zoom(d) {
+function zoom(d) 
+{
     var x, y, zoomLevel;
     
     if(d && centered !== d) {
@@ -100,13 +101,18 @@ function zoom(d) {
         zoomLevel = 4;
         centered = d;
         radius = 1;
-    }else {
+        d3.select(".datamaps-hoverover")
+        .style("visibility","visible");
+    }
+    else {
         x = width / 2;
         y = height / 2;
         zoomLevel = 1;
         centered = null;
         radius = 2;
-    }
+        d3.select(".datamaps-hoverover")
+        .style("visibility","hidden");
+      }
 
     // Countires paths
     gPaths.selectAll("path")
@@ -159,13 +165,13 @@ function createMap() {
 
 // Draws the coordinate points
 function createPoints(data) {
-
     //console.log("length: "  + data.length);
     // Create the points 
     map.bubbles(data, {
         borderWidth: 0,
         fillOpacity: 1,
-        popupTemplate: function(geo, data) {
+        popupTemplate: function(data) 
+        {
             // Info box 
             var string = "<div class='hoverInfo'><span>" + data.company + "</span>";
             string += "<br/>" + data.city + ", " + data.country;
@@ -179,7 +185,6 @@ function createPoints(data) {
             return string;
         }
     });
-
     /*// Bubbles
     gBubbles.selectAll("circle")
     .transition()
@@ -193,16 +198,21 @@ function clearBox(elementID) {
 }
 
 // when the input range changes update the circle 
-d3.select("#year").on("input", function() {
+d3.select("#year").on("input", function() 
+{
     update(+this.value);
 });
 
 
-function startAnimation() {
+function startAnimation() 
+{
+    d3.select(".datamaps-hoverover")
+        .style("visibility","hidden");
     if(animating == true) {
         yearShown = yearShown + 1;
         d3.select("#titleHeader").text("Game Companies in " + yearShown);
-        if(yearShown > 2013) {
+        if(yearShown > 2013) 
+        {
             animating = false;
         }
         update(yearShown);
