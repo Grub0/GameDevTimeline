@@ -9,9 +9,7 @@ body {
 	background-color: rgb(34,34,34);
 	font-family: sans-serif;
 }
-.datamaps-hoverover
-{
-}
+
 h1 {
 	color: #bef600;
 	font-size: 3em;
@@ -59,9 +57,12 @@ th {
 } 
 #lineGraph
 {
-    background-color: white;
+    background-color: black;
+    border-style: solid;
+    border-color: #00ADBC;
     width: 600px;
     height: 650px;
+   border-width: .5px;
 }
 table {
     width:100%;
