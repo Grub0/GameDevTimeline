@@ -7,7 +7,6 @@
 */
 body {
 	background-color: rgb(34,34,34);
-	font-family: sans-serif;
 }
 
 h1 {
@@ -62,6 +61,11 @@ th {
     width: 600px;
     height: 650px;
    border-width: .5px;
+}
+
+#legend .color,
+#legend .legend-key {
+    display: inline-block;
 }
 
 #legend .color {
