@@ -107,6 +107,7 @@ h1 {
 }
 
 #lineGraph {
+    height: 650px;
     background-color: white;
     border-style: solid;
     border-color:white;
