@@ -6,7 +6,16 @@
 #9639ad;
 */
 body {
-    background-color: rgb(34,34,34);
+	background-color: rgb(34,34,34);
+	font-family: sans-serif;
+}
+
+h1 {
+	color: #bef600;
+	font-size: 3em;
+    margin-top:20px;
+    margin-left: 20px;
+    display: inline-block;
 }
 
 .container-fluid, 
@@ -41,9 +50,18 @@ body {
     padding: 1em;   
 }
 
-#legend .color,
-#legend .legend-key {
-    display: inline-block;
+
+th {
+	color:white;
+} 
+#lineGraph
+{
+    background-color: black;
+    border-style: solid;
+    border-color: #00ADBC;
+    width: 600px;
+    height: 650px;
+   border-width: .5px;
 }
 
 #legend .color {
