@@ -219,7 +219,7 @@ function startAnimation()
         //console.log(year);
         var t = setTimeout(function(){
             startAnimation()
-        },100);
+        },300);
     }else {
         // When the animation ends add the click event to the path elements
        d3.selectAll("path").on("click", zoom);
@@ -227,11 +227,13 @@ function startAnimation()
 }
 
 // update the elements
-function update(year) {
+function update(year) 
+{
   // adjust the text on the range slider
   d3.select("#year-value").text(year);
   d3.select("#year").property("value", year);
     yearShown = year;
+
     d3.select("#titleHeader").text("Game Companies in " + yearShown);
 
     // Temporary array to hold specific points based on the year
@@ -248,17 +250,18 @@ function update(year) {
     d3.select("#count").text(yearDataset.length);
     // Update the points
     createPoints(yearDataset);
-	
 	//Update the Table
     if(animating == false)
     {
 		clearBox('dataTable');
 	var informationTable = tabulate(yearDataset, ["company","city","country","yearEST","category","website"]);
     }
+    makeChart(yearShown);
 }
 
 // The table generation function
-function tabulate(data, columns) {
+function tabulate(data, columns) 
+{
     var table = d3.select("#dataTable").append("table").attr("class","table")
         thead = table.append("thead"),
         tbody = table.append("tbody");
