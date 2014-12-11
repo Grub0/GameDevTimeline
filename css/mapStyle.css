@@ -108,8 +108,14 @@ h1 {
 
 #lineGraph {
     background-color: white;
+    border-style: solid;
+    border-color:white;
+    border-width: .5px;
 }
- 
+ #chart
+{
+    width:500px;
+}
 
 /*------ Table ------*/
 #dataTable {
