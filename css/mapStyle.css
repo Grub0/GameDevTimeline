@@ -6,149 +6,126 @@
 #9639ad;
 */
 body {
-	background-color: rgb(34,34,34);
-	font-family: sans-serif;
-}
-.datamaps-hoverover
-{
-}
-h1 {
-	color: #bef600;
-	font-size: 3em;
-    margin-top:20px;
-    margin-left: 20px;
-    display: inline-block;
+    background-color: rgb(34,34,34);
 }
 
-#topDescription {
-    color: white;
-    margin-left: 20px;
-    margin-top:0px;
-    margin-bottom: 0px;
-    display: inline-block;
-    text-align: left;
+.container-fluid, 
+#dataTable {
+    margin-right: auto;
+    margin-left: auto;
 }
 
+/*------ Heading Bar ------*/
 #titleBar {
     background-color: black;
-    height: 6em;
-    margin-left: -20px;
-    margin-top: -10px;
-    margin-right: 0px;
-    width: 102%;
+    height: 7em;
 }
 
-.majorElement {
-    display: inline-block;
+#titleBar h1 {
+    color: #bef600;
+    font-size: 4em;
 }
 
-#dataTable {
-    margin-top: 50px;
-    display: block;
-    margin-left: 10%;
-    width:80%;
-}
-
-td {
-	color:white;
-    background-color: black;
-}
-
-th {
-	color:white;
-} 
-#lineGraph
-{
-    background-color: white;
-    width: 600px;
-    height: 650px;
-}
-table {
-    width:100%;
-} 
-
-#map {
-	width: 1000px;
-	height: 650px;
-}
-
-#map rect.background {
-	fill: none;
-}
-
-.hoverInfo {
-	border: 1px solid white;
-	background-color: #999999;
-	padding: 5px 10px;
-	font-size: 12px;
-}
-
-.hoverInfo span {
-	color: #9639AD;
-}
-
-#timeline {
-    text-align: center;
-    display: block;
-}
-
-#yearChanger {
-    color: white !important;
-	font-size: 18px;
-    text-align: center;
-}
-
-#yearLabels {
-    display: inline-block;
+#titleBar #topDescription p {
     color: white;
-    text-align: center;
-    font-size: 2em;
-    font-weight: bold;
+    text-align: right;
+    font-size: 18px;
+    padding-top: 3em;
+    padding-right: 1em;
 }
 
-input[type='range'] {
-    width: 1000px;
-}
-
-#inputLabel {
-    color: white;
-    text-align: center;
-    margin-bottom: -45px;
-    font-size: 1em;
-    font-weight: bold;
-}
-
+/*------ Legend Bar ------*/
 #legend {
-    display: inline-block;
-    top: 10px;
-	z-index: 5;
-    margin-left: 25%;
-    margin-top: -20px;
-
+    color: #fff;
+    background-color: grey;
+    padding: 1em;   
 }
 
-#legend ul {
-	 list-style-type: none;
-        text-align: center;
-
-}
-
-#legend li {
-	color: #fff;
-	padding-top: 10px;
+#legend .color,
+#legend .legend-key {
     display: inline-block;
-    text-align: center;
-        padding-right:10px;
-
 }
 
 #legend .color {
-	width: 15px;
-	height: 15px;
-	margin-right: 5px;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
     border-radius: 50%;
+    padding-right: 10px;
 }
 
-#legend div.color {
-	display: inline-block;
+/*------ Time Line Bar ------*/
+#timeline {
+    color: #fff;
+    padding-top: 10px;
+    margin: 10px 0;
 }
+
+#timeline #inputLabel {
+    font-size: 1.5em;
+    text-align: right;
+}
+
+#yearChanger {
+    padding-top: 5px;
+}
+
+#yearChanger #yearStart,
+#yearChanger #yearEnd {
+    font-size: 18px;
+}
+
+#yearStart {
+    text-align: right;
+}
+
+/*------ Graphs ------*/
+.graphs {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map {   
+    border: 1px solid white;
+}
+
+#map svg,
+#lineGraph {
+    height: 650px;
+}
+
+#map rect.background {
+    fill: none;
+}
+
+#lineGraph {
+    background-color: white;
+}
+
+/*------ Table ------*/
+#dataTable {
+    margin-top: 3em;
+    color:white;
+    border-top: 1px solid white;
+}
+
+th {
+    color:white;
+
+} 
+
+td { 
+    background-color: black;
+}
+
+
+/*.hoverInfo {
+    border: 1px solid white;
+    background-color: #999999;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.hoverInfo span {
+    color: #9639AD;
+}*/

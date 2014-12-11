@@ -170,18 +170,18 @@ function createPoints(data) {
     map.bubbles(data, {
         borderWidth: 0,
         fillOpacity: 1,
-        popupTemplate: function(data) 
-        {
+        popupTemplate: function(data) {
             // Info box 
-            var string = "<div class='hoverInfo'><span>" + data.company + "</span>";
-            string += "<br/>" + data.city + ", " + data.country;
+            var string =  '<div class="popover top>';
+            string += '<div class="arrow"></div><h3 class="popover-title">' + data.company + '</h3>';
+            string += '<div class="popover-content"><p>Located: ' + data.city + ", " + data.country;
             string += "<br/>Founded: " + data.yearEST;
-            if(data.yearClosed != '0')
-            {
+            if(data.yearClosed != '0') {
                 string += "<br/>Closed: " + data.yearClosed; 
             }
             string += "<br/>Category: " + data.category;
-            string += "</div>";   
+            string += '</p></div></div>';
+
             return string;
         }
     });
@@ -259,7 +259,7 @@ function update(year) {
 
 // The table generation function
 function tabulate(data, columns) {
-    var table = d3.select("#dataTable").append("table")
+    var table = d3.select("#dataTable").append("table").attr("class","table")
         thead = table.append("thead"),
         tbody = table.append("tbody");
 
@@ -293,20 +293,20 @@ function tabulate(data, columns) {
 }
 
 function createLegend(dataset){
-    var key = d3.select("#legend")
-            .append("ul");
-    
+    var key = d3.select("#legend");
+
     // Create div elements for colors
-    key.selectAll("li")
+    key.selectAll("div")
         .data(dataset)
         .enter()
-        .append("li")
+        .append("div")
+            .attr("class", "legend-key col-md-2")
             .append("div")
                 .attr("class", "color")
                 .style("background-color", function(d){ return d.color; });
     
     // Create text labels
-    key.selectAll("li")
+    key.selectAll(".legend-key")
         .data(dataset)
         .append("span")
             .text(function(d){ return d.key; });
