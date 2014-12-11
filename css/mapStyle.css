@@ -49,20 +49,6 @@ h1 {
     padding: 1em;   
 }
 
-
-th {
-	color:white;
-} 
-#lineGraph
-{
-    background-color: black;
-    border-style: solid;
-    border-color: #00ADBC;
-    width: 600px;
-    height: 650px;
-   border-width: .5px;
-}
-
 #legend .color,
 #legend .legend-key {
     display: inline-block;
@@ -107,14 +93,12 @@ th {
     margin-right: auto;
 }
 
-#map {   
+#map svg {   
     border: 1px solid white;
-    width: 1000px;
-    height: 650px;
 }
 
 #map svg,
-#lineGraph {
+#lineGraph svg {
     height: 650px;
 }
 
@@ -124,8 +108,8 @@ th {
 
 #lineGraph {
     background-color: white;
-    margin-left: 20px;
 }
+ 
 
 /*------ Table ------*/
 #dataTable {
