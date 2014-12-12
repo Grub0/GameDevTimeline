@@ -230,14 +230,14 @@ function update(year, type, data) {
 	//Update the Table
     if(animating == false) {
 	   clearBox('dataTable');
-	   var informationTable = tabulate(yearDataset, ["company","city","country","yearEST","category","website"]);
+	   var informationTable = tabulate(yearDataset, ["Company","City","Country","Year Established","Category"]);
     }
     makeChart(yearShown);
 }
 
 // The table generation function
 function tabulate(data, columns) {
-    var table = d3.select("#dataTable").append("table").attr("class","table")
+    /*var table = d3.select("#dataTable").append("table").attr("class","table")
         thead = table.append("thead"),
         tbody = table.append("tbody");
 
@@ -267,7 +267,44 @@ function tabulate(data, columns) {
         //.attr("style", "font-family: Courier") // sets the font style
         .html(function(d) { return d.value; });
     
-    return table;
+    return table;*/
+    var table = d3.select("#dataTable");
+    var panel = table.selectAll("div")
+        .data(mapLegend)
+        .enter()
+        .append("div")
+            .attr("id", "accordion")
+            .attr("class","panel-group")
+            .attr("role", "tablist")
+            .attr("aria-multiselectable", "true")
+            .append("div")
+                .attr("class", "panel panel-default");
+
+    // Panel Heading
+    panel.append("div")
+        .attr("id", function(d, i){ return d.key; })
+        .attr("class", "panel-heading")
+        .attr("role", "tab")
+        .style("background-color", function(d, i){ return d.color; })
+        .append("h4")
+            .attr("class", "panel-title")
+            .append("a")
+                .attr("data-toggle", "collapse")
+                .attr("data-parent","#accordion")
+                .attr("href", function(d, i){ return "#collapse" + i; })
+                .attr("aria-expanded", "false")
+                .attr("aria-controls", function(d, i){ return "collapse" + i; })
+                .text(function(d){ return d.key; });
+    
+    // Panel Body
+    panel.append("div")
+        .attr("id", function(d, i){ return "collapse" + i; })
+        .attr("class", "panel-collapse collapse")
+        .attr("role", "tabpanel")
+        .attr("aria-labelledby", function(d, i){ return "heading"+i; })
+        .append("div")
+            .attr("class", "panel-body")
+            .text(function(d){ return "All the " + d.key + " companies will go here."});
 }
 
 function createLegend() {

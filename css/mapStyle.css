@@ -121,10 +121,15 @@ h1 {
 /*------ Table ------*/
 #dataTable {
     margin-top: 3em;
-    color:white;
     border-top: 1px solid white;
 }
 
+/*#dataTable .panel-title {
+    color: white;
+}
+*/
+
+/*
 th {
     color:white;
 
@@ -133,7 +138,7 @@ th {
 td { 
     background-color: black;
 }
-
+*/
 
 /*.hoverInfo {
     border: 1px solid white;
