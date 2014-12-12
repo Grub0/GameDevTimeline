@@ -61,7 +61,7 @@ d3.json("data/video_game_developers.json", function(error, data) {
             .on("click", zoom);
 
         // Default points
-        update(1960);
+        update(1960, "allCategory");
     }
 });
 
@@ -167,7 +167,7 @@ function clearBox(elementID) {
 
 // when the input range changes update the circle 
 d3.select("#year").on("input", function() {
-    update(+this.value);
+    update(+this.value, "allCategory");
 });
 
 
@@ -181,7 +181,7 @@ function startAnimation() {
         {
             animating = false;
         }
-        update(yearShown);
+        update(yearShown,"allCategory");
         //console.log(year);
         var t = setTimeout(function(){
             startAnimation()
@@ -193,7 +193,7 @@ function startAnimation() {
 }
 
 // update the elements
-function update(year) {
+function update(year, type, data) {
     // adjust the text on the range slider
     d3.select("#year-value").text(year);
     d3.select("#year").property("value", year);
@@ -203,23 +203,33 @@ function update(year) {
 
     // Temporary array to hold specific points based on the year
     var yearDataset = [];
-    for(var key in dataset){
-        for(var i = 0; i < dataset[key].length; i++){
-            // Filter out the years
-            if(parseInt(dataset[key][i].yearEST) <= year && (parseInt(dataset[key][i].yearClosed) > year || parseInt(dataset[key][i].yearClosed) == 0)) 
-            {
-                yearDataset.push(dataset[key][i]);
+
+    // Filter out the points based on the year
+    if(type == "allCategory"){
+        for(var key in dataset){
+            for(var i = 0; i < dataset[key].length; i++){
+                if(parseInt(dataset[key][i].yearEST) <= year && (parseInt(dataset[key][i].yearClosed) > year || parseInt(dataset[key][i].yearClosed) == 0)) 
+                {
+                    yearDataset.push(dataset[key][i]);
+                }
             }
-        }
+        }  
+    }else if(type == "category"){
+        for(var i = 0; i < data.length; i++){
+                if(parseInt(data[i].yearEST) <= year && (parseInt(data[i].yearClosed) > year || parseInt(data[i].yearClosed) == 0)) 
+                {
+                    yearDataset.push(data[i]);
+                }
+            }
     }
-    //Showing how commits work
+    
     // Update the #count
     d3.select("#count").text(yearDataset.length);
     // Update the points
     createPoints(yearDataset);
 	//Update the Table
     if(animating == false) {
-		clearBox('dataTable');
+	   clearBox('dataTable');
 	   var informationTable = tabulate(yearDataset, ["company","city","country","yearEST","category","website"]);
     }
     makeChart(yearShown);
@@ -292,9 +302,6 @@ function activateComponents() {
         .on("click", function(){
             // Get the categoy id
             var category = this.id;
-
-            // Get the current year
-            console.log(yearShown);
-            createPoints(dataset[category]);
+            update(yearShown,"category", dataset[category]);
         });
 }
