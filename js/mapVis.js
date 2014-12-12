@@ -28,7 +28,7 @@ var mapLegend = [
 ];
 
 
-d3.csv("data/video_game_developers.csv", function(error, data) {
+d3.json("data/video_game_developers.json", function(error, data) {
 
     // Check if the file loaded correctly
     if(error) {
@@ -39,36 +39,12 @@ d3.csv("data/video_game_developers.csv", function(error, data) {
         createLegend(mapLegend);
 
         dataset = data;
-        for(var i = 0; i < dataset.length; i++){
-            //  radius
-            dataset[i].radius = radius;
-
-            // Seperate the category string into an array
-            if( dataset[i].category.search(/,/) != -1 ) {
-                dataset[i].category = dataset[i].category.split(",");                
-            }else {
-                dataset[i].category = [dataset[i].category];
-            } 
-            
-            // Assign a fillKey value based on what category it is
-            switch(dataset[i].category[0]){
-                case "Developer":
-                    dataset[i].fillKey = "dev";
-                    break;
-                case "Online Developer":
-                    dataset[i].fillKey = "onlineDev";
-                    break;
-                case "Publisher":
-                    dataset[i].fillKey = "pub";
-                    break;
-                case "Mobile/Handheld":
-                    dataset[i].fillKey = "mob";
-                    break;
-                case "Organization":
-                    dataset[i].fillKey = "org";
-                    break;
-                default:
-                    dataset[i].fillKey = "other";
+        // Loop through each category
+        for (var key in dataset) {
+            var cat = dataset[key];
+            for(var i = 0; i < cat.length; i++) {
+                // radius
+                cat[i].radius = radius;
             }
         }
         createMap();
@@ -153,7 +129,7 @@ function createMap() {
             onlineDev: "#9639AD",
             mob: "#FF2F7C",
             org: "#00ADBC",
-            other: "#FFF"
+            mult: "#FFF"
         }
     });
 
@@ -165,7 +141,7 @@ function createMap() {
 
 // Draws the coordinate points
 function createPoints(data) {
-    //console.log("length: "  + data.length);
+    //console.log("length: "  + data);
     // Create the points 
     map.bubbles(data, {
         borderWidth: 0,
@@ -185,12 +161,6 @@ function createPoints(data) {
             return string;
         }
     });
-    /*// Bubbles
-    gBubbles.selectAll("circle")
-    .transition()
-        .duration(500)
-        .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(" + zoomLevel + ")translate(" + -x + "," + -y + ")")
-        .attr("r", radius);*/
 }
     
 function clearBox(elementID) {
@@ -238,11 +208,13 @@ function update(year)
 
     // Temporary array to hold specific points based on the year
     var yearDataset = [];
-    for(var i = 0; i < dataset.length; i++){
-        // Filter out the years
-        if(parseInt(dataset[i].yearEST) <= year && (parseInt(dataset[i].yearClosed) > year || parseInt(dataset[i].yearClosed) == 0)) 
-        {
-            yearDataset.push(dataset[i]);
+    for(var key in dataset){
+        for(var i = 0; i < dataset[key].length; i++){
+            // Filter out the years
+            if(parseInt(dataset[key][i].yearEST) <= year && (parseInt(dataset[key][i].yearClosed) > year || parseInt(dataset[key][i].yearClosed) == 0)) 
+            {
+                yearDataset.push(dataset[key][i]);
+            }
         }
     }
     //Showing how commits work
