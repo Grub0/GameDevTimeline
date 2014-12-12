@@ -19,12 +19,12 @@ var path = d3.geo.path()
     .projection(projection);
 
 var mapLegend = [
-    {key: "Developer", color: "#BEF600"},
-    {key: "Online Developer", color: "#9639AD"},
-    {key: "Publisher", color: "#FFDE12"},
-    {key: "Mobile/Handheld", color: "#FF2F7C"},
-    {key: "Organization", color: "#00ADBC"},
-    {key: "Other", color: "#FFF"}
+    {id:"developer", key:"Developer", color:"#BEF600"},
+    {id:"onlineDeveloper", key:"Online Developer", color:"#9639AD"},
+    {id:"publisher", key:"Publisher", color:"#FFDE12"},
+    {id:"mobileHandheld", key:"Mobile/Handheld", color:"#FF2F7C"},
+    {id:"organiation", key:"Organization", color:"#00ADBC"},
+    {id:"multipleCategories", key:"Multiple Categories", color:"#FFF"}
 ];
 
 
@@ -35,8 +35,6 @@ d3.json("data/video_game_developers.json", function(error, data) {
         console.log(error);
     }else {
         // console.log(data);
-        // Create the map legend
-        createLegend(mapLegend);
 
         dataset = data;
         // Loop through each category
@@ -47,6 +45,8 @@ d3.json("data/video_game_developers.json", function(error, data) {
                 cat[i].radius = radius;
             }
         }
+         // Create the map legend
+        createLegend();
         createMap();
 
         // Insert rectangle into svg 
@@ -66,8 +66,7 @@ d3.json("data/video_game_developers.json", function(error, data) {
 });
 
 
-function zoom(d) 
-{
+function zoom(d) {
     var x, y, zoomLevel;
     
     if(d && centered !== d) {
@@ -107,7 +106,6 @@ function zoom(d)
 }
 
 function createMap() {
-
     // Create a new world map 
     map = new Datamap({
         element: document.getElementById("map"),
@@ -168,14 +166,12 @@ function clearBox(elementID) {
 }
 
 // when the input range changes update the circle 
-d3.select("#year").on("input", function() 
-{
+d3.select("#year").on("input", function() {
     update(+this.value);
 });
 
 
-function startAnimation() 
-{
+function startAnimation() {
     d3.select(".datamaps-hoverover")
         .style("visibility","hidden");
     if(animating == true) {
@@ -197,11 +193,10 @@ function startAnimation()
 }
 
 // update the elements
-function update(year) 
-{
-  // adjust the text on the range slider
-  d3.select("#year-value").text(year);
-  d3.select("#year").property("value", year);
+function update(year) {
+    // adjust the text on the range slider
+    d3.select("#year-value").text(year);
+    d3.select("#year").property("value", year);
     yearShown = year;
 
     d3.select("#titleHeader").text("Game Companies in " + yearShown);
@@ -223,17 +218,15 @@ function update(year)
     // Update the points
     createPoints(yearDataset);
 	//Update the Table
-    if(animating == false)
-    {
+    if(animating == false) {
 		clearBox('dataTable');
-	var informationTable = tabulate(yearDataset, ["company","city","country","yearEST","category","website"]);
+	   var informationTable = tabulate(yearDataset, ["company","city","country","yearEST","category","website"]);
     }
     makeChart(yearShown);
 }
 
 // The table generation function
-function tabulate(data, columns) 
-{
+function tabulate(data, columns) {
     var table = d3.select("#dataTable").append("table").attr("class","table")
         thead = table.append("thead"),
         tbody = table.append("tbody");
@@ -267,14 +260,17 @@ function tabulate(data, columns)
     return table;
 }
 
-function createLegend(dataset){
+function createLegend() {
+    console.log("from legend:");
+    console.log(dataset);
     var key = d3.select("#legend");
 
     // Create div elements for colors
     key.selectAll("div")
-        .data(dataset)
+        .data(mapLegend)
         .enter()
         .append("div")
+            .attr("id", function(d){ return d.id; })
             .attr("class", "legend-key col-md-2")
             .append("div")
                 .attr("class", "color")
@@ -282,8 +278,18 @@ function createLegend(dataset){
     
     // Create text labels
     key.selectAll(".legend-key")
-        .data(dataset)
+        .data(mapLegend)
         .append("span")
             .text(function(d){ return d.key; });
     
+    // Add onclick events
+    key.selectAll(".legend-key")
+        .on("click", function(){
+            // Get the categoy id
+            var category = this.id;
+
+            // Get the current year
+            console.log(yearShown);
+            createPoints(dataset[category]);
+        });
 }
