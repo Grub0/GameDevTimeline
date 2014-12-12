@@ -23,7 +23,7 @@ var mapLegend = [
     {id:"onlineDeveloper", key:"Online Developer", color:"#9639AD"},
     {id:"publisher", key:"Publisher", color:"#FFDE12"},
     {id:"mobileHandheld", key:"Mobile/Handheld", color:"#FF2F7C"},
-    {id:"organiation", key:"Organization", color:"#00ADBC"},
+    {id:"organization", key:"Organization", color:"#00ADBC"},
     {id:"multipleCategories", key:"Multiple Categories", color:"#FFF"}
 ];
 
@@ -187,8 +187,8 @@ function startAnimation() {
             startAnimation()
         },300);
     }else {
-        // When the animation ends add the click event to the path elements
-       d3.selectAll("path").on("click", zoom);
+        // When the animation ends 
+        activateComponents();
     }
 }
 
@@ -281,9 +281,14 @@ function createLegend() {
         .data(mapLegend)
         .append("span")
             .text(function(d){ return d.key; });
-    
-    // Add onclick events
-    key.selectAll(".legend-key")
+}
+
+function activateComponents() {
+    // Add onclick event to the path elements for zooming
+    d3.selectAll("path").on("click", zoom);
+
+    // Add onclick event to the legend
+    d3.selectAll(".legend-key")
         .on("click", function(){
             // Get the categoy id
             var category = this.id;
