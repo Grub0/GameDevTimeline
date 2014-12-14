@@ -44,7 +44,7 @@ var mult =["Multiple Category"];
           mobi,
           orga,
           mult
-      ],labels:true
+      ]
     },            legend: {
         show: false
     },            
@@ -135,7 +135,7 @@ var mult =["Multiple Category"];
       [
         yea,
         dataToShow
-      ],labels:true
+      ]
     },            legend: {
         show: false
     },            
