@@ -107,38 +107,39 @@ h1 {
 }
 
 #lineGraph {
-    height: 650px;
-    background-color: white;
-    border-style: solid;
-    border-color:white;
-    border-width: .5px;
+    height: 600px;
 }
- #chart
-{
+
+ #chart {
     width:650px;
 }
+
+/* ticks text */
+.c3-axis-y,
+.c3-axis-x {
+    fill: white;
+}
+
+.c3-axis-y .domain,
+.c3-axis-y .tick line,
+.c3-axis-x .domain,
+.c3-axis-x .tick line {
+    stroke: white;
+}
+
+.c3-legend-item text {
+    fill: white;
+}
+
 
 /*------ Table ------*/
 #dataTable {
     margin-top: 3em;
-    border-top: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-/*#dataTable .panel-title {
-    color: white;
-}
-*/
-
-/*
-th {
-    color:white;
-
-} 
-
-td { 
-    background-color: black;
-}
-*/
 
 /*.hoverInfo {
     border: 1px solid white;

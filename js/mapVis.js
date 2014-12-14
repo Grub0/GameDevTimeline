@@ -65,7 +65,7 @@ d3.json("data/video_game_developers.json", function(error, data) {
             .attr("class", "background")
             .attr("width", width-1)
             .attr("height", height-1)
-            .on("click", zoom);
+            //.on("click", zoom);
 
         // Default points
         update(1960, "allCategory");
@@ -173,7 +173,6 @@ function createPoints(data) {
             return string;
         }
     });
-    activateComponents();
 }
     
 function clearBox(elementID) {
@@ -335,9 +334,8 @@ function tabulate(data) {
                         .append("th")
                             .attr("data-field", function(col){ return col.dataField; })
                             .text(function(col){ return col.dataText; });
-
-            console.log("after table: "+ cat+"-table" );
         }
+        
         // Bootstrap table
         $("#" + cat + "-table").bootstrapTable({
             data: data[cat]
@@ -377,6 +375,6 @@ function activateComponents() {
         .on("click", function(){
             // Get the categoy id
             var category = this.id;
-            update(yearShown, category); //, dataset[category]);
+            update(yearShown, category);
         });
 }
