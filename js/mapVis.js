@@ -255,7 +255,14 @@ function update(year, categoryType) {
 	   clearBox('dataTable');
 	   var informationTable = tabulate(yearDataset);
     }
+    if(categoryType == "allCategory")
+    {
     makeChart(yearShown);
+    }
+    else
+    {
+        makeIsolatedChart(yearShown,categoryType);
+    }
 }
 
 // The table generation function
@@ -365,7 +372,6 @@ function createLegend() {
         .append("span")
             .text(function(d){ return d.key; });
         pullColors(mapLegend);
-
 }
 
 function activateComponents() {
