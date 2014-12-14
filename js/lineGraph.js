@@ -51,7 +51,22 @@ function makeChart(maxYear)
         color: {
   pattern: [//colors[0],
             colors[1],colors[2],colors[3],colors[4],colors[5],colors[6]]
-}
+},
+     axis: {
+        x: {
+            label: {
+                text: 'Year',
+                position: 'outer-center',
+            }
+        },
+        y: {
+            label: {
+                text: 'Number of Companies',
+                position: 'outer-middle'
+            }
+        }
+     }
+     
 });   
 }
 
