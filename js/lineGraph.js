@@ -135,7 +135,7 @@ var mult =["Multiple Category"];
       [
         yea,
         dataToShow
-      ]
+      ],labels:true
     },            legend: {
         show: false
     },            
