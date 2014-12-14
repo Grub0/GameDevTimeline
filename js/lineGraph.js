@@ -31,7 +31,7 @@ var mult =["Multiple Category"];
     }
     
  var chart = c3.generate({
-    bindto: '#chart',
+    bindto: '#lineGraph',
     data: {
       x: 'x',
       columns: 
@@ -128,14 +128,15 @@ var mult =["Multiple Category"];
   default:
 }
  var chart = c3.generate({
-    bindto: '#chart',
+    bindto: '#lineGraph',
     data: {
       x: 'x',
       columns: 
       [
         yea,
         dataToShow
-      ],labels:true
+      ],
+      //labels:true
     },            legend: {
         show: false
     },            
