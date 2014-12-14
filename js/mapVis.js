@@ -24,7 +24,8 @@ var mapLegend = [
     {id:"publisher", key:"Publisher", color:"#FFDE12"},
     {id:"mobileHandheld", key:"Mobile/Handheld", color:"#FF2F7C"},
     {id:"organization", key:"Organization", color:"#00ADBC"},
-    {id:"multipleCategories", key:"Multiple Categories", color:"#FFF"}
+    {id:"multipleCategories", key:"Multiple Categories", color:"#FFF"},
+    {id: "allCategory", key:"Show All", color: "#000"}
 ];
 
 var colTableData = [
@@ -226,6 +227,10 @@ function update(year, categoryType) {
 
     // If its all categories it needs to go through a for each loop
     if(categoryType == "allCategory") {
+        //  Hide "Show All" option
+        d3.select("#allCategory")
+            .classed("allCategory-hide", true);
+
         for(var key in dataset){
             // Add a cateogry key to yearDataset object, 
             // and make it an empty array
@@ -240,6 +245,10 @@ function update(year, categoryType) {
         }  
     }
     else { 
+        //  Show "Show All" option
+        d3.select("#allCategory")
+            .classed("allCategory-hide", false);
+
         // Since we know the category, there is no need for a for each loop
         yearDataset[categoryType] = [];
 
@@ -380,7 +389,6 @@ function tabulate(data) {
 }
 
 
-
 function createLegend() {
     var key = d3.select("#legend");
 
@@ -390,7 +398,12 @@ function createLegend() {
         .enter()
         .append("div")
             .attr("id", function(d){ return d.id; })
-            .attr("class", "legend-key col-md-2")
+            .classed("legend-key", true)
+            .each(function(d){
+                if(d.id == "allCategory"){
+                   d3.select(this).classed("allCategory-hide", true);
+                }
+            })
             .append("div")
                 .attr("class", "color")
                 .style("background-color", function(d){ return d.color; });
@@ -411,6 +424,7 @@ function activateComponents() {
     d3.selectAll(".legend-key")
         .on("click", function(){
             // Get the categoy id
+            //var category = (this.id == "all" ? "allCategory" : this.id);
             var category = this.id;
             update(yearShown, category);
         });

@@ -6,12 +6,12 @@
 #9639ad;
 */
 body {
-	background-color: rgb(34,34,34);
+    background-color: rgb(34,34,34);
 }
 
 h1 {
-	color: #bef600;
-	font-size: 3em;
+    color: #bef600;
+    font-size: 3em;
     margin-top:20px;
     margin-left: 20px;
     display: inline-block;
@@ -61,6 +61,109 @@ h1 {
     border-radius: 50%;
     padding-right: 10px;
 }
+
+#legend .legend-key {
+    margin-left: 20px;
+}
+
+#legend .allCategory-hide {
+    visibility: hidden;
+}
+
+/*------ Time Line Bar ------*/
+#timeline {
+    color: #fff;
+    padding-top: 10px;
+    margin: 10px 0;
+}
+
+#timeline #inputLabel {
+    font-size: 1.5em;
+    text-align: right;
+}
+
+#yearChanger {
+    padding-top: 5px;
+}
+
+#yearChanger #yearStart,
+#yearChanger #yearEnd {
+    font-size: 18px;
+}
+
+#yearStart {
+    text-align: right;
+}
+
+/*------ Graphs ------*/
+.graphs {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#map svg {   
+    border: 1px solid white;
+}
+
+#map svg,
+#lineGraph svg {
+    height: 650px;
+}
+
+#map rect.background {
+    fill: none;
+}
+
+#lineGraph {
+    height: 600px;
+}
+
+ #chart {
+    width:650px;
+}
+
+/* ticks text */
+.c3-axis-y,
+.c3-axis-x {
+    fill: white;
+}
+
+.c3-axis-y .domain,
+.c3-axis-y .tick line,
+.c3-axis-x .domain,
+.c3-axis-x .tick line {
+    stroke: white;
+}
+
+.c3-legend-item text {
+    fill: white;
+}
+
+.c3-tooltip .color {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/*------ Table ------*/
+#dataTable {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/*.hoverInfo {
+    border: 1px solid white;
+    background-color: #999999;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.hoverInfo span {
+    color: #9639AD;
+}*/
 
 /*------ Time Line Bar ------*/
 #timeline {
