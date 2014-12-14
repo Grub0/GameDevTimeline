@@ -1,4 +1,5 @@
 var lgData;
+var colors=['#000'];
 d3.csv("data/count_by_year.csv", function(data) 
 {
     lgData = data;
@@ -49,7 +50,14 @@ var mult =["Multiple Category"];
         show: true
     },            
         color: {
-  pattern: ['#000', '#BEF600','#9639AD','#FFDE12','#FF2F7C','#00ADBC','#fff']
+  pattern: [colors[0],colors[1],colors[2],colors[3],colors[4],colors[5],colors[6]]
 }
 });   
+}
+function pullColors(legendArray)
+{
+    for(var i =1;i<7;i++)
+    {
+        colors[i] = legendArray[i-1].color;
+    }
 }

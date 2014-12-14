@@ -364,6 +364,8 @@ function createLegend() {
         .data(mapLegend)
         .append("span")
             .text(function(d){ return d.key; });
+        pullColors(mapLegend);
+
 }
 
 function activateComponents() {
