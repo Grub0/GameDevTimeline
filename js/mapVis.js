@@ -186,10 +186,8 @@ d3.select("#year").on("input", function(d)
     {
         zoom(d);
     }
-    else if(radius == 2)
-            {
     update(+this.value, "allCategory");
-            }
+
 });
 
 

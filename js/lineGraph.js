@@ -154,7 +154,8 @@ var mult =["Multiple Category"];
             }
         }
      }
-});   
+    }
+);   
 }
 
 function pullColors(legendArray)
