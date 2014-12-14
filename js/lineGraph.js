@@ -1,5 +1,13 @@
-var lgData;
+    var lgData;
 var colors=['#000'];
+
+d3.csv("data/count_by_year.csv", function(data) 
+{
+    lgData = data;
+});
+
+function makeChart(maxYear)
+{   
     var yea=['x'];
 var counts=["Total"];
 var deves=["Developers"];
@@ -8,13 +16,6 @@ var publi=["Publisher"];
 var mobi=["Mobile/Handheld"];
 var orga=["Organization"];
 var mult =["Multiple Category"];
-d3.csv("data/count_by_year.csv", function(data) 
-{
-    lgData = data;
-});
-
-function makeChart(maxYear)
-{   
         for(var i=0;i<lgData.length;i++)
     {
         yea[i +1] = lgData[i].year;
@@ -73,7 +74,28 @@ function makeChart(maxYear)
 //isoValue being the specific collumn that we want to have shown
 function makeIsolatedChart(maxYear,isoValue)
 {   
-    console.log("making iso graph");
+    var yea=['x'];
+var counts=["Total"];
+var deves=["Developers"];
+var onli=["Online Developer"];
+var publi=["Publisher"];
+var mobi=["Mobile/Handheld"];
+var orga=["Organization"];
+var mult =["Multiple Category"];
+            for(var i=0;i<lgData.length;i++)
+    {
+        yea[i +1] = lgData[i].year;
+        if(lgData[i].year <= maxYear)
+        {
+        counts[i +1] = lgData[i].Total;
+        deves[i+1] = lgData[i].Developer;
+        onli[i+1] =lgData[i].OnlineDeveloper;
+        publi[i+1]=lgData[i].Publisher;
+        mobi[i+1]=lgData[i].MobileHandheld;
+        orga[i+1]=lgData[i].Organization;
+            mult[i+1]=lgData[i].MultipleCategory;
+        }
+    }
     var colorToShow;
     var dataToShow;
     switch (isoValue) {
@@ -117,7 +139,21 @@ function makeIsolatedChart(maxYear,isoValue)
     },            
         color: {
   pattern: [colors[colorToShow]]
-}
+},
+     axis: {
+        x: {
+            label: {
+                text: 'Year',
+                position: 'outer-center',
+            }
+        },
+        y: {
+            label: {
+                text: 'Number of Companies',
+                position: 'outer-middle'
+            }
+        }
+     }
 });   
 }
 
