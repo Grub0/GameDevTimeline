@@ -1,6 +1,5 @@
     var lgData;
 var colors=['#000'];
-
 d3.csv("data/count_by_year.csv", function(data) 
 {
     lgData = data;
@@ -45,7 +44,7 @@ var mult =["Multiple Category"];
           mobi,
           orga,
           mult
-      ]
+      ],labels:true
     },            legend: {
         show: false
     },            
@@ -66,9 +65,12 @@ var mult =["Multiple Category"];
                 position: 'outer-middle'
             }
         }
-     }
+     },zoom: {
+        enabled: true
+    }
      
-});   
+});  
+
 }
 
 //isoValue being the specific collumn that we want to have shown
@@ -133,7 +135,7 @@ var mult =["Multiple Category"];
       [
         yea,
         dataToShow
-      ]
+      ],labels:true
     },            legend: {
         show: false
     },            
@@ -153,11 +155,12 @@ var mult =["Multiple Category"];
                 position: 'outer-middle'
             }
         }
-     }
+     },zoom: {
+        enabled: true
     }
-);   
+    }
+);  
 }
-
 function pullColors(legendArray)
 {
     for(var i =1;i<7;i++)
