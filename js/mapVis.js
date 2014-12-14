@@ -262,7 +262,7 @@ function update(year, categoryType) {
 	   var informationTable = tabulate(yearDataset);
     }
     if(categoryType == "allCategory"){
-        makeChart(yearShown);
+        makeChart(yearShown, animating);
     }
     else{
         makeIsolatedChart(yearShown,categoryType);

@@ -131,6 +131,12 @@ h1 {
     fill: white;
 }
 
+.c3-tooltip .color {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
 /*------ Table ------*/
 #dataTable {
     margin-top: 3em;
