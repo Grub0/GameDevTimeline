@@ -261,12 +261,10 @@ function update(year, categoryType) {
 	   clearBox('dataTable');
 	   var informationTable = tabulate(yearDataset);
     }
-    if(categoryType == "allCategory")
-    {
-    makeChart(yearShown);
+    if(categoryType == "allCategory"){
+        makeChart(yearShown);
     }
-    else
-    {
+    else{
         makeIsolatedChart(yearShown,categoryType);
     }
 }
@@ -359,6 +357,25 @@ function tabulate(data) {
         $("#" + cat + "-table").bootstrapTable({
             data: data[cat]
         }); 
+
+        // Add <a> tag to companies
+        if(data[cat].length > 0){            
+            var cell = d3.select("#" + cat + "-table").select("tbody")
+                .selectAll("tr").select("td")
+                .data(data[cat]);
+
+            // Add a link only if there is a webiste value
+            cell.each(function(d){
+                if(d.website != "") {
+                    var td = d3.select(this);
+                    
+                    td.html("").append("a")
+                        .attr("href", "http://"+d.website)
+                        .attr("target", "_blank")
+                        .text(d.company);
+                    }
+                });
+        }
     }  
 }
 
