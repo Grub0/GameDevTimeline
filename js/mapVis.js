@@ -341,6 +341,8 @@ function tabulate(data) {
             panBody.append("table")
                 .attr("id", function(){ return cat + "-table"; })
                 .attr("class", function(){ return "category-table"; })
+                .attr("data-sort-name", "yearEST")
+                .attr("data-sort-order", "asc")
                 .append("thead")
                     .append("tr")
                     .selectAll("th")
@@ -348,6 +350,10 @@ function tabulate(data) {
                     .enter()
                         .append("th")
                             .attr("data-field", function(col){ return col.dataField; })
+                            .attr("data-sortable", function(col){
+                                if(col.dataField != "category") return "true";
+                                else return "false";
+                            })
                             .text(function(col){ return col.dataText; });
         }
         
