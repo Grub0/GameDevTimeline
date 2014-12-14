@@ -1,11 +1,4 @@
 var lgData;
-var yea=['x'];
-var counts=["Total"];
-var deves=["Developers"];
-var onli=["Online Developer"];
-var publi=["Publisher"];
-var mobi=["Mobile/Handheld"];
-var orga=["Organization"];
 d3.csv("data/count_by_year.csv", function(data) 
 {
     lgData = data;
@@ -20,6 +13,7 @@ var onli=["Online Developer"];
 var publi=["Publisher"];
 var mobi=["Mobile/Handheld"];
 var orga=["Organization"];
+var mult =["Multiple Category"];
     
         for(var i=0;i<lgData.length;i++)
     {
@@ -32,6 +26,7 @@ var orga=["Organization"];
         publi[i+1]=lgData[i].Publisher;
         mobi[i+1]=lgData[i].MobileHandheld;
         orga[i+1]=lgData[i].Organization;
+            mult[i+1]=lgData[i].MultipleCategory;
         }
     }
     
@@ -47,8 +42,14 @@ var orga=["Organization"];
           onli,
           publi,
           mobi,
-          orga
+          orga,
+          mult
       ]
-    }
+    },            legend: {
+        show: true
+    },            
+        color: {
+  pattern: ['#000', '#BEF600','#9639AD','#FFDE12','#FF2F7C','#00ADBC','#fff']
+}
 });   
 }
