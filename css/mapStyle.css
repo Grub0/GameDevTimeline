@@ -26,17 +26,17 @@ h1 {
 /*------ Heading Bar ------*/
 #titleBar {
     background-color: black;
-    height: 7em;
 }
 
 #titleBar h1 {
     color: #bef600;
     font-size: 3em;
+    text-align: right;
 }
 
 #titleBar #topDescription p {
     color: white;
-    text-align: right;
+    text-align: left;
     font-size: 18px;
     padding-top: 3em;
     padding-right: 1em;
