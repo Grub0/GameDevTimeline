@@ -180,8 +180,16 @@ function clearBox(elementID) {
 }
 
 // when the input range changes update the circle 
-d3.select("#year").on("input", function() {
+d3.select("#year").on("input", function(d) 
+{
+    if(radius == 1)
+    {
+        zoom(d);
+    }
+    else if(radius == 2)
+            {
     update(+this.value, "allCategory");
+            }
 });
 
 
