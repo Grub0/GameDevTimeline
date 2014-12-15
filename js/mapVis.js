@@ -13,8 +13,7 @@ var radius = 2;
 
 // Set the map's projection type
 var projection = d3.geo.mercator()
-    .translate([width/2 + 100, height/2 + 220])
-    .scale(200);
+    .translate([width/2 + 100, height/2 + 220]);
 
 var path = d3.geo.path()
     .projection(projection);
