@@ -113,7 +113,7 @@ h1 {
 #map svg {
     height: 650px;   
     border: 1px solid #29363C;
-    background-color: #eee;
+    background-color: #777;
 }
 
 #map rect.background {

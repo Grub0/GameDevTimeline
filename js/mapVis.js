@@ -13,7 +13,8 @@ var radius = 2;
 
 // Set the map's projection type
 var projection = d3.geo.mercator()
-    .translate([width/2 + 100, height/2 + 220]);
+    .translate([width/2 + 100, height/2 + 220])
+    .scale(200);
 
 var path = d3.geo.path()
     .projection(projection);
@@ -27,8 +28,8 @@ var colors = {
     mult:"rgb(140, 86, 75)",
     allCat:colors.map,
     map:"#fff", 
-    mapBorder:"#29363C",
-    mapHilight:"#777",
+    mapBorder:"#777",
+    mapHilight:"#29363C",
     mapHBC: "#777"
 };
 
