@@ -47,6 +47,7 @@ h1 {
     color: #fff;
     background-color: grey;
     padding: 1em;   
+    text-align: center;
 }
 
 #legend .color,
@@ -63,7 +64,7 @@ h1 {
 }
 
 #legend .legend-key {
-    margin-left: 20px;
+   padding-left: 45px;
 }
 
 #legend .allCategory-hide {
@@ -101,108 +102,10 @@ h1 {
     margin-right: auto;
 }
 
-#map svg {   
-    border: 1px solid white;
-}
-
-#map svg,
-#lineGraph svg {
-    height: 650px;
-}
-
-#map rect.background {
-    fill: none;
-}
-
-#lineGraph {
-    height: 600px;
-}
-
- #chart {
-    width:650px;
-}
-
-/* ticks text */
-.c3-axis-y,
-.c3-axis-x {
-    fill: white;
-}
-
-.c3-axis-y .domain,
-.c3-axis-y .tick line,
-.c3-axis-x .domain,
-.c3-axis-x .tick line {
-    stroke: white;
-}
-
-.c3-legend-item text {
-    fill: white;
-}
-
-.c3-tooltip .color {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-}
-
-/*------ Table ------*/
-#dataTable {
-    margin-top: 3em;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-
-/*.hoverInfo {
-    border: 1px solid white;
-    background-color: #999999;
-    padding: 5px 10px;
-    font-size: 12px;
-}
-
-.hoverInfo span {
-    color: #9639AD;
-}*/
-
-/*------ Time Line Bar ------*/
-#timeline {
-    color: #fff;
-    padding-top: 10px;
-    margin: 10px 0;
-}
-
-#timeline #inputLabel {
-    font-size: 1.5em;
-    text-align: right;
-}
-
-#yearChanger {
-    padding-top: 5px;
-}
-
-#yearChanger #yearStart,
-#yearChanger #yearEnd {
-    font-size: 18px;
-}
-
-#yearStart {
-    text-align: right;
-}
-
-/*------ Graphs ------*/
-.graphs {
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /*------ Map Graph ------*/
-#map svg {   
-    border: 1px solid white;
-}
-
 #map svg {
-    height: 650px;
+    height: 650px;   
+    border: 1px solid white;
 }
 
 #map rect.background {
@@ -222,12 +125,19 @@ h1 {
 
 /*------ Line Graph ------*/
 #lineGraph {
-    margin-top: 2em;
+    height: 625px;
+    margin-top: 1.5em;
 }
 
 #lineGraph svg {
     height: 625px;
 }
+
+.c3-axis-y-label,
+.c3-axis-x-label {
+    font-size: 12px;
+}
+
 
 /* ticks text */
 .c3-axis-y,
