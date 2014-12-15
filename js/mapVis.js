@@ -439,10 +439,14 @@ function activateComponents() {
 
     // Add onclick event to the legend
     d3.selectAll(".legend-key")
-        .on("click", function(){
+        .on("click", function(d){
             // Get the categoy id
             //var category = (this.id == "all" ? "allCategory" : this.id);
             var category = this.id;
+            if(radius == 1)
+            {
+                zoom(d);
+            }
             update(yearShown, category);
         });
 }
