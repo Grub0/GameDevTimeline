@@ -22,7 +22,7 @@ var colors = {
     dev:"#F8EC00",
     onlineDev:"#FF0F00", 
     pub:"#83FF0D", 
-    mob:"#5F02E8", 
+    mob:"#FF2F7C", 
     org:"#1CDDBA", 
     mult:"#FFF",
     allCat:colors.map,
@@ -38,7 +38,7 @@ var mapLegend = [
     {id:"publisher", key:"Publisher", color:colors.pub},
     {id:"mobileHandheld", key:"Mobile/Handheld", color:colors.mob},
     {id:"organization", key:"Organization", color:colors.org},
-    {id:"multipleCategories", key:"Multiple Categories", color:colors.mult},
+    {id:"multipleSectors", key:"Multiple Sectors", color:colors.mult},
     {id: "allCategory", key:"Show All", color:colors.allCat}
 ];
 

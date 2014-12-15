@@ -1368,7 +1368,7 @@
 	{"company":"Zylom","city":"Eindhoven","country":"Netherlands","longitude":5.4697225,"latitude":51.441642,"yearEST":2001,"yearClosed":0,"category":"Developer","website":"","fillKey":"dev"},
 	{"company":"Zymo Entertainment","city":"De Pere","country":"United States","longitude":-88.0603806,"latitude":44.4488805,"yearEST":2012,"yearClosed":0,"category":"Developer","website":"www.zymoent.com","fillKey":"dev"}
 ],
-"multipleCategories": [
+"multipleSectors": [
 	{"company":"Cat Nigiri","city":"Florianopolis","country":"Brazil","longitude":-48.5480499,"latitude":-27.5953778,"yearEST":2012,"yearClosed":0,"category":"Developer, Mobile/Handheld","website":"www.catnigiri.com","fillKey":"mult"},
 	{"company":"Cypronia","city":"Michalovce","country":"Slovakia","longitude":21.9183859,"latitude":48.7556769,"yearEST":1999,"yearClosed":0,"category":"Developer, Mobile/Handheld","website":"www.cypronia.com","fillKey":"mult"},
 	{"company":"Pocketeers","city":"Doncaster","country":"England","longitude":-1.128462,"latitude":53.52282,"yearEST":2002,"yearClosed":0,"category":"Developer, Mobile/Handheld","website":"www.pocketeers.co.uk","fillKey":"mult"},

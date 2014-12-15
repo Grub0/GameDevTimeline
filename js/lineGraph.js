@@ -14,7 +14,7 @@ function makeChart(maxYear, animating) {
     var publi=["Publisher"];
     var mobi=["Mobile/Handheld"];
     var orga=["Organization"];
-    var mult =["Multiple Category"];
+    var mult =["Multiple Sectors"];
 
     for(var i=0;i<lgData.length;i++) {
         yea[i +1] = lgData[i].year;
@@ -26,7 +26,7 @@ function makeChart(maxYear, animating) {
             publi[i+1]=lgData[i].Publisher;
             mobi[i+1]=lgData[i].MobileHandheld;
             orga[i+1]=lgData[i].Organization;
-            mult[i+1]=lgData[i].MultipleCategory;
+            mult[i+1]=lgData[i].MultipleSectors;
         }
     }
     
@@ -112,7 +112,7 @@ function makeIsolatedChart(maxYear,isoValue) {
     var publi=["Publisher"];
     var mobi=["Mobile/Handheld"];
     var orga=["Organization"];
-    var mult =["Multiple Category"];
+    var mult =["Multiple Sectors"];
     
     for(var i=0;i<lgData.length;i++) {
         yea[i +1] = lgData[i].year;
@@ -151,7 +151,7 @@ function makeIsolatedChart(maxYear,isoValue) {
             colorToShow = 5;
             dataToShow=orga;
             break;
-        case "multipleCategories":
+        case "multipleSectors":
             colorToShow = 6;
             dataToShow=mult;
             break;
