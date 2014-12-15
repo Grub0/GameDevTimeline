@@ -91,7 +91,7 @@ d3.json("data/video_game_developers.json", function(error, data) {
 function zoom(d) {
     var x, y, zoomLevel;
     
-    if(d && centered !== d) {
+    if(d && centered !== d && radius == 2) {
         var centroid = path.centroid(d);
         x = centroid[0];
         y = centroid[1];
