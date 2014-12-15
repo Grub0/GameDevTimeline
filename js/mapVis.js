@@ -19,17 +19,17 @@ var path = d3.geo.path()
     .projection(projection);
 
 var colors = { 
-    dev:"#F8EC00",
-    onlineDev:"#FF0F00", 
-    pub:"#83FF0D", 
-    mob:"#FF2F7C", 
-    org:"#1CDDBA", 
-    mult:"#FFF",
+    dev:"rgb(31, 119, 180)",
+    onlineDev:"rgb(255, 127, 14)", 
+    pub:"rgb(44, 160, 44)", 
+    mob:"rgb(214, 39, 40)", 
+    org:"rgb(148, 103, 189)", 
+    mult:"rgb(140, 86, 75)",
     allCat:colors.map,
-    map:"#29363C", 
-    mapBorder:"white",
-    mapHilight:"#eee",
-    mapHBC: "#eee"
+    map:"#fff", 
+    mapBorder:"#29363C",
+    mapHilight:"#777",
+    mapHBC: "#777"
 };
 
 var mapLegend = [

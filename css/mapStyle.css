@@ -8,7 +8,7 @@
 #FFFFCC
 */
 body {
-    background-color: #29363C;
+    background-color: #fff;
 }
 
 h1 {
@@ -28,19 +28,19 @@ h1 {
 
 /*------ Heading Bar ------*/
 #titleBar {
-    background-color: #eee;
+    background-color: #29363C;
 }
 
 #titleBar h1 {
-    color: #29363C;
+    color: rgb(255, 127, 14);
     font-size: 3em;
     text-align: right;
 }
 
 #titleBar #topDescription p {
-    color: #222;
+    color: #eee;
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 1em;
     padding-right: 1em;
 }
@@ -48,9 +48,10 @@ h1 {
 /*------ Legend Bar ------*/
 #legend {
     color: #fff;
-    background-color: grey;
+    background-color: #777;
     padding: 1em;   
     text-align: center;
+    border-top: 1px solid #222;
     border-bottom: 1px solid #222;
 }
 
@@ -65,6 +66,7 @@ h1 {
     margin-right: 5px;
     border-radius: 50%;
     padding-right: 10px;
+    border: 1px solid #222;
 }
 
 #legend .legend-key {
@@ -75,13 +77,10 @@ h1 {
     visibility: hidden;
 }
 
-#legend #allCategory .color {
-    border: 1px solid white;
-}
 
 /*------ Time Line Bar ------*/
 #timeline {
-    color: #fff;
+    color:#29363C;
     padding-top: 10px;
     margin: 10px 0;
 }
@@ -113,7 +112,8 @@ h1 {
 /*------ Map Graph ------*/
 #map svg {
     height: 650px;   
-    border: 1px solid #eee;
+    border: 1px solid #29363C;
+    background-color: #eee;
 }
 
 #map rect.background {
@@ -150,18 +150,18 @@ h1 {
 /* ticks text */
 .c3-axis-y,
 .c3-axis-x {
-    fill: white;
+    fill:  #29363C;
 }
 
 .c3-axis-y .domain,
 .c3-axis-y .tick line,
 .c3-axis-x .domain,
 .c3-axis-x .tick line {
-    stroke: white;
+    stroke:  #29363C;
 }
 
 .c3-legend-item text {
-    fill: white;
+    fill:  #29363C;
 }
 
 .c3-tooltip .color {
@@ -178,5 +178,9 @@ h1 {
 }
 
 #dataTable .panel {
-    border-color: grey;
+    border-color:  #29363C;
+}
+
+#dataTable .panel .panel-title {
+        color: #fff;
 }
