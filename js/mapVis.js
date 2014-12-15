@@ -18,23 +18,14 @@ var projection = d3.geo.mercator()
 var path = d3.geo.path()
     .projection(projection);
 
-var colors = { 
-    dev: "#BEF600", 
-    onlineDev: "#9639AD", 
-    pub:"#FFDE12", 
-    mob: "#FF2F7C", 
-    org: "#00ADBC", 
-    mult: "#FFF"
-};
-
 var mapLegend = [
-    {id:"developer", key:"Developer", color:colors.dev},
-    {id:"onlineDeveloper", key:"Online Developer", color:colors.onlineDev},
-    {id:"publisher", key:"Publisher", color:colors.pub},
-    {id:"mobileHandheld", key:"Mobile/Handheld", color:colors.mob},
-    {id:"organization", key:"Organization", color:colors.org},
-    {id:"multipleCategories", key:"Multiple Categories", color:colors.mult},
-    {id: "allCategory", key:"Show All", color:"#000"}
+    {id:"developer", key:"Developer", color:"#BEF600"},
+    {id:"onlineDeveloper", key:"Online Developer", color:"#9639AD"},
+    {id:"publisher", key:"Publisher", color:"#FFDE12"},
+    {id:"mobileHandheld", key:"Mobile/Handheld", color:"#FF2F7C"},
+    {id:"organization", key:"Organization", color:"#00ADBC"},
+    {id:"multipleCategories", key:"Multiple Categories", color:"#FFF"},
+    {id: "allCategory", key:"Show All", color: "#000"}
 ];
 
 var colTableData = [
@@ -130,7 +121,7 @@ function createMap() {
             return {path: path, projection: projection};
         },
         geographyConfig: {
-            popupOnHover: false,
+            //popupOnHover: false,
             //highlightOnHover: tfalse,
             //highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
             //highlightBorderWidth: 2,
@@ -139,13 +130,12 @@ function createMap() {
         },
         fills: {
             defaultFill: "rgb(34,34,34)",    // Map color
-            pub: colors.pub,
-            dev: colors.dev, 
-            onlineDev: colors.onlineDev,
-            mob: colors.mob,
-            org: colors.org,
+            pub: "#FFDE12",
+            dev: "#BEF600", 
+            onlineDev: "#9639AD",
+            mob: "#FF2F7C",
+            org: "#00ADBC",
             mult: "#FFF"
-
         }
     });
 
@@ -165,24 +155,23 @@ function createPoints(data) {
             points.push(data[key][i]);
         }
     }
-    
+
     map.bubbles(points, {
         borderWidth: 0,
         fillOpacity: 1,
-        popupOnHover: true,
         popupTemplate: function(d) {
             // Info box 
-            var string ="<div class=' map-tooltip'>";
-            string += "<h3 class='popover-title' style='background-color:" + colors[d.fillKey] + ";'>" + d.company + "</h3>";
-            string += "<div class='popover-content'>";
-            string += "<p><b>Located: </b> " + d.city + ", " + d.country;
-            string += "<br/><b>Founded: </b> " + d.yearEST;
-            if(d.yearClosed != '0'){
-                string += "<br/><b>Closed: </b>" + d.yearClosed; 
+            var string =  '<div class="popover top>';
+            string += '<div class="arrow"></div><h3 class="popover-title">' + d.company + '</h3>';
+            string += '<div class="popover-content"><p>Located: ' + d.city + ", " + d.country;
+            string += "<br/>Founded: " + d.yearEST;
+            if(d.yearClosed != '0') {
+                string += "<br/>Closed: " + d.yearClosed; 
             }
-            string += "<br/><b>Category: </b>" + d.category;
-            string += "</p></div></div>";
-            return string; 
+            string += "<br/>Category: " + d.category;
+            string += '</p></div></div>';
+
+            return string;
         }
     });
 }

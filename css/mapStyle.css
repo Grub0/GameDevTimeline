@@ -108,9 +108,6 @@ h1 {
 /*------ Map Graph ------*/
 #map svg {   
     border: 1px solid white;
-}
-
-#map svg {
     height: 650px;
 }
 
@@ -118,21 +115,10 @@ h1 {
     fill: none;
 }
 
-#map .map-tooltip {
-    margin-top: 20px;
-}
-
-#map .map-tooltip .popover-title {
-    color: white;
-}
-#map .map-tooltip .popover-content {
-    background-color: white;
-}
-
-/*------ Line Graph ------*/
+/*------ Map Graph ------*/
 #lineGraph {
     height: 625px;
-    margin-top: 2em;
+    margin-top: 1.5em;
 }
 
 #lineGraph svg {
@@ -145,16 +131,16 @@ h1 {
     fill: white;
 }
 
+.c3-axis-y-label,
+.c3-axis-x-label {
+    font-size: 12px;
+}
+
 .c3-axis-y .domain,
 .c3-axis-y .tick line,
 .c3-axis-x .domain,
 .c3-axis-x .tick line {
     stroke: white;
-}
-
-.c3-axis-y-label,
-.c3-axis-x-label {
-    font-size: 12px;
 }
 
 .c3-legend-item text {
@@ -166,6 +152,7 @@ h1 {
     height: 10px;
     border-radius: 50%;
 }
+
 /*------ Table ------*/
 #dataTable {
     margin-top: 3em;
