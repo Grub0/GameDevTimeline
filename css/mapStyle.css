@@ -4,9 +4,11 @@
 #bef600;
 #00adbc;
 #9639ad;
+
+#FFFFCC
 */
 body {
-    background-color: rgb(34,34,34);
+    background-color: #29363C;
 }
 
 h1 {
@@ -15,6 +17,7 @@ h1 {
     margin-top:20px;
     margin-left: 20px;
     display: inline-block;
+    font-weight: bold;
 }
 
 .container-fluid, 
@@ -25,17 +28,17 @@ h1 {
 
 /*------ Heading Bar ------*/
 #titleBar {
-    background-color: black;
+    background-color: #eee;
 }
 
 #titleBar h1 {
-    color: #bef600;
+    color: #29363C;
     font-size: 3em;
     text-align: right;
 }
 
 #titleBar #topDescription p {
-    color: white;
+    color: #222;
     text-align: left;
     font-size: 18px;
     padding-top: 1em;
@@ -48,6 +51,7 @@ h1 {
     background-color: grey;
     padding: 1em;   
     text-align: center;
+    border-bottom: 1px solid #222;
 }
 
 #legend .color,
@@ -69,6 +73,10 @@ h1 {
 
 #legend .allCategory-hide {
     visibility: hidden;
+}
+
+#legend #allCategory .color {
+    border: 1px solid white;
 }
 
 /*------ Time Line Bar ------*/
@@ -105,7 +113,7 @@ h1 {
 /*------ Map Graph ------*/
 #map svg {
     height: 650px;   
-    border: 1px solid white;
+    border: 1px solid #eee;
 }
 
 #map rect.background {
@@ -117,7 +125,7 @@ h1 {
 }
 
 #map .map-tooltip .popover-title {
-    color: white;
+    color: #000;
 }
 #map .map-tooltip .popover-content {
     background-color: white;
@@ -167,4 +175,8 @@ h1 {
     margin-top: 3em;
     margin-left: auto;
     margin-right: auto;
+}
+
+#dataTable .panel {
+    border-color: grey;
 }

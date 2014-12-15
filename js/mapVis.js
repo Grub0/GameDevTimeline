@@ -19,12 +19,17 @@ var path = d3.geo.path()
     .projection(projection);
 
 var colors = { 
-    dev: "#BEF600", 
-    onlineDev: "#9639AD", 
-    pub:"#FFDE12", 
-    mob: "#FF2F7C", 
-    org: "#00ADBC", 
-    mult: "#FFF"
+    dev:"#F8EC00",
+    onlineDev:"#FF0F00", 
+    pub:"#83FF0D", 
+    mob:"#5F02E8", 
+    org:"#1CDDBA", 
+    mult:"#FFF",
+    allCat:colors.map,
+    map:"#29363C", 
+    mapBorder:"white",
+    mapHilight:"#eee",
+    mapHBC: "#eee"
 };
 
 var mapLegend = [
@@ -34,7 +39,7 @@ var mapLegend = [
     {id:"mobileHandheld", key:"Mobile/Handheld", color:colors.mob},
     {id:"organization", key:"Organization", color:colors.org},
     {id:"multipleCategories", key:"Multiple Categories", color:colors.mult},
-    {id: "allCategory", key:"Show All", color:"#000"}
+    {id: "allCategory", key:"Show All", color:colors.allCat}
 ];
 
 var colTableData = [
@@ -131,26 +136,26 @@ function createMap() {
         },
         geographyConfig: {
             popupOnHover: false,
-            //highlightOnHover: tfalse,
-            //highlightBorderColor: 'rgba(250, 15, 160, 0.2)',
-            //highlightBorderWidth: 2,
-            highlightFillColor: "#00ADBC",
-            borderColor: "#00ADBC"
+            //highlightOnHover: false,
+            //highlightBorderWidth:,
+            highlightBorderColor: colors.mapHBC,
+            highlightFillColor: colors.mapHilight,
+            borderColor: colors.mapBorder
         },
         fills: {
-            defaultFill: "rgb(34,34,34)",    // Map color
+            defaultFill: colors.map,    // Map color
             pub: colors.pub,
             dev: colors.dev, 
             onlineDev: colors.onlineDev,
             mob: colors.mob,
             org: colors.org,
-            mult: "#FFF"
+            mult: colors.mult
 
         }
     });
 
-   animating = true;
-   startAnimation();
+    animating = true;
+    startAnimation();
 }
 
 
